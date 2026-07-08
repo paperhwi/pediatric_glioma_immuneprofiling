@@ -1,0 +1,16 @@
+# Only track scripts/ and output/ from this working directory.
+*
+!.gitignore
+!README.md
+!scripts/
+!scripts/**
+!output/
+!output/**
+
+# junk inside tracked dirs
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+
+# 172MB raw TPM matrix exceeds GitHub's 100MB limit; the .gz version is tracked instead
+output/tpm_for_cibersortx.tsv

@@ -1,0 +1,17 @@
+{
+  "n_samples": 702,
+  "n_LM22_high_confidence_p05": 193,
+  "n_LM22_high_confidence_p10": 257,
+  "LM22_pvalue_median": 0.15,
+  "LM22_correlation_median": 0.0902102490383925,
+  "LM22_RMSE_median": 1.06461154373518,
+  "step4_outputs": [
+    "step4_integrated_feature_matrix.tsv",
+    "step4_LM22_vs_methods_spearman.tsv",
+    "step4_microglia_ssGSEA_vs_LM22_macrophage.tsv",
+    "step4_clustering_feature_matrix_LM22_plus_ssGSEA_z.tsv",
+    "figs_step4/LM22_vs_methods_heatmap.png",
+    "figs_step4/ssGSEA_microglia_vs_LM22.png",
+    "figs_step4/LM22_QC_distribution.png"
+  ]
+}

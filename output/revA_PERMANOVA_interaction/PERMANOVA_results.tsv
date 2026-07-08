@@ -1,0 +1,6 @@
+Factor	R2	P
+Ecotype (alone)	0.3199960075686904	0.0002
+Cohort_group (alone)	0.04366102569237729	0.0002
+Ecotype | Cohort_group	0.3032730099714801	0.0002
+Cohort_group | Ecotype	0.026938028095166905	0.0294
+Residual (intrinsic TME)	0.6530659643361427	

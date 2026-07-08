@@ -1,0 +1,80 @@
+{
+  "overall_missingness_pct": 28.08022922636103,
+  "missingness_by_cohort": {
+    "pHGG_WT": 34.4,
+    "DMG_K27": 19.999999999999996,
+    "DHG_G34": 51.61290322580645,
+    "IHG": 22.22222222222222
+  },
+  "weights": {
+    "mean": 1.1742405648141414,
+    "min": 0.7553045193561285,
+    "max": 8.920823755624694,
+    "trimmed_min": 0.7570001329147346,
+    "trimmed_max": 6.221951495576201
+  },
+  "balance": {
+    "n_unbalanced_pre": 6,
+    "n_unbalanced_post": 4,
+    "max_SMD_pre": 0.5052431971494037,
+    "max_SMD_post": 0.34195818429092995
+  },
+  "Immune_desert_HR": {
+    "naive": {
+      "HR": 1.792715010484049,
+      "CI_lo": 1.2080426745688195,
+      "CI_hi": 2.660358923133174,
+      "P": 0.0037504972803244197
+    },
+    "IPW": {
+      "HR": 1.8801983494098313,
+      "CI_lo": 1.2171155647236573,
+      "CI_hi": 2.904527668189092,
+      "P": 0.004434584308250307
+    }
+  },
+  "Intermediate_HR": {
+    "naive": {
+      "HR": 1.3711426492445304,
+      "CI_lo": 0.9848657406268895,
+      "CI_hi": 1.908922289631708,
+      "P": 0.06153452156469483
+    },
+    "IPW": {
+      "HR": 1.5510638430907848,
+      "CI_lo": 1.1064662375155352,
+      "CI_hi": 2.17430859051384,
+      "P": 0.010864488870578741
+    }
+  },
+  "sensitivity_schemes": [
+    {
+      "scheme": "Untrimmed IPW",
+      "Imm_desert_HR": 1.880191231089041,
+      "Imm_desert_CI_lo": 1.2171135121715746,
+      "Imm_desert_CI_hi": 2.9045105736742345,
+      "Imm_desert_P": 0.004434630609810622
+    },
+    {
+      "scheme": "Trimmed 1\u201399% IPW",
+      "Imm_desert_HR": 1.8801983494098313,
+      "Imm_desert_CI_lo": 1.2171155647236573,
+      "Imm_desert_CI_hi": 2.904527668189092,
+      "Imm_desert_P": 0.004434584308250307
+    },
+    {
+      "scheme": "Truncated 2.5\u201397.5% IPW",
+      "Imm_desert_HR": 1.8483622692060373,
+      "Imm_desert_CI_lo": 1.2050602593721396,
+      "Imm_desert_CI_hi": 2.8350806954703875,
+      "Imm_desert_P": 0.0048836827970256316
+    },
+    {
+      "scheme": "Cohort-only propensity (cohort_group)",
+      "Imm_desert_HR": 1.7863569525499818,
+      "Imm_desert_CI_lo": 1.1697467889368225,
+      "Imm_desert_CI_hi": 2.728001642837599,
+      "Imm_desert_P": 0.007236404623766637
+    }
+  ]
+}

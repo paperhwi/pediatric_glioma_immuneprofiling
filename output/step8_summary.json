@@ -1,0 +1,19 @@
+{
+  "n_samples": 349,
+  "n_genes_after_filter": 23726,
+  "DEG_q05_per_ecotype": {
+    "Immune-desert": 15403,
+    "Lymphocyte-inflamed": 18445,
+    "Myeloid-dominant": 6201
+  },
+  "up_genes_q05_log2FC_gt1": {
+    "Immune-desert": 384,
+    "Lymphocyte-inflamed": 1456,
+    "Myeloid-dominant": 50
+  },
+  "top_marker_counts": {
+    "Immune-desert": 200,
+    "Lymphocyte-inflamed": 200,
+    "Myeloid-dominant": 200
+  }
+}

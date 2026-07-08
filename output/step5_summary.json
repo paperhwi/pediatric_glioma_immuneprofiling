@@ -1,0 +1,12 @@
+{
+  "n_main_used": 349,
+  "n_features": 46,
+  "best_PAC_k": 2,
+  "best_silhouette_k": 2,
+  "primary_K": 3,
+  "ecotype_sizes": {
+    "Immune-desert": 78,
+    "NaN": 160,
+    "Myeloid-dominant": 111
+  }
+}

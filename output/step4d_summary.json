@@ -1,0 +1,141 @@
+{
+  "n_samples": 349,
+  "TIS_genes_present": [
+    "CCL5",
+    "CD27",
+    "CD274",
+    "CD276",
+    "CD8A",
+    "CMKLR1",
+    "CXCL9",
+    "CXCR6",
+    "HLA-DQA1",
+    "HLA-DRB1",
+    "HLA-E",
+    "IDO1",
+    "LAG3",
+    "NKG7",
+    "PDCD1LG2",
+    "PSMB10",
+    "STAT1",
+    "TIGIT"
+  ],
+  "TIS_ecotype_KW": {
+    "H": 216.48694102246418,
+    "p": 9.782684669709712e-48,
+    "eps2": 0.6199044538221508,
+    "medians": {
+      "Lymphocyte-inflamed": 3.012591584371785,
+      "Myeloid-dominant": 2.1854399050511675,
+      "Immune-desert": 1.5661903484550883
+    }
+  },
+  "TIS_cohort_KW": {
+    "H": 14.138843021768935,
+    "p": 0.002722127717941881,
+    "eps2": 0.03228650151237372,
+    "medians": {
+      "DMG_K27": 2.401613927993712,
+      "DHG_G34": 2.075102105379355,
+      "pHGG_WT": 2.1794933280058784,
+      "IHG": 2.167245725850292
+    }
+  },
+  "CD276_ecotype_KW": {
+    "H": 34.521330175780406,
+    "p": 3.189983218300801e-08,
+    "medians": {
+      "Lymphocyte-inflamed": 5.288727679514566,
+      "Myeloid-dominant": 5.022235585165727,
+      "Immune-desert": 4.451530586839625
+    }
+  },
+  "CD276hi_TISlo_n": 3,
+  "overall_checkpoint_corr_mean": 0.353951371510843,
+  "CD276_vs_others_meanrho_overall": 0.259463420051381,
+  "top_bagaev_ecotype_eps2": [
+    {
+      "module": "TIS_Danaher18",
+      "eps2": 0.652864857381689,
+      "q_BH": 8.165557918175116e-49
+    },
+    {
+      "module": "Bagaev_Effector_cell_traffic",
+      "eps2": 0.5928704028625523,
+      "q_BH": 1.313759718653559e-44
+    },
+    {
+      "module": "Bagaev_Coactivation",
+      "eps2": 0.5872457752535388,
+      "q_BH": 2.3174988195075414e-44
+    },
+    {
+      "module": "Bagaev_M1_signature",
+      "eps2": 0.5831091768101352,
+      "q_BH": 3.5552947362136e-44
+    },
+    {
+      "module": "Bagaev_T_cells",
+      "eps2": 0.5676640780629837,
+      "q_BH": 4.115298645245537e-43
+    },
+    {
+      "module": "Bagaev_Effector_cells",
+      "eps2": 0.5482819032291305,
+      "q_BH": 9.805279869111062e-42
+    },
+    {
+      "module": "Bagaev_Antitumor_cytokines",
+      "eps2": 0.5339613507611083,
+      "q_BH": 1.0010562713650493e-40
+    },
+    {
+      "module": "Bagaev_Checkpoint_inhibitor",
+      "eps2": 0.5037743030120924,
+      "q_BH": 1.623709580279107e-38
+    }
+  ],
+  "top_bagaev_cohort_eps2": [
+    {
+      "module": "Bagaev_Granulocyte_traffic",
+      "eps2": 0.08800143148736081,
+      "q_BH": 6.758259078241881e-06
+    },
+    {
+      "module": "Bagaev_NK_cells",
+      "eps2": 0.08207573042852966,
+      "q_BH": 9.115514047825284e-06
+    },
+    {
+      "module": "Bagaev_Immune_Suppression_Myeloid",
+      "eps2": 0.07225422283823996,
+      "q_BH": 3.134312081410024e-05
+    },
+    {
+      "module": "Bagaev_Neutrophil_signature",
+      "eps2": 0.06241654130804238,
+      "q_BH": 0.0001207822353289844
+    },
+    {
+      "module": "Bagaev_MHC_II",
+      "eps2": 0.05750501282952454,
+      "q_BH": 0.00020648053841814334
+    },
+    {
+      "module": "Bagaev_T_cells",
+      "eps2": 0.05673442332639343,
+      "q_BH": 0.00020648053841814334
+    },
+    {
+      "module": "Bagaev_Tumor_proliferation",
+      "eps2": 0.041813380454527434,
+      "q_BH": 0.00206307716157109
+    },
+    {
+      "module": "Bagaev_B_cells",
+      "eps2": 0.039041951223704754,
+      "q_BH": 0.002838788206735577
+    }
+  ],
+  "anti_pro_coupling_rho": 0.8094592572727143
+}

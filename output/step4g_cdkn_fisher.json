@@ -1,0 +1,16 @@
+{
+  "crosstab": {
+    "CDKN_intact": {
+      "C1_hot": 23,
+      "C2_intermediate": 20,
+      "C3_cold": 16
+    },
+    "CDKN_lost": {
+      "C1_hot": 6,
+      "C2_intermediate": 1,
+      "C3_cold": 2
+    }
+  },
+  "C1_vs_C2C3_OR": 3.130434782608696,
+  "C1_vs_C2C3_p": 0.11516126056612645
+}

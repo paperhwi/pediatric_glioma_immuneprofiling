@@ -1,0 +1,24 @@
+Model,n,Variable,HR,HR_lower95,HR_upper95,p
+No EOR (full),251,eco_Inflamed,0.558,0.376,0.828,0.00375
+No EOR (full),251,eco_Intermediate,0.765,0.537,1.09,0.138342
+No EOR (full),251,cohort_DMG_K27,2.959,2.108,4.154,0.0
+No EOR (full),251,cohort_DHG_G34,1.154,0.594,2.24,0.672319
+No EOR (full),251,cohort_IHG,0.218,0.076,0.631,0.004966
+No EOR (full),251,age,0.989,0.959,1.021,0.505691
+No EOR (full),251,male,0.896,0.673,1.192,0.449777
+No EOR (EOR subset),130,eco_Inflamed,0.513,0.28,0.94,0.0308
+No EOR (EOR subset),130,eco_Intermediate,0.591,0.344,1.016,0.057066
+No EOR (EOR subset),130,cohort_DMG_K27,3.596,2.146,6.028,1e-06
+No EOR (EOR subset),130,cohort_DHG_G34,1.182,0.486,2.875,0.712468
+No EOR (EOR subset),130,cohort_IHG,0.143,0.032,0.639,0.010843
+No EOR (EOR subset),130,age,0.989,0.944,1.035,0.625961
+No EOR (EOR subset),130,male,0.923,0.58,1.468,0.734417
+With EOR,130,eco_Inflamed,0.496,0.266,0.923,0.026837
+With EOR,130,eco_Intermediate,0.595,0.344,1.029,0.063282
+With EOR,130,cohort_DMG_K27,3.393,1.962,5.866,1.2e-05
+With EOR,130,cohort_DHG_G34,1.162,0.47,2.872,0.744695
+With EOR,130,cohort_IHG,0.149,0.033,0.684,0.014355
+With EOR,130,age,0.99,0.944,1.038,0.686744
+With EOR,130,male,0.948,0.591,1.521,0.823939
+With EOR,130,eor_GTR,0.77,0.421,1.409,0.396945
+With EOR,130,eor_Partial,0.788,0.482,1.287,0.341002

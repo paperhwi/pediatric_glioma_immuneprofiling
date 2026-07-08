@@ -1,0 +1,22 @@
+{
+  "n_full_pool": 702,
+  "ecotype_sizes_fullpool": {
+    "Myeloid-dominant": 317,
+    "Lymphocyte-inflamed": 256,
+    "Immune-desert": 129
+  },
+  "agreement_vs_Main_k3": 0.9111747851002865,
+  "agreement_vs_BRAF_centroid": 0.9348441926345609,
+  "PAC_k2_3": [
+    0.08822967596148766,
+    0.15576851953456802
+  ],
+  "silhouette_k2_3": [
+    0.9751869352478819,
+    0.9030842856551328
+  ],
+  "robustness_k2_3": [
+    0.9803944247485002,
+    0.9190122363799803
+  ]
+}

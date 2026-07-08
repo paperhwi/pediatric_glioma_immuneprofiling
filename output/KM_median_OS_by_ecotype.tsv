@@ -1,0 +1,4 @@
+ecotype,median_OS_days
+ecotype=Inflamed,595
+ecotype=Intermediate,446
+ecotype=Immune-desert,403

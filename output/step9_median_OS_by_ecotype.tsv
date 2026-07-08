@@ -1,0 +1,4 @@
+ecotype	n	events	median_OS_days	median_OS_months
+Immune-desert	52	48	403.0	13.240246406570842
+Lymphocyte-inflamed	83	59	595.0	19.548254620123203
+Myeloid-dominant	116	101	465.0	15.277207392197125

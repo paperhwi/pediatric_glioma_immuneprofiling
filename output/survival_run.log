@@ -1,0 +1,131 @@
+Samples with OS data: 251 / 349
+
+=== [1] KM by ecotype (overall) ===
+Call: survfit(formula = Surv(OS_days_num, OS_event) ~ ecotype, data = surv_df)
+
+                        n events median 0.95LCL 0.95UCL
+ecotype=Inflamed       80     57    595     469     836
+ecotype=Intermediate  117    101    446     401     575
+ecotype=Immune-desert  54     50    403     367     547
+
+Log-rank p = 0.0366
+Ignoring unknown labels:
+• colour : "Ecotype"
+null device 
+          1 
+  Wrote KM_overall_by_ecotype.png
+
+Median OS (days) per ecotype:
+                      median
+ecotype=Inflamed         595
+ecotype=Intermediate     446
+ecotype=Immune-desert    403
+
+=== [2] KM by ecotype within each cohort_group ===
+
+  [DMG_K27] n=140
+               
+                 0  1
+  Inflamed       5 40
+  Intermediate   1 69
+  Immune-desert  0 25
+    Log-rank p = 0.1322
+Ignoring unknown labels:
+• colour : "Ecotype"
+    Wrote KM_by_ecotype_DMG_K27.png
+
+  [DHG_G34] n=15
+               
+                0 1
+  Inflamed      1 1
+  Intermediate  0 6
+  Immune-desert 1 6
+    Log-rank p = 0.0699
+Ignoring unknown labels:
+• colour : "Ecotype"
+    Wrote KM_by_ecotype_DHG_G34.png
+
+  [pHGG_WT] n=82
+               
+                 0  1
+  Inflamed      13 14
+  Intermediate  11 25
+  Immune-desert  2 17
+    Log-rank p = 0.0492
+Ignoring unknown labels:
+• colour : "Ecotype"
+    Wrote KM_by_ecotype_pHGG_WT.png
+
+  [IHG] n=14
+               
+                0 1
+  Inflamed      4 2
+  Intermediate  4 1
+  Immune-desert 1 2
+    Log-rank p = 0.3293
+Ignoring unknown labels:
+• colour : "Ecotype"
+    Wrote KM_by_ecotype_IHG.png
+
+=== [3] Multivariable Cox model ===
+Cox model n = 251
+
+  Cox model summary:
+Call:
+coxph(formula = Surv(OS_days_num, OS_event) ~ ecotype + cohort_group + 
+    age_years + reported_gender, data = cox_dat)
+
+  n= 251, number of events= 208 
+
+                          coef exp(coef) se(coef)      z Pr(>|z|)    
+ecotypeIntermediate    0.31564   1.37114  0.16883  1.870  0.06153 .  
+ecotypeImmune-desert   0.58373   1.79272  0.20140  2.898  0.00375 ** 
+cohort_groupDMG_K27    1.08489   2.95912  0.17307  6.268 3.65e-10 ***
+cohort_groupDHG_G34    0.14316   1.15391  0.33846  0.423  0.67232    
+cohort_groupIHG       -1.52111   0.21847  0.54147 -2.809  0.00497 ** 
+age_years             -0.01072   0.98934  0.01611 -0.666  0.50569    
+reported_genderFemale  0.11009   1.11638  0.14566  0.756  0.44978    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+                      exp(coef) exp(-coef) lower .95 upper .95
+ecotypeIntermediate      1.3711     0.7293   0.98487    1.9089
+ecotypeImmune-desert     1.7927     0.5578   1.20804    2.6604
+cohort_groupDMG_K27      2.9591     0.3379   2.10786    4.1542
+cohort_groupDHG_G34      1.1539     0.8666   0.59439    2.2401
+cohort_groupIHG          0.2185     4.5773   0.07559    0.6314
+age_years                0.9893     1.0108   0.95859    1.0211
+reported_genderFemale    1.1164     0.8958   0.83912    1.4852
+
+Concordance= 0.667  (se = 0.022 )
+Likelihood ratio test= 85.16  on 7 df,   p=1e-15
+Wald test            = 69.11  on 7 df,   p=2e-12
+Score (logrank) test = 79.14  on 7 df,   p=2e-14
+
+
+  Saved Cox_multivariable_coefficients.tsv
+  Wrote Cox_forest_multivariable.png
+
+=== [4] Univariable Cox for ecotype ===
+Call:
+coxph(formula = Surv(OS_days_num, OS_event) ~ ecotype, data = surv_df)
+
+  n= 251, number of events= 208 
+
+                       coef exp(coef) se(coef)     z Pr(>|z|)  
+ecotypeIntermediate  0.3443    1.4110   0.1669 2.063   0.0391 *
+ecotypeImmune-desert 0.4671    1.5953   0.1949 2.396   0.0166 *
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+                     exp(coef) exp(-coef) lower .95 upper .95
+ecotypeIntermediate      1.411     0.7087     1.017     1.957
+ecotypeImmune-desert     1.595     0.6268     1.089     2.338
+
+Concordance= 0.545  (se = 0.021 )
+Likelihood ratio test= 6.8  on 2 df,   p=0.03
+Wald test            = 6.53  on 2 df,   p=0.04
+Score (logrank) test = 6.62  on 2 df,   p=0.04
+
+
+Done.

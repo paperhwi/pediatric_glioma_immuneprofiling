@@ -1,0 +1,642 @@
+Merged: 8376 (signatures x samples)
+
+=== [1] Kruskal-Wallis test per signature ===
+                                                Signature     KW_chi2 KW_df
+Kruskal-Wallis chi-squared15                M1_Macrophage 262.1898605     2
+Kruskal-Wallis chi-squared12 Chemokine_T_Cell_Recruitment 257.2817633     2
+Kruskal-Wallis chi-squared10          T_Cell_Cytotoxicity 245.0294733     2
+Kruskal-Wallis chi-squared17 Glioma_Inflammatory_Wang2017 241.8126379     2
+Kruskal-Wallis chi-squared14       TGFb_Immunosuppression 225.0383520     2
+Kruskal-Wallis chi-squared19            Tregs_Friebel2020 221.6664530     2
+Kruskal-Wallis chi-squared11            T_Cell_Exhaustion 220.0792168     2
+Kruskal-Wallis chi-squared20    Dendritic_Cell_Activation 213.7986933     2
+Kruskal-Wallis chi-squared18             NK_Cell_Activity 212.7413866     2
+Kruskal-Wallis chi-squared4             MoTAM_Antunes2021 211.3821920     2
+Kruskal-Wallis chi-squared2                 MDM_Klemm2020 205.4986747     2
+Kruskal-Wallis chi-squared21        Neutrophil_Activation 198.2848466     2
+Kruskal-Wallis chi-squared5            DAM_KerenShaul2017 191.9813186     2
+Kruskal-Wallis chi-squared16                M2_Macrophage 188.2927296     2
+Kruskal-Wallis chi-squared8            IFN_Gamma_Response 186.1792831     2
+Kruskal-Wallis chi-squared7                  MHC_Class_II 157.6568470     2
+Kruskal-Wallis chi-squared3             MgTAM_Antunes2021 100.0663175     2
+Kruskal-Wallis chi-squared     Microglia_Core_Homeostatic  97.9078646     2
+Kruskal-Wallis chi-squared1           Microglia_Klemm2020  93.7416678     2
+Kruskal-Wallis chi-squared6                   MHC_Class_I  92.7514811     2
+Kruskal-Wallis chi-squared9            IFN_Alpha_Response  89.2606986     2
+Kruskal-Wallis chi-squared13                MAPK_Activity  54.8096037     2
+Kruskal-Wallis chi-squared23         Stemness_Brain_Tumor   7.1550673     2
+Kruskal-Wallis chi-squared22     Cell_Cycle_Proliferation   0.1257869     2
+                                     KW_p      KW_p_BH
+Kruskal-Wallis chi-squared15 1.164649e-57 2.795158e-56
+Kruskal-Wallis chi-squared12 1.355111e-56 1.626134e-55
+Kruskal-Wallis chi-squared10 6.201917e-54 4.961533e-53
+Kruskal-Wallis chi-squared17 3.097796e-53 1.858678e-52
+Kruskal-Wallis chi-squared14 1.360012e-49 6.528058e-49
+Kruskal-Wallis chi-squared19 7.340765e-49 2.936306e-48
+Kruskal-Wallis chi-squared11 1.623324e-48 5.565683e-48
+Kruskal-Wallis chi-squared20 3.751489e-47 1.125447e-46
+Kruskal-Wallis chi-squared18 6.364948e-47 1.697319e-46
+Kruskal-Wallis chi-squared4  1.255857e-46 3.014057e-46
+Kruskal-Wallis chi-squared2  2.379741e-45 5.192163e-45
+Kruskal-Wallis chi-squared21 8.769860e-44 1.753972e-43
+Kruskal-Wallis chi-squared5  2.050153e-42 3.784899e-42
+Kruskal-Wallis chi-squared16 1.296443e-41 2.222473e-41
+Kruskal-Wallis chi-squared8  3.729773e-41 5.967636e-41
+Kruskal-Wallis chi-squared7  5.824393e-35 8.736589e-35
+Kruskal-Wallis chi-squared3  1.865844e-22 2.634132e-22
+Kruskal-Wallis chi-squared   5.490063e-22 7.320084e-22
+Kruskal-Wallis chi-squared1  4.408141e-21 5.568178e-21
+Kruskal-Wallis chi-squared6  7.232223e-21 8.678667e-21
+Kruskal-Wallis chi-squared9  4.142720e-20 4.734537e-20
+Kruskal-Wallis chi-squared13 1.253851e-12 1.367837e-12
+Kruskal-Wallis chi-squared23 2.794453e-02 2.915951e-02
+Kruskal-Wallis chi-squared22 9.390435e-01 9.390435e-01
+
+=== [2] Dunn post-hoc per signature ===
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 97.9079, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -3.803983
+         │     0.0001*
+         │
+Inflamed │  -9.505497  -7.046615
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 93.7417, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -4.052486
+         │     0.0001*
+         │
+Inflamed │  -9.394767  -6.637117
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 205.4987, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -7.908110
+         │     0.0000*
+         │
+Inflamed │  -14.27498  -8.127501
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 100.0663, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -4.052341
+         │     0.0001*
+         │
+Inflamed │  -9.669745  -6.964170
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 211.3822, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -8.233919
+         │     0.0000*
+         │
+Inflamed │  -14.49919  -8.029736
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 191.9813, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -7.942407
+         │     0.0000*
+         │
+Inflamed │  -13.82590  -7.555296
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 92.7515, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -6.309606
+         │     0.0000*
+         │
+Inflamed │  -9.623685  -4.385455
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 157.6568, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -7.362899
+         │     0.0000*
+         │
+Inflamed │  -12.54079  -6.675548
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 186.1793, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -7.236559
+         │     0.0000*
+         │
+Inflamed │  -13.55140  -8.018215
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 89.2607, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -5.458457
+         │     0.0000*
+         │
+Inflamed │  -9.430736  -5.107791
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 245.0295, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -8.141777
+         │     0.0000*
+         │
+Inflamed │  -15.52323  -9.350140
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 220.0792, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -6.195588
+         │     0.0000*
+         │
+Inflamed │  -14.39125  -10.18058
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 257.2818, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -8.361811
+         │     0.0000*
+         │
+Inflamed │  -15.90945  -9.563238
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 54.8096, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -5.333872
+         │     0.0000*
+         │
+Inflamed │  -7.342390  -2.764491
+         │     0.0000*    0.0057*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 225.0384, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -6.597560
+         │     0.0000*
+         │
+Inflamed │  -14.63747  -10.02381
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 262.1899, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -8.025749
+         │     0.0000*
+         │
+Inflamed │  -15.99192  -10.03705
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 188.2927, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -6.552576
+         │     0.0000*
+         │
+Inflamed │  -13.50462  -8.727399
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 241.8126, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -8.642930
+         │     0.0000*
+         │
+Inflamed │  -15.49187  -8.752497
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 212.7414, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -8.255267
+         │     0.0000*
+         │
+Inflamed │  -14.54527  -8.060649
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 221.6665, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -6.916156
+         │     0.0000*
+         │
+Inflamed │  -14.61216  -9.637499
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 213.7987, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -7.406146
+         │     0.0000*
+         │
+Inflamed │  -14.46857  -8.918913
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 198.2848, df = 2, p-value = 0
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -7.483411
+         │     0.0000*
+         │
+Inflamed │  -13.98712  -8.260178
+         │     0.0000*    0.0000*
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 0.1258, df = 2, p-value = 0.94
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -0.193739
+         │     1.0000 
+         │
+Inflamed │   0.110503   0.347994
+         │     0.9120     1.0000 
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+  Kruskal-Wallis rank sum test
+
+data: x and g
+Kruskal-Wallis chi-squared = 7.1551, df = 2, p-value = 0.03
+
+
+                      Dunn's Pairwise Comparison of x by g                      
+                              (Benjamini-Hochberg)                              
+
+Col Mean-│
+Row Mean │   Immune-d   Intermed
+─────────┼──────────────────────
+Intermed │  -1.813678
+         │     0.1046 
+         │
+Inflamed │  -2.668525  -1.144351
+         │     0.0229*    0.2525 
+
+FDR = 0.05
+Reject Ho if adjusted p ≤ FDR with stopping rule, where (unadjusted) p = Pr(|Z| ≥ |z|)
+                    Signature                   Comparison          Z
+1  Microglia_Core_Homeostatic Immune-desert - Intermediate  -3.803983
+2  Microglia_Core_Homeostatic     Immune-desert - Inflamed  -9.505498
+3  Microglia_Core_Homeostatic      Intermediate - Inflamed  -7.046616
+4         Microglia_Klemm2020 Immune-desert - Intermediate  -4.052486
+5         Microglia_Klemm2020     Immune-desert - Inflamed  -9.394768
+6         Microglia_Klemm2020      Intermediate - Inflamed  -6.637118
+7               MDM_Klemm2020 Immune-desert - Intermediate  -7.908111
+8               MDM_Klemm2020     Immune-desert - Inflamed -14.274982
+9               MDM_Klemm2020      Intermediate - Inflamed  -8.127502
+10          MgTAM_Antunes2021 Immune-desert - Intermediate  -4.052341
+11          MgTAM_Antunes2021     Immune-desert - Inflamed  -9.669746
+12          MgTAM_Antunes2021      Intermediate - Inflamed  -6.964171
+13          MoTAM_Antunes2021 Immune-desert - Intermediate  -8.233919
+14          MoTAM_Antunes2021     Immune-desert - Inflamed -14.499190
+15          MoTAM_Antunes2021      Intermediate - Inflamed  -8.029736
+16         DAM_KerenShaul2017 Immune-desert - Intermediate  -7.942407
+17         DAM_KerenShaul2017     Immune-desert - Inflamed -13.825906
+18         DAM_KerenShaul2017      Intermediate - Inflamed  -7.555297
+19                MHC_Class_I Immune-desert - Intermediate  -6.309606
+20                MHC_Class_I     Immune-desert - Inflamed  -9.623685
+21                MHC_Class_I      Intermediate - Inflamed  -4.385456
+22               MHC_Class_II Immune-desert - Intermediate  -7.362900
+23               MHC_Class_II     Immune-desert - Inflamed -12.540797
+24               MHC_Class_II      Intermediate - Inflamed  -6.675548
+25         IFN_Gamma_Response Immune-desert - Intermediate  -7.236560
+26         IFN_Gamma_Response     Immune-desert - Inflamed -13.551405
+27         IFN_Gamma_Response      Intermediate - Inflamed  -8.018215
+28         IFN_Alpha_Response Immune-desert - Intermediate  -5.458457
+29         IFN_Alpha_Response     Immune-desert - Inflamed  -9.430736
+30         IFN_Alpha_Response      Intermediate - Inflamed  -5.107791
+        P.unadj        P.adj
+1  1.423877e-04 1.423877e-04
+2  1.990935e-21 5.972806e-21
+3  1.833215e-12 2.749823e-12
+4  5.067621e-05 5.067621e-05
+5  5.734430e-21 1.720329e-20
+6  3.198761e-11 4.798141e-11
+7  2.613238e-15 2.613238e-15
+8  3.133694e-46 9.401082e-46
+9  4.382280e-16 6.573420e-16
+10 5.070760e-05 5.070760e-05
+11 4.053838e-22 1.216151e-21
+12 3.303432e-12 4.955148e-12
+13 1.811859e-16 2.717788e-16
+14 1.225872e-47 3.677615e-47
+15 9.768232e-16 9.768232e-16
+16 1.982947e-15 2.974421e-15
+17 1.778589e-43 5.335767e-43
+18 4.179056e-14 4.179056e-14
+19 2.797467e-10 4.196201e-10
+20 6.351398e-22 1.905419e-21
+21 1.157432e-05 1.157432e-05
+22 1.799577e-13 2.699366e-13
+23 4.464838e-36 1.339451e-35
+24 2.463096e-11 2.463096e-11
+25 4.602089e-13 4.602089e-13
+26 7.772826e-42 2.331848e-41
+27 1.072925e-15 1.609388e-15
+28 4.802893e-08 7.204339e-08
+29 4.072201e-21 1.221660e-20
+30 3.259461e-07 3.259461e-07
+
+=== [3] Boxplots per signature ===
+  Wrote 24 signature boxplots
+
+=== [4] Composite figure (key 12 signatures) ===
+  Wrote Pathway_composite_12sig.png
+
+=== [5] Cohort-stratified boxplots ===
+  Wrote 6 cohort-stratified plots
+
+=== [6] Effect size table ===
+                       Signature                Comparison   W     wilcox_p
+W36 Chemokine_T_Cell_Recruitment Inflamed vs Immune-desert   1 5.204889e-32
+W45                M1_Macrophage Inflamed vs Immune-desert   0 5.044488e-32
+W30          T_Cell_Cytotoxicity Inflamed vs Immune-desert  27 1.171681e-31
+W51 Glioma_Inflammatory_Wang2017 Inflamed vs Immune-desert  26 1.135778e-31
+W60    Dendritic_Cell_Activation Inflamed vs Immune-desert  58 3.064239e-31
+W54             NK_Cell_Activity Inflamed vs Immune-desert  72 4.719880e-31
+W42       TGFb_Immunosuppression Inflamed vs Immune-desert  77 5.505430e-31
+W12            MoTAM_Antunes2021 Inflamed vs Immune-desert  89 7.960670e-31
+W57            Tregs_Friebel2020 Inflamed vs Immune-desert  91 8.464487e-31
+W6                 MDM_Klemm2020 Inflamed vs Immune-desert 118 1.932919e-30
+W33            T_Cell_Exhaustion Inflamed vs Immune-desert 117 1.874868e-30
+W63        Neutrophil_Activation Inflamed vs Immune-desert 123 2.251040e-30
+W15           DAM_KerenShaul2017 Inflamed vs Immune-desert 209 3.011283e-29
+W24           IFN_Gamma_Response Inflamed vs Immune-desert 221 4.306792e-29
+W48                M2_Macrophage Inflamed vs Immune-desert 241 7.801845e-29
+    rank_biserial_r  wilcox_p_BH
+W36          -1.000 6.245866e-31
+W45          -1.000 6.245866e-31
+W30          -0.994 1.054513e-30
+W51          -0.994 1.054513e-30
+W60          -0.987 2.396894e-30
+W54          -0.984 3.089376e-30
+W42          -0.983 3.303258e-30
+W12          -0.980 4.353165e-30
+W57          -0.980 4.353165e-30
+W6           -0.974 7.731677e-30
+W33          -0.974 7.731677e-30
+W63          -0.972 8.103745e-30
+W15          -0.953 9.855107e-29
+W24          -0.950 1.348213e-28
+W48          -0.946 2.340553e-28
+
+Done.

@@ -1,0 +1,39 @@
+# CIBERSORTx Job Submission Record
+
+## Submission
+- Date: 2026-06-11 01:00:21 (Stanford server time)
+- User: Jong Hwi Kim
+- Portal: https://cibersortx.stanford.edu
+
+## Parameters (matches analysis_plan.md §1.4)
+- Job type: Impute Cell Fractions (Module 2)
+- Mode: Custom
+- Signature matrix: LM22.update-gene-symbols.txt (built-in LM22, 22 immune cell types)
+- Mixture file: tpm_for_cibersortx.tsv  (Title: OpenPedCan_pHGG_TPM_n702, 179.77 MB, 702 samples × 55,408 genes, TPM)
+- Batch correction: DISABLED
+- Quantile normalization: DISABLED (recommended for RNA-seq)
+- Run mode: ABSOLUTE (returns both absolute scores and relative fractions)
+- Permutations: 100
+
+## Expected output
+- CSV file: CIBERSORTx_Job{N}_Results.csv
+- Columns: Mixture, [22 LM22 cell types as fractions], P-value, Correlation, RMSE, Absolute score (sum)
+- Retrieval: Stanford emails when complete; also at Menu → Job Results
+- Expected runtime: ~30 min to a few hours for n=702
+
+## Next steps after retrieval
+1. Save CSV to output/CIBERSORTx_LM22_results.csv
+2. Merge LM22 fractions with ssGSEA_brain_immune_scores.tsv (microglia/MDM, Klemm, Antunes, Bohlen signatures) on Kids_First_Biospecimen_ID
+3. Cross-method correlation: extend cross-method correlation panel to include LM22 (add to immunedeconv_*.tsv set)
+4. Decide consensus clustering feature matrix composition (LM22 fractions ± ssGSEA scores)
+
+## Microglia correction approach (Path B per analysis_plan.md)
+LM22 (CIBERSORTx) provides peripheral immune deconvolution. Brain-resident microglia are addressed via parallel ssGSEA scoring (already run, see ssGSEA_brain_immune_scores.tsv) using:
+- Bohlen 2020 microglia core
+- Butovsky 2014 microglia signature
+- Klemm 2020 glioma-associated microglia
+- Antunes 2021 Mg-TAM vs Mo-TAM
+- Keren-Shaul 2017 DAM
+- Plus MHC I/II, IFN response, MAPK activity, M1/M2 polarization (24 gene sets total)
+
+Per reviewer_appeal_points.md Appeal #1, this dual approach lets us distinguish whether LM22 myeloid signal reflects resident microglia or peripheral monocyte-derived macrophages.
