@@ -1,0 +1,22 @@
+module	group1	group2	z	p	q_BH
+CD14 monocyte (positive control)	Lymphocyte-inflamed	Myeloid-dominant	7.92	2.3459599955150973e-15	1.2316289976454262e-14
+CD14 monocyte (positive control)	Lymphocyte-inflamed	Immune-desert	12.78	2.1237695547440004e-37	4.459916064962401e-36
+CD14 monocyte (positive control)	Myeloid-dominant	Immune-desert	6.59	4.479255713222372e-11	1.56773949962783e-10
+CLP	Lymphocyte-inflamed	Myeloid-dominant	4.78	1.7774548701710754e-06	3.3933229339629624e-06
+CLP	Lymphocyte-inflamed	Immune-desert	5.66	1.5344775011561828e-08	4.02800344053498e-08
+CLP	Myeloid-dominant	Immune-desert	1.78	0.07509667413007086	0.08300158719639411
+EMP (lineage control)	Lymphocyte-inflamed	Myeloid-dominant	3.88	0.00010470473275046632	0.00016913841444306097
+EMP (lineage control)	Lymphocyte-inflamed	Immune-desert	5.62	1.9605040816476074e-08	4.574509523844417e-08
+EMP (lineage control)	Myeloid-dominant	Immune-desert	2.54	0.011155712576648867	0.013237372125378809
+GMP	Lymphocyte-inflamed	Myeloid-dominant	6.03	1.5991308792722534e-09	4.79739263781676e-09
+GMP	Lymphocyte-inflamed	Immune-desert	8.23	1.9304024852860003e-16	1.3512817397002001e-15
+GMP	Myeloid-dominant	Immune-desert	3.4	0.0006644673738068413	0.000996701060710262
+HSC	Lymphocyte-inflamed	Myeloid-dominant	0.29	0.7748213040341392	0.7748213040341392
+HSC	Lymphocyte-inflamed	Immune-desert	2.61	0.009170716064875888	0.012036564835149604
+HSC	Myeloid-dominant	Immune-desert	2.53	0.011346318964610407	0.013237372125378809
+LMPP	Lymphocyte-inflamed	Myeloid-dominant	3.36	0.000787035135496369	0.0011018491896949165
+LMPP	Lymphocyte-inflamed	Immune-desert	4.42	1.0093526248414406e-05	1.766367093472521e-05
+LMPP	Myeloid-dominant	Immune-desert	1.72	0.0853187128393778	0.08958464848134669
+Macrophage (positive control)	Lymphocyte-inflamed	Myeloid-dominant	7.81	5.772898394336647e-15	2.4246173256213918e-14
+Macrophage (positive control)	Lymphocyte-inflamed	Immune-desert	11.07	1.764018524730537e-28	1.852219450967064e-27
+Macrophage (positive control)	Myeloid-dominant	Immune-desert	4.86	1.1847216054061684e-06	2.487915371352954e-06

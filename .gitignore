@@ -6,6 +6,8 @@
 !scripts/**
 !output/
 !output/**
+!cancers_submission_2026/
+!cancers_submission_2026/**
 
 # junk inside tracked dirs
 **/__pycache__/
