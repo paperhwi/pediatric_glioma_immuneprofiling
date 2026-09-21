@@ -1,0 +1,19 @@
+Item	Value
+Analysis	Week-1 revision analyses (cluster-number sweep, contrast structure, survival-evaluability, haematopoietic progenitor programs)
+Operating system	Linux 6.18.44-fc-v33 (x86_64)
+Python	3.11.15
+numpy	2.4.4
+pandas	3.0.2
+scipy	1.17.1
+scikit-learn	1.8.0
+matplotlib	3.10.9
+gseapy	1.3.1
+Consensus clustering	bootstrap k-means, B = 1000 replicates, pItem = 0.80, KMeans n_init = 1, random_state = 42 + replicate index
+Consensus final labels	average-linkage hierarchical clustering on the 1 - consensus distance
+PAC definition	fraction of off-diagonal consensus values in the interval (0.1, 0.9)
+Gap statistic	Tibshirani 2001; 50 uniform reference datasets over the PCA-rotated bounding box; one-standard-error rule; seed 42
+ssGSEA	gseapy.ssgsea, sample_norm_method = 'rank', min_size = 3, max_size = 500, permutation_num = 0, on log2(TPM + 1)
+Progenitor modules	Azimuth 2023 human bone-marrow reference (Hao et al. 2021), retrieved via Enrichr, 2026-09-16
+Multiple testing	Benjamini-Hochberg, applied within each analysis family
+Random seed (sweep and gap statistic)	42
+Random seed (inherited pipeline analyses)	20260722

@@ -20,7 +20,7 @@ GitHub archive for excluded items: https://github.com/paperhwi/pediatric_glioma_
 | **Fig 6** | A–C adjusted volcanoes; D overlap (publication style, not Venn); E gradient; F paired effect sizes | regenerate from `adjusted_DEG_all_contrasts.tsv` | old **6B → Suppl S8** |
 | **Fig 7** | A overall KM (numbers at risk + censor marks); B multivariable Cox | old 7A, 7C | old **7B → Suppl S10** |
 
-## SUPPLEMENTARY FIGURES — renumbered S1…S15
+## SUPPLEMENTARY FIGURES — renumbered S1…S16
 
 | New | Content | Old |
 |---|---|---|
@@ -30,15 +30,16 @@ GitHub archive for excluded items: https://github.com/paperhwi/pediatric_glioma_
 | S4 | Re-clustering of the high-confidence LM22 subset (n = 91) | S6 |
 | S5 | Clustering-definition and held-out-feature sensitivity | S8 |
 | S6 | PERMANOVA variance partition, ecotype vs molecular group | S5 |
-| S7 | Bulk immune-programme characterisation (5 panels) | main Fig 5A–E |
-| S8 | Pathway enrichment from the adjusted gene lists | main Fig 6B |
-| S9 | Unadjusted tie-corrected one-versus-rest volcanoes | S9 |
-| S10 | Subtype-stratified survival: KM (adequately sized strata) + within-subtype Cox | main Fig 7B + S10B |
-| S11 | Location-stratified Kaplan–Meier | S11 |
-| S12 | Scaled Schoenfeld residual diagnostics | S12 |
-| S13 | Survival missingness and IPW sensitivity (4 panels) | S13A–D |
-| S14 | Single-cell full analysis | S20 |
-| S15 | Spatial full analysis | S21 |
+| S7 | Immune-theme composites across ecotypes (2 panels) | main Fig 5A, 5C |
+| S8 | Per-signature immune programs and post-hoc comparisons (3 panels) | main Fig 5B, 5D, 5E |
+| S9 | Pathway enrichment from the adjusted gene lists | main Fig 6B |
+| S10 | Unadjusted tie-corrected one-versus-rest volcanoes | old S9 |
+| S11 | Subtype-stratified survival: KM (adequately sized strata) + within-subtype Cox | main Fig 7B + old S10B |
+| S12 | Location-stratified Kaplan–Meier | old S11 |
+| S13 | Scaled Schoenfeld residual diagnostics | old S12 |
+| S14 | Survival missingness and IPW sensitivity (4 panels) | old S13A–D |
+| S15 | Single-cell full analysis | revision S20 |
+| S16 | Spatial full analysis | revision S21 |
 
 **Excluded → GitHub repository:** old S1, S2, S7A–C (pooled n=702 re-clustering/concordance),
 S14A–C (BRAF/RTK projection), S15 (checkpoint), S16 (CAR-T), S17 (duplicate DEG audit),
@@ -57,7 +58,7 @@ S18 (very small DHG/IHG strata KM), S19 (HSPC/progenitor), S10A (duplicate of ne
 ## DELIVERABLES
 
 1. `Main figures/` — Figure 1–7, PNG 600 dpi + vector PDF
-2. `Supplementary figures/` — Figure S1–S15, PNG 600 dpi + vector PDF
+2. `Supplementary figures/` — Figure S1–S16, PNG 600 dpi + vector PDF
 3. `Figure_and_Table_legends_Cancers.docx`
 4. `Supplementary_Material_Cancers.docx` (figures + table legends, one file)
 5. `Supplementary_Tables_Cancers.xlsx` (renumbered, with old→new crosswalk sheet)

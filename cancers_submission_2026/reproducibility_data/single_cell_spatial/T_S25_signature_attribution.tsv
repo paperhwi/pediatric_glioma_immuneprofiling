@@ -1,0 +1,25 @@
+signature	n_genes	expected	top_cell_type	verdict	AUROC_all_cells	AUROC_min_sample	AUROC_max_sample	median_Myeloid	median_CD4	median_CD8	q_BH
+Cell_Cycle_Proliferation	13	any	Myeloid	not directional				-0.008	-0.013	-0.014	0.0
+Chemokine_T_Cell_Recruitment	12	either	CD8	not directional				-0.008	-0.004	0.043	0.0
+DAM_KerenShaul2017	15	Myeloid	Myeloid	concordant	0.916	0.714	0.99	0.046	-0.053	-0.038	0.0
+Dendritic_Cell_Activation	10	Myeloid	Myeloid	concordant	0.64	0.376	0.796	0.002	-0.01	-0.022	0.0
+Glioma_Inflammatory_Wang2017	13	Myeloid	CD8	DISCORDANT	0.075	0.024	0.073	-0.04	0.039	0.185	0.0
+IFN_Alpha_Response	19	any	CD4	not directional				-0.017	0.014	0.011	0.0
+IFN_Gamma_Response	20	any	CD4	not directional				-0.019	0.025	0.015	0.0
+M1_Macrophage	14	Myeloid	Myeloid	concordant	0.668	0.59	0.799	0.002	-0.02	-0.021	0.0
+M2_Macrophage	14	Myeloid	Myeloid	concordant	0.855	0.645	0.939	0.013	-0.043	-0.044	0.0
+MAPK_Activity	16	any	Myeloid	not directional				0.011	-0.009	-0.023	0.0
+MDM_Klemm2020	16	Myeloid	Myeloid	concordant	0.857	0.636	0.985	0.013	-0.066	-0.068	0.0
+MHC_Class_I	17	any	CD4	not directional				-0.033	0.161	0.156	0.0
+MHC_Class_II	12	Myeloid	Myeloid	concordant	0.885	0.804	0.989	0.056	-0.138	-0.094	0.0
+MgTAM_Antunes2021	13	Myeloid	Myeloid	concordant	0.913	0.84	0.99	0.018	-0.097	-0.081	0.0
+Microglia_Core_Homeostatic	16	Myeloid	Myeloid	concordant	0.933	0.883	0.993	0.024	-0.097	-0.081	0.0
+Microglia_Klemm2020	15	Myeloid	Myeloid	concordant	0.941	0.899	0.994	0.027	-0.112	-0.093	0.0
+MoTAM_Antunes2021	14	Myeloid	Myeloid	concordant	0.873	0.731	0.981	0.012	-0.056	-0.062	0.0
+NK_Cell_Activity	15	T cell (CD8)	CD8	concordant	0.919	0.84	0.956	-0.019	-0.017	0.075	0.0
+Neutrophil_Activation	13	Myeloid	Myeloid	concordant	0.863	0.806	0.957	0.004	-0.038	-0.035	0.0
+Stemness_Brain_Tumor	11	none (tumour)	CD4	not directional				-0.008	0.005	0.005	0.0
+TGFb_Immunosuppression	13	any	CD4	not directional				-0.003	0.001	-0.005	3.2489893e-09
+T_Cell_Cytotoxicity	13	T cell (CD8)	CD8	concordant	0.951	0.824	0.983	-0.038	0.038	0.18	0.0
+T_Cell_Exhaustion	11	T cell	CD4	concordant	0.833	0.619	0.953	-0.016	0.04	0.028	0.0
+Tregs_Friebel2020	10	T cell (CD4)	CD4	concordant	0.766	0.583	0.897	-0.013	0.03	-0.007	0.0

@@ -1,0 +1,4 @@
+sample	n_spots	Lymp	Myel	Immu	n_ecotypes_present	same_neighbour_fraction	null_mean	perm_p	myeloid_lymphoid_r	p
+1	577	223	118	236	3	0.54	0.358	0.001	0.358	6.2822589999999995e-19
+2	856	325	241	290	3	0.357	0.338	0.019	0.048	0.16323467
+3	217	83	38	96	3	0.562	0.37	0.001	0.484	3.7898212e-14

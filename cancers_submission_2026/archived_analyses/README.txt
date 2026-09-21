@@ -49,6 +49,5 @@ uncommitted hematopoietic stem cell programs do not distinguish Lymphocyte-infla
 Myeloid-dominant (Dunn z = 0.29, P = 0.775). A distinct myeloid-progenitor or stem-like
 subset can be neither supported nor excluded from bulk data.
 
-The code and executed notebooks for all of the above are in the earlier revision package
-under "REVISION PACKAGE 260916/2. Scripts" and
-"REVISION PACKAGE 260916/7. Reproducibility data/Notebooks".
+The code and clean, output-stripped notebooks for these analyses are deposited in the adjacent
+analysis_code/revision_scripts and analysis_code/notebooks directories.

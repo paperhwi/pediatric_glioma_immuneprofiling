@@ -1,0 +1,12 @@
+Item	Value
+Single-cell dataset	GSE227983 — immune and tumour cell landscape in paediatric high-grade glioma
+Cells used (10x, immune)	18,619 from 4 pHGG samples (H3K27M n=1; H3-wildtype hemispheric n=3); PF-A ependymoma excluded
+Cells used (Smart-seq2)	3,056 immune (1,262 T, 778 myeloid) and 2,016 malignant, paediatric high-grade glioma only
+Cell annotations	as published by the original authors; verified here against canonical markers
+Spatial dataset	GSE268577 — three H3.3 K27M paediatric diffuse midline glioma Visium sections
+Spots analysed	577, 856 and 217 in-tissue spots; median 4,933 / 5,050 / 14,702 UMI per spot
+Signature scoring	control-gene-matched score (Tirosh et al. 2016), 25 expression bins, 50 control genes per signature gene, seed 42
+Spatial weights	Visium hexagonal first-order neighbours (6 per interior spot)
+Spatial test	Moran's I, 999 random permutations; join-count on ecotype assignment, 999 permutations
+Ecotype assignment	nearest bulk centroid by Pearson correlation across the 24 brain-tuned signatures, z-scored within dataset
+Background control (gene source)	200 draws of expression-matched random genes, 20 expression bins

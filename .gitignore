@@ -9,6 +9,15 @@
 !cancers_submission_2026/
 !cancers_submission_2026/**
 
+# Never add raw/restricted study inputs to the public Cancers bundle.
+cancers_submission_2026/**/*.rds
+cancers_submission_2026/**/*.RData
+cancers_submission_2026/**/*.h5
+cancers_submission_2026/**/*.h5ad
+cancers_submission_2026/**/*tpm_for_cibersortx*
+cancers_submission_2026/**/*cohort_main_final*
+cancers_submission_2026/**/*histologies*
+
 # junk inside tracked dirs
 **/__pycache__/
 **/*.pyc

@@ -1,6 +1,7 @@
 # Pediatric_glioma_immuneprofiling
 
-### This is a private repository of analysis files for pediatric glioma immunoprofiling using in sillico deconvoultion with custom signature matrix
+Analysis and reproducibility files for pediatric glioma immune profiling using brain-tuned
+deconvolution and immune-program signatures.
 
 ## Publication link 
 
@@ -24,10 +25,17 @@ By classifying the pediatric glioma according to their immune profile, we were a
 
 `cancers_submission_2026/` holds the display items of the submission to *Cancers* — Figures 1-7,
 Supplementary Figures S1-S16, the legends, the supplementary document and the 25-table
-supplementary workbook — together with every script that generates them and a verification pass.
+supplementary workbook — together with figure-building code, analysis scripts, clean notebooks,
+and a curated non-identifiable reproducibility bundle.
 
 The same folder deposits, under `archived_analyses/`, the analyses that were part of the earlier
 revision package but are not submitted: the same-resource pooled sensitivity analyses, the
 BRAF/RTK-altered projection, the immune-checkpoint and CAR-T transcript panels, the
 differential-expression audit copy, the very small survival strata, and the hematopoietic stem
 and progenitor programs.
+
+The public bundle deliberately excludes raw expression matrices, clinical-level datasets, survival
+times/status, histology files, RDS/H5AD analysis objects, and other restricted inputs. Biospecimen
+identifiers in the deposited matrices are study pseudonyms. Run
+`python cancers_submission_2026/analysis_code/validate_public_bundle.py` to verify the locked
+cohort size, ecotype counts, matrix dimensions, identifier agreement, and restricted-file guard.

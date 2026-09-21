@@ -1,0 +1,5 @@
+molecular_group	n	chi2	df	p	%OS_eval_Immune-desert	%OS_eval_Lymphocyte-inflamed	%OS_eval_Myeloid-dominant
+DHG_G34	31	1.5	2	0.4727	41.2	75.0	50.0
+DMG_K27	175	5.1	2	0.0782	91.7	71.9	82.8
+IHG	18	6.43	2	0.0402	100.0	100.0	50.0
+pHGG_WT	125	2.2	2	0.3336	58.8	75.0	63.6

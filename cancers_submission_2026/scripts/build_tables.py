@@ -221,7 +221,7 @@ TABLES = [
     ("S10", "PERMANOVA on circular and held-out feature blocks",
      "One-way PERMANOVA of ecotype and molecular group against the feature blocks used to define "
      "the clusters and against blocks that were not.",
-     "Figure S6", t_permanova_blocks),
+     "Figure S5", t_permanova_blocks),
     ("S11", "Cross-method concordance, main cohort and pooled set",
      "Spearman correlations between CIBERSORTx LM22 and the peer methods in the n = 349 main cohort "
      "and in the same-resource n = 702 pool.",

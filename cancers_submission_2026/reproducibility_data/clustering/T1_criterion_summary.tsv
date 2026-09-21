@@ -1,0 +1,8 @@
+criterion	selected_k	family
+PAC (minimum)	2	separation/stability
+Silhouette on 1-consensus (maximum)	2	separation/stability
+Calinski-Harabasz (maximum)	2	separation/stability
+Davies-Bouldin (minimum)	2	separation/stability
+Consensus CDF delta-AUC elbow	3	number-of-clusters selection
+Gap statistic, Tibshirani 1-SE rule (k=1-10)	3	number-of-clusters selection
+Cluster-size floor >= 10 samples	5	interpretability constraint
