@@ -1,19 +1,19 @@
 # Analysis code
 
-This directory contains the analysis code retained for the September 2026 *Cancers* submission.
+This directory contains the code retained for the September 2026 *Cancers* submission.
 
-- `revision_scripts/` contains the Python scripts used for cluster-number evaluation,
-  molecular-group-adjusted differential-expression contrasts, selection-bias checks,
-  hematopoietic-progenitor analyses, and single-cell/spatial support analyses.
-- `notebooks/` contains the corresponding revision notebooks plus the PERMANOVA interaction,
-  TPM harmonization, and inverse-probability-weighting sensitivity notebooks.
-- `validate_public_bundle.py` checks the public data boundary and the locked analysis invariants.
+- `core_pipeline/` contains the main cohort, deconvolution, integration, clustering, pathway,
+  differential-expression, survival, and sensitivity scripts.
+- `revision_scripts/` contains the final cluster-number, contrast, selection-bias, single-cell,
+  and spatial support workflows.
+- `notebooks/` contains executed revision and finalization notebooks. A small number of retained
+  sensitivity notebooks are executable source notebooks without cached output because their
+  controlled inputs cannot be redistributed.
+- `validate_public_bundle.py` checks the public data boundary and locked analysis invariants.
 
-All notebook outputs and execution counters were removed before deposit. This prevents cached raw
-or clinical-level records from being embedded while preserving executable code and Markdown
-documentation. Scripts retain their original provenance and may refer to the project layout used
-during analysis. Controlled OpenPBTA expression/clinical inputs and large public-accession objects
-must be supplied separately; they are not redistributed by this repository.
+The public inputs that can be shared safely are in `../reproducibility_data/`. Controlled
+OpenPedCan/OpenPBTA expression and clinical inputs and large public-accession objects must be
+obtained separately. Scripts preserve their analysis-time paths for provenance and may require
+local path configuration before rerunning.
 
-The main inputs that can be shared safely are in `../reproducibility_data/`. Figure assembly code
-is kept separately in `../scripts/`.
+Figure and document assembly code is kept separately in `../scripts/`.

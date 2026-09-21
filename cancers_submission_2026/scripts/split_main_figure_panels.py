@@ -17,7 +17,7 @@ from pypdf.generic import RectangleObject
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "1. Main figures"
-OUTPUT = ROOT / "Figure separate files"
+OUTPUT = ROOT / "6. Figure separate files"
 
 # Pixel coordinates on the final assembled PNGs: left, top, right, bottom.
 CROPS = {

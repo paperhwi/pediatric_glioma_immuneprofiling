@@ -77,7 +77,7 @@ a.plot([0,1],[sub[B].median(),sub[A].median()],"ko-",ms=4,lw=1.2)
 a.set_xticks([0,1]); a.set_xticklabels(["Myeloid-dominant\nvs Desert","Lymphocyte-inflamed\nvs Desert"],fontsize=7)
 a.set_ylabel("adj. log$_2$FC on the 426 shared genes")
 a.set_title(f"C  Median {np.median(sub[A]/sub[B]):.2f}$\\times$ larger in Lymphocyte-inflamed\n"
-            f"paired Wilcoxon P = 7.6 $\\times$ 10$^{{-71}}$",fontsize=7.5,loc="left")
+            f"paired Wilcoxon P = 1.5 $\\times$ 10$^{{-70}}$",fontsize=7.5,loc="left")
 a.spines[["top","right"]].set_visible(False); a.tick_params(labelsize=7)
 
 fig2.tight_layout(w_pad=2.0)

@@ -1,4 +1,4 @@
-"""Assemble the renumbered supplementary figures S1-S16 for Cancers."""
+"""Assemble the renumbered supplementary figures S1-S15 for Cancers."""
 import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -34,48 +34,45 @@ build("FigureS4", [[Panel(f"{SF}/FigureS6.pdf")]])
 # S5  clustering-definition and held-out-feature sensitivity
 build("FigureS5", [[Panel(f"{P}/suppl_clustering.pdf")]])
 
-# S6  PERMANOVA variance partition
-build("FigureS6", [[Panel(f"{SF}/FigureS5.pdf")]])
-
-# S7  immune-theme composites, overall and molecular-group-stratified
-build("FigureS7", [
+# S6  immune-theme composites, overall and molecular-group-stratified
+build("FigureS6", [
     [Panel(f"{MF}/Figure5A.pdf", "A")],
     [Panel(f"{MF}/Figure5C.pdf", "B")],
 ], row_align="top")
 
-# S8  per-signature immune programs and Dunn post-hoc comparisons
-build("FigureS8", [
+# S7  per-signature immune programs and Dunn post-hoc comparisons
+build("FigureS7", [
     [Panel(f"{MF}/Figure5B.pdf", "A", scale=0.88),
      Panel(f"{MF}/Figure5D.pdf", "B", scale=0.88)],
     [Panel(f"{MF}/Figure5E.pdf", "C")],
 ], row_align="top")
 
-# S9  pathway enrichment from the adjusted gene lists
-build("FigureS9", [[Panel(f"{MF}/Figure6B.pdf")]])
+# S8  pathway enrichment from the adjusted gene lists
+build("FigureS8", [[Panel(f"{MF}/Figure6B.pdf")]])
 
-# S10 unadjusted tie-corrected one-versus-rest volcanoes
-build("FigureS10", [[Panel(f"{SF}/FigureS9.pdf")]])
+# S9 unadjusted tie-corrected one-versus-rest volcanoes
+build("FigureS9", [[Panel(f"{SF}/FigureS9.pdf")]])
 
-# S11 subtype-stratified survival
-build("FigureS11", [
+# S10 subtype-stratified survival
+build("FigureS10", [
     [Panel(f"{MF}/Figure7B.pdf", "A")],
     [Panel(f"{SF}/FigureS10B.pdf", "B")],
 ], row_align="top")
 
-# S12 location-stratified Kaplan-Meier
-build("FigureS12", [[Panel(f"{SF}/FigureS11.pdf")]])
+# S11 location-stratified Kaplan-Meier
+build("FigureS11", [[Panel(f"{SF}/FigureS11.pdf")]])
 
-# S13 proportional-hazards diagnostics
-build("FigureS13", [[Panel(f"{SF}/FigureS12.pdf")]])
+# S12 proportional-hazards diagnostics
+build("FigureS12", [[Panel(f"{SF}/FigureS12.pdf")]])
 
-# S14 survival missingness and inverse-probability weighting
-build("FigureS14", [
+# S13 survival missingness and inverse-probability weighting
+build("FigureS13", [
     [Panel(f"{SF}/FigureS13A.pdf", "A"), Panel(f"{SF}/FigureS13B.pdf", "B")],
     [Panel(f"{SF}/FigureS13C.pdf", "C"), Panel(f"{P}/suppl_ipw_D.pdf", "D")],
 ], row_align="top")
 
-# S15 single-cell analysis, full
-build("FigureS15", [[Panel(f"{SF}/FigureS20_scRNA_support.pdf")]])
+# S14 single-cell analysis, full
+build("FigureS14", [[Panel(f"{SF}/FigureS20_scRNA_support.pdf")]])
 
-# S16 spatial analysis, full
-build("FigureS16", [[Panel(f"{P}/suppl_spatial.pdf")]])
+# S15 spatial analysis, full
+build("FigureS15", [[Panel(f"{P}/suppl_spatial.pdf")]])

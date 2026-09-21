@@ -111,9 +111,9 @@ box(A, 50, 55.0, 88, 11.0,
 arrow(A, (50, 65.0), (50, 60.7))
 
 box(A, 50, 36.5, 92, 14.0,
-    ["Bootstrap consensus clustering",
-     "1,000 bootstrap replicates, 80% item resampling, average linkage on the 1 − consensus distance",
-     "k = 2–10 evaluated (PAC, silhouette, consensus-CDF ΔAUC, gap statistic, minimum cluster size)",
+    ["Locked k = 3 assignment",
+     "500-replicate bootstrap consensus clustering, 80% item resampling, average linkage on the 1 − consensus distance",
+     "Cluster-number evaluation and resampling-stability analysis: 1,000 replicates, k = 2–10",
      "k = 2 most stable;  k = 3 retained as an exploratory three-state representation"],
     fill=AMB_F, edge=AMB_E, fs=8.6,
     weights=["bold", "normal", "normal", "bold"])
@@ -197,5 +197,6 @@ B.text(50, 4.0,
 
 os.makedirs(f"{OUT}/panels", exist_ok=True)
 fig.savefig(f"{OUT}/panels/Figure1_full.pdf", bbox_inches="tight")
+fig.savefig(f"{OUT}/panels/Figure1_full.png", dpi=600, bbox_inches="tight")
 fig.savefig(f"{OUT}/panels/_preview_fig1.png", dpi=110, bbox_inches="tight")
 print("Figure 1 drawn")

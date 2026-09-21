@@ -14,7 +14,7 @@ import glob
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pymupdf
 import legends as L
-from build_tables import TABLES
+from table_metadata import TABLES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -23,10 +23,9 @@ DRAWN = {
     "Figure1": "AB", "Figure2": "ABC", "Figure3": "ABCDEFG", "Figure4": "ABCD",
     "Figure5": "ABCDE", "Figure6": "ABCDEF", "Figure7": "AB",
     "FigureS1": "", "FigureS2": "", "FigureS3": "", "FigureS4": "",
-    "FigureS5": "", "FigureS6": "", "FigureS7": "AB", "FigureS8": "ABC",
-    "FigureS9": "", "FigureS10": "", "FigureS11": "AB", "FigureS12": "",
-    "FigureS13": "", "FigureS14": "ABCD", "FigureS15": "ABCDE",
-    "FigureS16": "ABCDEF",
+    "FigureS5": "", "FigureS6": "AB", "FigureS7": "ABC", "FigureS8": "",
+    "FigureS9": "", "FigureS10": "AB", "FigureS11": "", "FigureS12": "",
+    "FigureS13": "ABCD", "FigureS14": "ABCDE", "FigureS15": "ABCDEF",
 }
 
 LETTER = re.compile(r"\(([A-H])(?:–([A-H]))?\)")
@@ -47,7 +46,7 @@ def main():
 
     # ---- 1. files -------------------------------------------------------
     mains = [f"{ROOT}/main/Figure{i}" for i in range(1, 8)]
-    supps = [f"{ROOT}/suppl/FigureS{i}" for i in range(1, 17)]
+    supps = [f"{ROOT}/suppl/FigureS{i}" for i in range(1, 16)]
     for stem in mains + supps:
         for ext in (".pdf", ".png"):
             if not os.path.exists(stem + ext):
@@ -74,7 +73,7 @@ def main():
         print(f"  {lab:<12} legend {want or '-':<8} figure {have or '-':<8} {ok}")
 
     # ---- 3. cross-references -------------------------------------------
-    have_fig = {f"Figure S{i}" for i in range(1, 17)} | {f"Figure {i}" for i in range(1, 8)}
+    have_fig = {f"Figure S{i}" for i in range(1, 16)} | {f"Figure {i}" for i in range(1, 8)}
     have_tab = {f"Table S{i}" for i in range(1, len(TABLES) + 1)} | \
                {f"Table {i}" for i in range(1, 6)}
     ref = re.compile(r"(Figure|Table)s?\s+(S?\d+(?:\s*(?:[\u2013-]|,|and)\s*S?\d+)*)")
@@ -113,7 +112,7 @@ def main():
         it = f"Figure {i}"
         rows.append(("Main figure", it, L.MAIN[i - 1][1],
                      "; ".join(cited.get(it, [])) or "-", "required"))
-    for i in range(1, 17):
+    for i in range(1, 16):
         it = f"Figure S{i}"
         rows.append(("Supplementary figure", it, L.SUPPL[i - 1][1],
                      "; ".join(cited.get(it, [])) or "-", "required"))

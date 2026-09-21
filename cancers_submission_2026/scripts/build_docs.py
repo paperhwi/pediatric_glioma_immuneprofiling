@@ -15,10 +15,12 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.section import WD_ORIENT
 
 import legends as L
-from build_tables import TABLES
+from table_metadata import TABLES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = f"{ROOT}/docs"
+LEGENDS_OUT = f"{ROOT}/3. Legends"
+SUPPLEMENTARY_OUT = f"{ROOT}/4. Supplementary material"
 EMB = f"{ROOT}/panels/_embed"
 os.makedirs(OUT, exist_ok=True)
 os.makedirs(EMB, exist_ok=True)
@@ -118,18 +120,7 @@ def build_legends():
     head(doc, "Abbreviations")
     doc.add_paragraph(L.ABBREV)
 
-    head(doc, "Items deposited in the study repository")
-    note(doc, "The following analyses were part of the earlier revision package and are not "
-              "included in this submission. They are deposited, with the code and the executed "
-              f"notebooks that produce them, at {L.GITHUB}.", italic=False, size=10)
-    for lab, what in L.ARCHIVED:
-        p = doc.add_paragraph(style="List Bullet")
-        p.paragraph_format.space_after = Pt(3)
-        r = p.add_run(f"{lab} — ")
-        r.bold = True
-        p.add_run(what)
-
-    path = f"{OUT}/Figure_and_Table_Legends_Cancers.docx"
+    path = f"{LEGENDS_OUT}/Figure_and_Table_Legends_Cancers.docx"
     doc.save(path)
     return path
 
@@ -148,10 +139,9 @@ def build_supplementary():
     r.bold = True
     r.font.size = Pt(16)
     note(doc, L.TITLE, italic=True, size=11)
-    note(doc, "Supplementary Figures S1–S16 and Supplementary Tables S1–S25. The tables are "
+    note(doc, "Supplementary Figures S1–S15 and Supplementary Tables S1–S25. The tables are "
               "supplied as a separate workbook, Supplementary_Tables_Cancers.xlsx, whose README "
-              "sheet repeats the index below and whose Crosswalk sheet maps every item of the "
-              "previous version onto this one.")
+              "sheet repeats the index below.")
 
     head(doc, "Contents", size=12)
     for lab, title, _ in L.SUPPL:
@@ -174,7 +164,7 @@ def build_supplementary():
     doc.add_page_break()
     head(doc, "Supplementary figures", size=13, space_before=0)
     for i, (lab, title, body) in enumerate(L.SUPPL, start=1):
-        pdf = f"{ROOT}/suppl/FigureS{i}.pdf"
+        pdf = f"{ROOT}/2. Supplementary figures/FigureS{i}.pdf"
         png, w, h = embed_png(pdf, f"S{i}")
         pic = doc.add_paragraph()
         pic.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -191,21 +181,10 @@ def build_supplementary():
     for num, title, desc, supports, _ in TABLES:
         legend_para(doc, f"Table {num}", title + ".", f"{desc} Supports: {supports}.")
 
-    head(doc, "Items deposited in the study repository")
-    note(doc, "The following analyses were part of the earlier revision package and are not "
-              "included in this submission. They are deposited, with the code and the executed "
-              f"notebooks that produce them, at {L.GITHUB}.", italic=False, size=10)
-    for lab, what in L.ARCHIVED:
-        p = doc.add_paragraph(style="List Bullet")
-        p.paragraph_format.space_after = Pt(3)
-        r = p.add_run(f"{lab} — ")
-        r.bold = True
-        p.add_run(what)
-
     head(doc, "Abbreviations")
     doc.add_paragraph(L.ABBREV)
 
-    path = f"{OUT}/Supplementary_Material_Cancers.docx"
+    path = f"{SUPPLEMENTARY_OUT}/Supplementary_Material_Cancers.docx"
     doc.save(path)
     return path
 

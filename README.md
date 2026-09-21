@@ -1,41 +1,34 @@
-# Pediatric_glioma_immuneprofiling
+# Pediatric glioma immune profiling
 
-Analysis and reproducibility files for pediatric glioma immune profiling using brain-tuned
-deconvolution and immune-program signatures.
+Reproducibility materials for the *Cancers* submission:
 
-## Publication link 
+> Integrated transcriptomic immune profiling identifies survival-associated immune ecotypes
+> in pediatric diffuse high-grade glioma
 
-Publication link will be provided after acceptance
+The publication link will be added after acceptance.
 
-## Description 
+## Final Cancers submission bundle
 
-We have performed immune deconvolution using signature matrix that we have created using brain specific immune cells. 
+[`cancers_submission_2026/`](cancers_submission_2026/) contains the analysis code, executed
+notebooks, non-identifiable derived feature matrices, locked ecotype assignments, software and
+package versions, analysis parameters and random seeds, final figures, legends, and supplementary
+files used for the September 2026 submission.
 
-Pediatric glioma, which are known to be immune desert in nature, seemed to have distinct immune microenvironment after applying brain-tuned deconvolution 
+The repository is intentionally limited to analyses reported in that submission. Raw expression
+data, restricted clinical data, individual survival times or status, histology records, and large
+serialized analysis objects are not redistributed. Sample-level derived files use pseudonymous
+Kids First biospecimen identifiers only.
 
-By classifying the pediatric glioma according to their immune profile, we were able to find relevance with tumor location and other clinical metadata 
+## Quick validation
 
-## How to use this repository 
+From the repository root:
 
-- You can download signature matrix
-- Check our immune profiling label for OpenPBTA v15 and perform your own Hazard ratio analysis or Kaplan Meier survival analysis
-- Validate our calculation for checking the statistical integrity of this article
+```bash
+python cancers_submission_2026/analysis_code/validate_public_bundle.py
+```
 
-## Cancers submission (September 2026)
+This checks the locked cohort size (n = 349), ecotype counts (111/160/78), feature-matrix
+dimensions, identifier agreement, checksums, and the public-data boundary.
 
-`cancers_submission_2026/` holds the display items of the submission to *Cancers* — Figures 1-7,
-Supplementary Figures S1-S16, the legends, the supplementary document and the 25-table
-supplementary workbook — together with figure-building code, analysis scripts, clean notebooks,
-and a curated non-identifiable reproducibility bundle.
-
-The same folder deposits, under `archived_analyses/`, the analyses that were part of the earlier
-revision package but are not submitted: the same-resource pooled sensitivity analyses, the
-BRAF/RTK-altered projection, the immune-checkpoint and CAR-T transcript panels, the
-differential-expression audit copy, the very small survival strata, and the hematopoietic stem
-and progenitor programs.
-
-The public bundle deliberately excludes raw expression matrices, clinical-level datasets, survival
-times/status, histology files, RDS/H5AD analysis objects, and other restricted inputs. Biospecimen
-identifiers in the deposited matrices are study pseudonyms. Run
-`python cancers_submission_2026/analysis_code/validate_public_bundle.py` to verify the locked
-cohort size, ecotype counts, matrix dimensions, identifier agreement, and restricted-file guard.
+See the [submission bundle README](cancers_submission_2026/README.md) for the directory map,
+analysis order, and input requirements.

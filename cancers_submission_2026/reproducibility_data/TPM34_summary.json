@@ -1,0 +1,26 @@
+{
+  "n": 349,
+  "n_features": 34,
+  "n_quantiseq": 10,
+  "n_ssgsea": 24,
+  "consensus_bootstrap": 500,
+  "subsample_fraction": 0.8,
+  "ARI_vs_canonical": 0.5541281521010023,
+  "NMI_vs_canonical": 0.5318449524958995,
+  "per_sample_agreement": 0.833810888252149,
+  "cluster_mapping": {
+    "0": "Lymphocyte-inflamed",
+    "1": "Myeloid-dominant",
+    "2": "Immune-desert"
+  },
+  "canonical_counts": {
+    "Lymphocyte-inflamed": 111,
+    "Myeloid-dominant": 160,
+    "Immune-desert": 78
+  },
+  "TPM34_counts": {
+    "Lymphocyte-inflamed": 103,
+    "Myeloid-dominant": 184,
+    "Immune-desert": 62
+  }
+}

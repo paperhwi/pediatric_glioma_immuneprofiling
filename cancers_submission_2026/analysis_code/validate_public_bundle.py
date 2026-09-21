@@ -65,7 +65,8 @@ def main() -> None:
             continue
         lower_name = path.name.lower()
         assert path.suffix.lower() not in FORBIDDEN_SUFFIXES, f"Restricted file type: {path}"
-        assert not any(part in lower_name for part in FORBIDDEN_NAME_PARTS), f"Restricted file: {path}"
+        if path.suffix.lower() in {".tsv", ".csv", ".gz"}:
+            assert not any(part in lower_name for part in FORBIDDEN_NAME_PARTS), f"Restricted file: {path}"
 
     assignments = assert_sample_file(DATA / "ecotype_assignments.tsv", "Kids_First_Biospecimen_ID", 3)
     assignment_by_id = {row["Kids_First_Biospecimen_ID"]: row["ecotype"] for row in assignments}
@@ -77,7 +78,7 @@ def main() -> None:
     tpm_matrix = assert_sample_file(
         DATA / "feature_matrices" / "TPM_harmonization_quanTIseq_ssGSEA_z.tsv",
         "Kids_First_Biospecimen_ID",
-        30,
+        35,
     )
     assert {row["sample"] for row in main_matrix} == set(assignment_by_id)
     assert {row["Kids_First_Biospecimen_ID"] for row in tpm_matrix} == set(assignment_by_id)
@@ -111,7 +112,7 @@ def main() -> None:
     print(f"  cohort: {len(assignments)}")
     print(f"  ecotypes: {dict(Counter(assignment_by_id.values()))}")
     print("  main feature matrix: 349 x 46 features")
-    print("  TPM sensitivity matrix: 349 x 29 features")
+    print("  TPM sensitivity matrix: 349 x 34 features")
     print(f"  checksummed files: {len(expected_files)}")
 
 

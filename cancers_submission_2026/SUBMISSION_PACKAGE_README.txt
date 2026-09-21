@@ -11,33 +11,26 @@ CONTENTS
 1. Main figures/            Figure1-Figure7, each as one assembled file
                             600 dpi PNG + vector PDF (Type-42 embedded fonts)
 
-2. Supplementary figures/   FigureS1-FigureS16, same two formats
+2. Supplementary figures/   FigureS1-FigureS15, same two formats
 
 3. Legends/                 Figure_and_Table_Legends_Cancers.docx
                             All main and supplementary figure legends, the five main
                             table legends, the supplementary table legends, the
-                            abbreviation list, and the list of items deposited in the
-                            repository rather than submitted.
+                            abbreviation list.
 
 4. Supplementary material/  Supplementary_Material_Cancers.docx
-                              one file: contents, all 16 supplementary figures with
+                              one file: contents, all 15 supplementary figures with
                               their legends, and the supplementary table legends
                             Supplementary_Tables_Cancers.xlsx
                               README     index of all 25 tables
-                              Crosswalk  every item of the previous version mapped
-                                         onto this one, including items moved to the
-                                         repository
-                              Citation_check  every display item, where it is already
-                                         cross-referenced, and the section where a
-                                         main-text citation is still needed
                               S1 - S25   one worksheet per table
 
-5. GitHub archive/          The analyses removed from this submission, as figures and
-                            source tables, for deposit at
-                            https://github.com/paperhwi/pediatric_glioma_immuneprofiling
-
-6. Scripts/                 Every script that generates or assembles the figures and
+5. Scripts/                 Every script that generates or assembles the figures and
                             tables in this package.
+
+6. Figure separate files/   Figure1A-Figure7B, 29 main-figure panels supplied separately
+                            as 600 dpi PNG and vector PDF; MANIFEST.tsv records dimensions
+                            and SHA-256 hashes.
 
 --------------------------------------------------------------------------------
 WHAT CHANGED RELATIVE TO THE PREVIOUS PACKAGE
@@ -55,17 +48,16 @@ Main figures
   Figure 4   unchanged.
   Figure 5   new: single-cell AUROC, cell-type source of the ecotype-axis genes, the
              three spatial sections, spatial coherence and Moran's I. The previous bulk
-             immune-program panels are Supplementary Figures S7 and S8.
+             immune-program panels are Supplementary Figures S6 and S7.
   Figure 6   molecular-group-adjusted volcanoes plus the overlap and gradient analysis;
              the Venn diagram is replaced by proportional overlap bars. Pathway
-             enrichment is Supplementary Figure S9.
+             enrichment is Supplementary Figure S8.
   Figure 7   overall Kaplan-Meier with numbers at risk and censoring marks, plus the
              multivariable Cox model. Subtype-stratified survival is Supplementary
-             Figure S11.
+             Figure S10.
 
 Supplementary figures
-  Renumbered from S1 with no gaps. Nine previous items are deposited in the repository
-  instead of being submitted; see "5. GitHub archive/README.txt" and the Crosswalk sheet.
+  Renumbered from S1 with no gaps.
 
 Supplementary tables
   Renumbered from S1 with no gaps, 25 tables. Audit copies, superseded pre-corrected
@@ -77,8 +69,7 @@ Supplementary tables
 TWO NUMBERS TO NOTE
 --------------------------------------------------------------------------------
   * Figure 6F reports the paired Wilcoxon signed-rank test as two-sided,
-    P = 1.5 x 10^-70. The earlier package quoted 7.6 x 10^-71, which is the one-sided
-    value for the same test on the same data. All other statistics are unchanged.
+    P = 1.5 × 10⁻⁷⁰. All other statistics are unchanged.
   * Figure 3 states that the k = 2-6 values reproduce the locked pipeline output to
     within 5 x 10^-5, and describes this as a separate 1,000-replicate rerun on the same
     cohort, that is, a resampling stability analysis, not an independent replication.
@@ -86,11 +77,9 @@ TWO NUMBERS TO NOTE
 --------------------------------------------------------------------------------
 STILL REQUIRED FROM THE AUTHORS
 --------------------------------------------------------------------------------
-  1. A main-text citation for every display item. The Citation_check sheet lists all 48
-     items, the ones already cross-referenced from another legend, and the section where
-     a main-text citation should be inserted. This was the Editor's point in the previous
+  1. A main-text citation for every display item. This was the Editor's point in the previous
      round and it is not fixed by renumbering alone.
-  2. The public repository and, if required, a Zenodo DOI for it.
+  2. A Zenodo DOI for the public repository, if required by the journal.
   3. Declarations: author contributions, acknowledgements, funding, conflict of interest.
   4. Study duration: the OpenPedCan release date and the analysis period.
   5. English-editing statement, if a service was used.
