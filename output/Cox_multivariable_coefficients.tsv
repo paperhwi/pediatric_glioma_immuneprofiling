@@ -1,8 +1,0 @@
-term,HR,HR_lower95,HR_upper95,p_value
-ecotypeIntermediate,1.371,0.985,1.909,0.0615
-ecotypeImmune-desert,1.793,1.208,2.66,0.00375
-cohort_groupDMG_K27,2.959,2.108,4.154,3.65e-10
-cohort_groupDHG_G34,1.154,0.594,2.24,0.672
-cohort_groupIHG,0.218,0.076,0.631,0.00497
-age_years,0.989,0.959,1.021,0.506
-reported_genderFemale,1.116,0.839,1.485,0.45
