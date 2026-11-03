@@ -1,0 +1,8 @@
+category	action	n
+No OS record	not in survival analyses	98
+R1 OS origin = diagnosis of the sequenced HGG	accept	231
+R1b origin not checkable (age at last follow-up missing); specimen is the initial tumour and OS >= EFS	accept	1
+R2 OS origin = earlier diagnosis of the same HGG (later specimen; interval equals recorded event-free interval)	accept	9
+R3a OS origin = a different, earlier tumour documented in the record	re-time from HGG diagnosis	2
+R3b sequenced HGG recorded as a second malignancy; OS origin = earlier malignancy	re-time from HGG diagnosis	1
+R3c sequenced specimen is the initial tumour but OS origin precedes it (internally inconsistent)	re-time from HGG diagnosis	1

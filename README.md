@@ -7,6 +7,16 @@ Reproducibility materials for the *Cancers* submission:
 
 The publication link will be added after acceptance.
 
+
+## Revision (November 2026): final cohort n = 343
+
+[`cancers_submission_2026/revision_2026_11_n343/`](cancers_submission_2026/revision_2026_11_n343/) contains the revised analysis.
+- **Cohort:** the six non-diffuse-HGG specimens are excluded before any analysis, giving n = 343.
+- **States:** the immune states were re-derived with the locked procedure and renamed Immune-high (122), Immune-intermediate (144) and Immune-low (77).
+- **Survival:** the corrected OS rule was applied to every record; the primary survival model is unchanged from submission.
+
+The n = 349 bundle below is kept as the record of the September submission.
+
 ## Final Cancers submission bundle
 
 [`cancers_submission_2026/`](cancers_submission_2026/) contains the analysis code, executed

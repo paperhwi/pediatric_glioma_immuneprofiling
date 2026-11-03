@@ -1,0 +1,9 @@
+state	set	n	autopsy	autopsy_%	deaths	deaths_non_autopsy	n_non_autopsy	test
+Immune-high	Cohort (n = 343)	122.0	11.0	9.01639344262295				autopsy by state, chi-square P = 0.0146
+Immune-intermediate	Cohort (n = 343)	144.0	30.0	20.833333333333332				
+Immune-low	Cohort (n = 343)	77.0	17.0	22.07792207792208				
+Total	Cohort (n = 343)	343.0	58.0	16.909620991253643				
+Immune-high	Survival set (n = 245)	89.0	11.0	12.359550561797754	65.0	54.0	78.0	autopsy by state, chi-square P = 0.00823
+Immune-intermediate	Survival set (n = 245)	105.0	28.0	26.666666666666668	94.0	66.0	77.0	
+Immune-low	Survival set (n = 245)	51.0	17.0	33.333333333333336	47.0	30.0	34.0	
+Total	Survival set (n = 245)	245.0	56.0	22.857142857142858	206.0	150.0	189.0	
