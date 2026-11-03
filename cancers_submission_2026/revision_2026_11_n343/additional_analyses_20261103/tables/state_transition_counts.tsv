@@ -1,0 +1,4 @@
+delivered_state	Immune-high	Immune-intermediate	Immune-low
+Immune-high	115	7	0
+Immune-intermediate	1	142	1
+Immune-low	0	0	77

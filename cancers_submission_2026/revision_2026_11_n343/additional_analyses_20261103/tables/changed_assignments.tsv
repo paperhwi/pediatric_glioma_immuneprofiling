@@ -1,0 +1,10 @@
+Biospecimen_ID	immune_state	restandardized_modal	restandardized_modal_frequency	molecular_group	RNA_library
+BS_4B0BAVTX	Immune-high	Immune-intermediate	1.0	DMG_K27	stranded
+BS_6M2053M0	Immune-high	Immune-intermediate	1.0	DMG_K27	poly-A
+BS_9TXEDSWB	Immune-high	Immune-intermediate	1.0	pHGG_WT	stranded
+BS_9XVACXP0	Immune-intermediate	Immune-low	1.0	IHG	stranded
+BS_H5VQJR7X	Immune-intermediate	Immune-high	0.68	DMG_K27	poly-A stranded
+BS_K74N1BXQ	Immune-high	Immune-intermediate	1.0	DMG_K27	exome_capture
+BS_M0FA190Y	Immune-high	Immune-intermediate	1.0	DMG_K27	exome_capture
+BS_S2TA8R29	Immune-high	Immune-intermediate	1.0	IHG	stranded
+BS_Z3RCA1T9	Immune-high	Immune-intermediate	1.0	DMG_K27	poly-A

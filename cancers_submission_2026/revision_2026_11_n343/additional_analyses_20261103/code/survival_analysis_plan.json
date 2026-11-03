@@ -1,0 +1,14 @@
+{
+  "outcome": "delivered corrected OS days with unchanged death/censoring indicator",
+  "primary_predictor": "delivered immune axis per 1 sample SD across n343",
+  "adjustments": [
+    "molecular group, reference pHGG_WT",
+    "age at diagnosis years",
+    "male, reference female"
+  ],
+  "additional_adjustment": "RNA library categorical, reference poly-A stranded; 4 levels, 3 indicators",
+  "sensitivity": "RNA-library-stratified baseline hazards, then repeat the same three models without autopsy specimens",
+  "cohort": "survival-evaluable n245, complete on all modeled covariates",
+  "method": "unpenalized Cox, Efron ties, Wald 95% CI and two-sided P; nested LRT on identical rows and strata",
+  "PH": "scaled Schoenfeld rank-time tests; diagnostic P values unadjusted"
+}

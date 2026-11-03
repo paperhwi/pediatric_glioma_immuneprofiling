@@ -1,0 +1,43 @@
+model	term	test_statistic	p	-log2(p)
+All survival-evaluable / Molecular group + age + sex	DHG_G34	3.3440644254637326	0.06744781100409641	3.8900845680212095
+All survival-evaluable / Molecular group + age + sex	DMG_K27	1.8277448546862554	0.17639414438714973	2.503125425170145
+All survival-evaluable / Molecular group + age + sex	IHG	0.31441455418905573	0.574983788405736	0.7984068148588063
+All survival-evaluable / Molecular group + age + sex	age_years	1.318894667399125	0.2507905196898505	1.9954452820542135
+All survival-evaluable / Molecular group + age + sex	immune_axis	1.1035722026183343	0.29348348960932213	1.7686487504233899
+All survival-evaluable / Molecular group + age + sex	male	0.0016533556399483994	0.967565773785411	0.04756835787975856
+All survival-evaluable / Molecular group + age + sex + RNA library	DHG_G34	3.7354807433324315	0.05326833587288742	4.230577978622871
+All survival-evaluable / Molecular group + age + sex + RNA library	DMG_K27	1.677861940737781	0.19520879268690194	2.3569100579696594
+All survival-evaluable / Molecular group + age + sex + RNA library	IHG	0.5751461906720651	0.4482211732536062	1.1577172938157614
+All survival-evaluable / Molecular group + age + sex + RNA library	age_years	1.2349888164384795	0.26643902132814	1.9081227070953464
+All survival-evaluable / Molecular group + age + sex + RNA library	immune_axis	0.8395886062340951	0.3595144561425211	1.4758783120230339
+All survival-evaluable / Molecular group + age + sex + RNA library	library_exome_capture	3.47541464242146	0.062287110001628405	4.004922553986176
+All survival-evaluable / Molecular group + age + sex + RNA library	library_poly-A	0.13801973697087086	0.7102576521409821	0.49358562514783294
+All survival-evaluable / Molecular group + age + sex + RNA library	library_stranded	1.5449008543462848	0.21388979442129183	2.225060447770319
+All survival-evaluable / Molecular group + age + sex + RNA library	male	0.0072391402865101245	0.9321952960179605	0.10129586202411109
+All survival-evaluable / Molecular group + age + sex; RNA-library strata	DHG_G34	0.5647874891337457	0.45233769615722896	1.1445278650180863
+All survival-evaluable / Molecular group + age + sex; RNA-library strata	DMG_K27	5.867589807971385	0.015422152479820463	6.018852052586426
+All survival-evaluable / Molecular group + age + sex; RNA-library strata	IHG	0.02115488869105386	0.8843577987247959	0.17729791304293113
+All survival-evaluable / Molecular group + age + sex; RNA-library strata	age_years	0.3519527866705352	0.5530097810976293	0.8546230972189687
+All survival-evaluable / Molecular group + age + sex; RNA-library strata	immune_axis	0.23660964488268604	0.6266656035207921	0.6742322863659806
+All survival-evaluable / Molecular group + age + sex; RNA-library strata	male	0.012048776683463826	0.9125942266440025	0.1319545680141772
+Excluding autopsy / Molecular group + age + sex	DHG_G34	4.111265609611818	0.04259847329771443	4.5530544636730275
+Excluding autopsy / Molecular group + age + sex	DMG_K27	1.4110988054364926	0.23487407092498042	2.090040639999134
+Excluding autopsy / Molecular group + age + sex	IHG	1.4500253457013383	0.22852388562024034	2.129583129319897
+Excluding autopsy / Molecular group + age + sex	age_years	1.2029291862841456	0.2727370133789587	1.8744175919400439
+Excluding autopsy / Molecular group + age + sex	immune_axis	0.46406256500999377	0.49573142332465914	1.012369383914903
+Excluding autopsy / Molecular group + age + sex	male	0.01215663531652669	0.9122054530552925	0.13256930040720244
+Excluding autopsy / Molecular group + age + sex + RNA library	DHG_G34	4.6811436177337145	0.0304954403993972	5.035262639063953
+Excluding autopsy / Molecular group + age + sex + RNA library	DMG_K27	1.6519643379036537	0.19869178495068635	2.331395870291288
+Excluding autopsy / Molecular group + age + sex + RNA library	IHG	1.1311807703669643	0.28752361854163866	1.7982476242100258
+Excluding autopsy / Molecular group + age + sex + RNA library	age_years	1.1305426212102725	0.2876596264089788	1.7975653446717634
+Excluding autopsy / Molecular group + age + sex + RNA library	immune_axis	0.5039983453236689	0.4777485326139762	1.0656766528594934
+Excluding autopsy / Molecular group + age + sex + RNA library	library_exome_capture	2.1573977038124763	0.1418848031105307	2.8172080202962797
+Excluding autopsy / Molecular group + age + sex + RNA library	library_poly-A	0.32142314570390146	0.570753639160754	0.8090599416946174
+Excluding autopsy / Molecular group + age + sex + RNA library	library_stranded	0.8070217821051145	0.36900222922032555	1.4382985629502163
+Excluding autopsy / Molecular group + age + sex + RNA library	male	0.10796423436287464	0.7424738366509138	0.4295879058749897
+Excluding autopsy / Molecular group + age + sex; RNA-library strata	DHG_G34	1.1786758873454353	0.27762572348803427	1.848786847470841
+Excluding autopsy / Molecular group + age + sex; RNA-library strata	DMG_K27	4.384769528348064	0.036261394166393256	4.785421795352465
+Excluding autopsy / Molecular group + age + sex; RNA-library strata	IHG	1.6622147657622375	0.19730455577574207	2.341503826513731
+Excluding autopsy / Molecular group + age + sex; RNA-library strata	age_years	0.18184929039224104	0.669788782907057	0.5782218797562453
+Excluding autopsy / Molecular group + age + sex; RNA-library strata	immune_axis	0.24673529881193854	0.6193832933142134	0.6910956253035767
+Excluding autopsy / Molecular group + age + sex; RNA-library strata	male	0.11761462358429944	0.7316361621946599	0.4508017107116576

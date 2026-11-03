@@ -1,0 +1,67 @@
+{
+  "cluster_assignment": {
+    "features": 46,
+    "n": 343,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "B": 500,
+    "pItem": 0.8,
+    "KMeans_n_init": 10,
+    "linkage": "average",
+    "distance": "1-consensus",
+    "k": 3,
+    "naming": "ordered mean T-cell cytotoxicity",
+    "aggregate": "per-sample mode; pandas lexical tie rule"
+  },
+  "rescaling": {
+    "formula": "(retained_Z - mean_n343) / sample_SD_n343",
+    "ddof": 1,
+    "raw_affine_equivalence": "re-z-scoring an affine standardized feature equals standardizing its original score, up to floating precision; no re-scoring of genes"
+  },
+  "k_diagnostics": {
+    "ks": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "B": 1000,
+    "pItem": 0.8,
+    "KMeans_n_init": 1,
+    "seed": 42,
+    "gap_references": 50,
+    "gap_KMeans_n_init": 10,
+    "gap_rule": "first k satisfying 1SE"
+  },
+  "comparison": "paired same seeds and sample order; reproduce old modal assignments before interpreting scaling sensitivity"
+}

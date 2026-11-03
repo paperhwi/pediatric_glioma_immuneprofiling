@@ -1,0 +1,42 @@
+{
+  "baseline_modal_reproduced": true,
+  "modal_agreement": 0.9737609329446064,
+  "modal_ARI": 0.9149481671210321,
+  "changed_samples": 9,
+  "best_PAC_k": 2,
+  "best_silhouette_k": 2,
+  "gap_selected_k": 3,
+  "elapsed_s": 182.4073703289032,
+  "clustering_summary": [
+    {
+      "input": "retained",
+      "n": 343,
+      "n_Immune-high": 122,
+      "n_Immune-intermediate": 144,
+      "n_Immune-low": 77,
+      "median_pairwise_ARI": 0.9416019485230714,
+      "min_pairwise_ARI": 0.7448922082996621,
+      "max_pairwise_ARI": 1.0,
+      "same_label_all25": 311,
+      "min_modal_frequency": 0.64,
+      "modal_ties": 0,
+      "agreement_vs_delivered": 1.0,
+      "ARI_vs_delivered": 1.0
+    },
+    {
+      "input": "restandardized",
+      "n": 343,
+      "n_Immune-high": 116,
+      "n_Immune-intermediate": 149,
+      "n_Immune-low": 78,
+      "median_pairwise_ARI": 0.9901561990105575,
+      "min_pairwise_ARI": 0.9706712585901174,
+      "max_pairwise_ARI": 1.0,
+      "same_label_all25": 339,
+      "min_modal_frequency": 0.68,
+      "modal_ties": 0,
+      "agreement_vs_delivered": 0.9737609329446064,
+      "ARI_vs_delivered": 0.9149481671210321
+    }
+  ]
+}

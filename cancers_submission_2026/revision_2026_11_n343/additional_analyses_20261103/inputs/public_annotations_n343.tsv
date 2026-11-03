@@ -1,0 +1,344 @@
+Biospecimen_ID	immune_state	molecular_group	RNA_library	immune_axis
+BS_00FD2KMP	Immune-low	pHGG_WT	exome_capture	-0.6410596602239758
+BS_028YFYJ6	Immune-intermediate	pHGG_WT	poly-A stranded	0.0140592094678718
+BS_052PZFMK	Immune-low	DHG_G34	stranded	-1.3622613578526157
+BS_056Q8577	Immune-high	DHG_G34	exome_capture	0.3995844790829136
+BS_08ST21QE	Immune-high	pHGG_WT	poly-A stranded	0.7489890036291806
+BS_0C7VZC0A	Immune-intermediate	pHGG_WT	stranded	-0.5420337307327763
+BS_0S8E7590	Immune-high	DMG_K27	exome_capture	1.2220770426322156
+BS_0VXZCRJS	Immune-intermediate	DMG_K27	poly-A stranded	-0.3524278644069899
+BS_0ZA67BBC	Immune-intermediate	DMG_K27	poly-A	-0.7597064934511208
+BS_12G04QJM	Immune-intermediate	pHGG_WT	poly-A stranded	-0.3503119992730852
+BS_17ZSMXFH	Immune-low	pHGG_WT	exome_capture	-0.746584527187493
+BS_1A6MQ9ZA	Immune-intermediate	DMG_K27	stranded	-0.014341080899363
+BS_1D93Z575	Immune-intermediate	DMG_K27	poly-A stranded	0.0669458852834993
+BS_1EN5V3XW	Immune-low	DHG_G34	stranded	-1.2225246482251657
+BS_223BM91B	Immune-high	DMG_K27	poly-A stranded	1.1147042449398716
+BS_25HNKZ79	Immune-high	IHG	poly-A stranded	1.0125076451612796
+BS_2853394H	Immune-low	DMG_K27	exome_capture	-1.236175703991126
+BS_297H8BT4	Immune-intermediate	DMG_K27	poly-A stranded	0.5649854860789565
+BS_29X4ZX6Q	Immune-low	pHGG_WT	stranded	-0.9944064336926708
+BS_2A5R9MEJ	Immune-low	DMG_K27	stranded	-1.2318459611135382
+BS_2ARXK0TD	Immune-high	DMG_K27	exome_capture	0.9047588251110724
+BS_2AV1H5TV	Immune-intermediate	DMG_K27	poly-A stranded	-0.0739466324803319
+BS_2EN3X6HB	Immune-intermediate	pHGG_WT	stranded	0.4138183040867549
+BS_2FEZWH1F	Immune-high	DMG_K27	poly-A stranded	1.3443471803838989
+BS_2HNXVFAS	Immune-intermediate	DMG_K27	stranded	-0.4295926845957533
+BS_2JH1QMT1	Immune-intermediate	pHGG_WT	poly-A stranded	-0.2195873405034737
+BS_2JP7RBMB	Immune-intermediate	DMG_K27	poly-A	-0.2446368647701039
+BS_2K01T8K6	Immune-high	DMG_K27	exome_capture	0.909875101189154
+BS_2PDS3MSS	Immune-high	DMG_K27	poly-A stranded	0.628988793372973
+BS_2T5PJAW8	Immune-high	pHGG_WT	poly-A stranded	0.4084526042676075
+BS_2WANPFBJ	Immune-high	DMG_K27	poly-A stranded	0.7078169897112152
+BS_30F3Z9FS	Immune-high	DMG_K27	exome_capture	0.5914931968695618
+BS_30VC3R2Q	Immune-intermediate	DMG_K27	stranded	-0.3642774735600467
+BS_30YWQ3FY	Immune-high	DMG_K27	exome_capture	0.5601674581448954
+BS_31MBRWC4	Immune-high	pHGG_WT	exome_capture	0.6691942431172204
+BS_333KCNDP	Immune-high	DMG_K27	exome_capture	1.667665387621149
+BS_399RPKC9	Immune-intermediate	DMG_K27	stranded	-0.2118498469768722
+BS_3AC3SRWH	Immune-low	pHGG_WT	poly-A stranded	-1.139950785784338
+BS_3MS8WVNR	Immune-low	DHG_G34	stranded	-1.170441383808312
+BS_3ZPJAK9A	Immune-intermediate	DMG_K27	exome_capture	-0.2751546324745795
+BS_45J79YTF	Immune-low	pHGG_WT	stranded	-1.7801555143207053
+BS_49BQS7Z6	Immune-intermediate	pHGG_WT	stranded	-0.3998293426620106
+BS_49CJNZ06	Immune-intermediate	DMG_K27	poly-A	-0.7979852231437427
+BS_4B0BAVTX	Immune-high	DMG_K27	stranded	0.2975377148554713
+BS_4BM3F6XJ	Immune-intermediate	pHGG_WT	poly-A stranded	0.1376705259922269
+BS_4C6B11E4	Immune-high	DMG_K27	stranded	0.84516149850094
+BS_4GNN7J8E	Immune-high	IHG	exome_capture	1.84683858531598
+BS_4KNBXM3C	Immune-high	DMG_K27	exome_capture	1.1306136276781609
+BS_4Q3KRCZT	Immune-high	pHGG_WT	exome_capture	1.1194459604399398
+BS_4QW2S1Q8	Immune-high	DMG_K27	stranded	0.8610991826248241
+BS_4T0HQ9QF	Immune-intermediate	DMG_K27	poly-A stranded	-0.3137968786985632
+BS_4V42BXBT	Immune-intermediate	pHGG_WT	stranded	-0.1296118382876114
+BS_51RA1PGE	Immune-intermediate	DMG_K27	stranded	0.058436280491541
+BS_52C576HH	Immune-intermediate	IHG	stranded	-0.3939917814298658
+BS_5965SFPZ	Immune-low	DMG_K27	stranded	-0.8373162899337334
+BS_5EFYPZT0	Immune-intermediate	DHG_G34	poly-A stranded	-0.3495707770512163
+BS_5G5BD2MD	Immune-high	pHGG_WT	poly-A stranded	1.4981622664145675
+BS_5K95FX4C	Immune-high	pHGG_WT	exome_capture	1.5863510170136386
+BS_5KBXD2GQ	Immune-intermediate	DMG_K27	poly-A stranded	-0.0150046712890917
+BS_5PXZ8F7W	Immune-intermediate	DMG_K27	poly-A stranded	0.1720348956139069
+BS_5VPM0F36	Immune-high	DMG_K27	poly-A	1.6686938660019628
+BS_62SW4CC5	Immune-high	pHGG_WT	exome_capture	1.9525029290445075
+BS_65WPD3DA	Immune-intermediate	pHGG_WT	exome_capture	-0.2239732374622289
+BS_68KX6A42	Immune-high	DMG_K27	poly-A	0.9144454489344592
+BS_6DCSD5Y6	Immune-low	DMG_K27	stranded	-1.417690630868163
+BS_6H4Q24WA	Immune-high	DMG_K27	exome_capture	1.2501346099026376
+BS_6M2053M0	Immune-high	DMG_K27	poly-A	0.2602889473897622
+BS_6SY64H5J	Immune-high	DMG_K27	exome_capture	1.6152452586814827
+BS_6VRG1XFB	Immune-intermediate	pHGG_WT	poly-A stranded	-0.3225236379076014
+BS_6WP1FHTE	Immune-high	DMG_K27	stranded	0.6508316733798726
+BS_7327SDAQ	Immune-intermediate	pHGG_WT	stranded	-0.3784563970657614
+BS_75YRDXET	Immune-high	DMG_K27	exome_capture	2.1203927894798844
+BS_77SBTNPN	Immune-intermediate	pHGG_WT	poly-A stranded	-0.3327389462993915
+BS_7AEF4D4G	Immune-high	DMG_K27	poly-A stranded	0.8041186235606688
+BS_7APCGCVF	Immune-intermediate	DMG_K27	poly-A stranded	0.3750417826866026
+BS_7GJT4A6A	Immune-low	DMG_K27	stranded	-1.038244595337025
+BS_7GKWKGPH	Immune-high	pHGG_WT	stranded	0.9451584945472642
+BS_7PVJ6Q3D	Immune-low	DMG_K27	poly-A stranded	-0.7987187992744057
+BS_7WKNNRHK	Immune-intermediate	DHG_G34	poly-A stranded	-0.0327184891586787
+BS_84VZX732	Immune-high	DMG_K27	poly-A stranded	0.6319846750916192
+BS_84XCR9GG	Immune-intermediate	pHGG_WT	stranded	-0.3960217950644413
+BS_8E8JKP01	Immune-low	DHG_G34	stranded	-1.3642303421950026
+BS_8ERBDF7D	Immune-low	DHG_G34	poly-A stranded	-0.9011318243088008
+BS_8JK9TXH2	Immune-intermediate	DMG_K27	poly-A stranded	0.2972408153984899
+BS_8VD670NP	Immune-intermediate	DMG_K27	poly-A stranded	-0.2709229384991867
+BS_8YWYN7VH	Immune-high	DMG_K27	poly-A stranded	0.6784916512078027
+BS_8ZE4Z9G5	Immune-intermediate	DHG_G34	exome_capture	0.2202454925906676
+BS_8ZY4GST0	Immune-low	DMG_K27	poly-A	-1.1334914889912633
+BS_91VYM11A	Immune-intermediate	pHGG_WT	stranded	0.2661019636373394
+BS_956G6QPJ	Immune-intermediate	DMG_K27	poly-A stranded	-0.0155413899780263
+BS_97M1E2DW	Immune-low	DMG_K27	stranded	-1.3939949680262391
+BS_9A1YTHFF	Immune-high	DMG_K27	exome_capture	1.1345981542430017
+BS_9B0A62MT	Immune-high	DMG_K27	exome_capture	0.6268224725317353
+BS_9CA93S6D	Immune-low	DMG_K27	stranded	-2.2612036718802173
+BS_9FHEFJNP	Immune-intermediate	DHG_G34	poly-A stranded	-0.0666378379304394
+BS_9FX3YREK	Immune-low	DMG_K27	stranded	-1.5288522010536985
+BS_9GJ3DB1H	Immune-high	DMG_K27	exome_capture	0.6758296547218935
+BS_9JPQZQNG	Immune-intermediate	DHG_G34	poly-A stranded	-0.3955142627091255
+BS_9TXEDSWB	Immune-high	pHGG_WT	stranded	0.463504526646979
+BS_9XVACXP0	Immune-intermediate	IHG	stranded	-1.007745619472139
+BS_9Y1K14Q5	Immune-intermediate	pHGG_WT	poly-A stranded	-0.3600266052981433
+BS_9ZJT0CP0	Immune-intermediate	DMG_K27	stranded	0.0056456722759396
+BS_A4PF49V0	Immune-low	DMG_K27	poly-A stranded	-0.8253927678033426
+BS_A6NXR7RC	Immune-intermediate	pHGG_WT	stranded	0.1632191397490536
+BS_A7Q8G0Y1	Immune-intermediate	DMG_K27	stranded	-0.1472052854951154
+BS_A8XW5S0W	Immune-intermediate	pHGG_WT	exome_capture	0.362734954484814
+BS_AWH9757B	Immune-low	pHGG_WT	stranded	-1.023960638213773
+BS_AYSXRQWY	Immune-intermediate	DMG_K27	poly-A stranded	0.561904697430567
+BS_AZQM1JJH	Immune-high	DMG_K27	exome_capture	0.7897313759669601
+BS_B1C6GZ84	Immune-low	DMG_K27	stranded	-0.9065697997980288
+BS_B3MQFFYP	Immune-high	DMG_K27	poly-A stranded	1.4795296348808644
+BS_B4R7X1KE	Immune-low	DHG_G34	stranded	-0.9934725604400882
+BS_B57327NA	Immune-intermediate	DMG_K27	stranded	0.2944654797907715
+BS_BBAEMXRD	Immune-low	DHG_G34	stranded	-1.1392961244219288
+BS_BBQ6BHGN	Immune-intermediate	DMG_K27	poly-A stranded	-0.3951335355966361
+BS_BK0HGRXM	Immune-high	pHGG_WT	exome_capture	1.0114520378480614
+BS_BMMY0H73	Immune-intermediate	DMG_K27	poly-A stranded	0.037138560429513
+BS_C6ZZ3FY5	Immune-intermediate	DHG_G34	stranded	-0.0861533726684706
+BS_C83TK159	Immune-intermediate	DMG_K27	poly-A	-0.3061531525118229
+BS_CBDQZ8PP	Immune-low	pHGG_WT	poly-A stranded	-1.7585745693329704
+BS_CF63VG3S	Immune-intermediate	pHGG_WT	exome_capture	0.0210163532922933
+BS_CFD3WHAY	Immune-intermediate	pHGG_WT	poly-A stranded	0.1412713059518847
+BS_CG1RG607	Immune-high	pHGG_WT	exome_capture	1.3854692650147171
+BS_CVEDJGHZ	Immune-high	DMG_K27	exome_capture	1.598189595579034
+BS_CXAQDK7S	Immune-high	pHGG_WT	poly-A stranded	1.6942312683213456
+BS_CZPQ493E	Immune-intermediate	DMG_K27	exome_capture	0.433232557834637
+BS_D29RPBSZ	Immune-intermediate	DMG_K27	stranded	0.0988746635651289
+BS_D4VNDNQA	Immune-low	pHGG_WT	poly-A stranded	-0.8243124266480314
+BS_D6J2BGDJ	Immune-low	pHGG_WT	stranded	-1.3927534637419052
+BS_DFGS950G	Immune-low	pHGG_WT	stranded	-1.718302167620858
+BS_DNZVP92S	Immune-intermediate	pHGG_WT	exome_capture	-0.5372958420799738
+BS_DR079H0D	Immune-low	DMG_K27	exome_capture	-0.7937691567881716
+BS_DS438CXE	Immune-low	pHGG_WT	stranded	-2.409334114516283
+BS_DSPVSM7D	Immune-intermediate	DMG_K27	stranded	-0.5568347568125889
+BS_DZNXFPH1	Immune-high	DMG_K27	poly-A stranded	1.3866956695500834
+BS_E7NVYA6G	Immune-high	DMG_K27	exome_capture	1.279589848198752
+BS_E9CYN4NP	Immune-low	pHGG_WT	poly-A stranded	-0.9830944087409388
+BS_EB0XRBT9	Immune-high	pHGG_WT	exome_capture	1.1599473063477324
+BS_EDJ5TV0P	Immune-low	pHGG_WT	poly-A stranded	-1.5363950795959214
+BS_EMQM7HTA	Immune-intermediate	DMG_K27	poly-A stranded	-0.400112718432915
+BS_ENEYB4TG	Immune-high	DMG_K27	exome_capture	1.1054889371963728
+BS_EXPJQZTH	Immune-high	DHG_G34	stranded	0.9526063124020812
+BS_EZ3147MX	Immune-intermediate	DMG_K27	poly-A	-0.1365435648695202
+BS_F0JB4EAK	Immune-low	pHGG_WT	poly-A	-0.8957037963003918
+BS_F21R36MM	Immune-intermediate	pHGG_WT	exome_capture	-0.1065492907230609
+BS_F65GWS21	Immune-intermediate	DMG_K27	poly-A stranded	-0.7181154729240999
+BS_F9Y4Z92G	Immune-low	pHGG_WT	stranded	-1.4535119823046323
+BS_FCDAH728	Immune-intermediate	DMG_K27	poly-A	-0.5275902441219655
+BS_FEV5A0HN	Immune-low	pHGG_WT	stranded	-2.178261057704769
+BS_FGJH1X0S	Immune-intermediate	DHG_G34	stranded	-0.8415724147073593
+BS_FKASA3MN	Immune-low	DHG_G34	stranded	-2.5786341108800546
+BS_FN07P04C	Immune-low	pHGG_WT	stranded	-1.6938275419929312
+BS_FX2P2WEG	Immune-high	pHGG_WT	stranded	0.8101209389669757
+BS_FXJY0MNH	Immune-high	pHGG_WT	stranded	0.7402819078966135
+BS_FYP2B298	Immune-low	DHG_G34	stranded	-0.7720508427185836
+BS_G19QZG4S	Immune-intermediate	DMG_K27	poly-A stranded	0.0393698535385933
+BS_G1E5DATJ	Immune-intermediate	pHGG_WT	exome_capture	0.3883101846058781
+BS_G257VSS9	Immune-low	DHG_G34	poly-A stranded	-0.6612063212104529
+BS_G3NN392N	Immune-intermediate	DMG_K27	poly-A	0.0217307457939169
+BS_G3RJTBZD	Immune-low	pHGG_WT	stranded	-1.140901090086727
+BS_G5NHSFD4	Immune-low	pHGG_WT	stranded	-1.061234578390309
+BS_G8TXTX0H	Immune-intermediate	DMG_K27	poly-A stranded	-0.1740649924753617
+BS_GG9W3J9Y	Immune-low	pHGG_WT	stranded	-0.9258255960670516
+BS_GW0GKWMS	Immune-intermediate	DMG_K27	stranded	-0.6705657704482051
+BS_GWHYM3R4	Immune-intermediate	DMG_K27	poly-A stranded	-0.2348342952844299
+BS_GWSJ4Z9H	Immune-high	DMG_K27	poly-A	0.8058623128010062
+BS_H5VQJR7X	Immune-intermediate	DMG_K27	poly-A stranded	0.58532826775447
+BS_H97S5SQN	Immune-intermediate	DMG_K27	poly-A	-0.0429640687898664
+BS_H9JYKFTV	Immune-intermediate	pHGG_WT	stranded	-0.1270758835097231
+BS_HDHXX8Q7	Immune-intermediate	DMG_K27	poly-A stranded	-0.1037195706005807
+BS_HDPCQETG	Immune-high	pHGG_WT	poly-A stranded	1.167931397479136
+BS_HJRTC9JQ	Immune-high	pHGG_WT	stranded	1.2157179575629244
+BS_HRJ9145M	Immune-high	pHGG_WT	exome_capture	1.6178999931644649
+BS_HWGWYCY7	Immune-high	pHGG_WT	poly-A stranded	1.4394948060170312
+BS_HZ9AYDCQ	Immune-high	DMG_K27	exome_capture	0.5519047673193461
+BS_J4JY2F3H	Immune-high	DMG_K27	poly-A stranded	0.9247628787680896
+BS_J6212Y48	Immune-intermediate	pHGG_WT	poly-A stranded	-0.0920600684895629
+BS_J6W1RB7A	Immune-intermediate	DMG_K27	poly-A stranded	0.2990551642703465
+BS_J9CBGP57	Immune-intermediate	pHGG_WT	stranded	-0.284967717624656
+BS_JB43XBCQ	Immune-high	DMG_K27	poly-A	1.4984193637004986
+BS_JDSNFYQ0	Immune-high	pHGG_WT	poly-A stranded	0.5178115286851463
+BS_JJVH7WR0	Immune-low	DHG_G34	stranded	-1.5739396034276765
+BS_JMD386Z2	Immune-intermediate	pHGG_WT	stranded	0.095168253940447
+BS_JP95KMRD	Immune-high	DMG_K27	exome_capture	0.921768663533626
+BS_JQGJQ2QZ	Immune-intermediate	DMG_K27	exome_capture	0.2818678084238949
+BS_JQVAWTTM	Immune-high	DMG_K27	poly-A	0.3733774058542003
+BS_JQXHHK0K	Immune-low	pHGG_WT	stranded	-1.0673573018729212
+BS_JRYJGYC4	Immune-intermediate	pHGG_WT	stranded	0.0021008629594753
+BS_JS95PE0J	Immune-intermediate	pHGG_WT	stranded	-0.102626535187423
+BS_JTWNJ8T7	Immune-low	pHGG_WT	stranded	-2.152783761337894
+BS_JVW2JJ39	Immune-low	pHGG_WT	stranded	-1.942180704335684
+BS_K0X3PZGN	Immune-high	pHGG_WT	exome_capture	2.503670229242005
+BS_K17VQECG	Immune-high	pHGG_WT	stranded	0.6507740847692158
+BS_K2PCC777	Immune-high	DMG_K27	exome_capture	1.8401752161420384
+BS_K74N1BXQ	Immune-high	DMG_K27	exome_capture	0.2521069740295382
+BS_K81PZXP2	Immune-high	DMG_K27	poly-A stranded	0.6574749210701585
+BS_K88T8SW7	Immune-high	pHGG_WT	exome_capture	2.2200902121340484
+BS_KABQQA0T	Immune-low	DMG_K27	stranded	-1.3227787735220906
+BS_KBEX4RT2	Immune-intermediate	DMG_K27	poly-A stranded	-0.6936890166828303
+BS_KFD5128N	Immune-intermediate	pHGG_WT	stranded	-0.2845512735393751
+BS_KKDTW11T	Immune-low	DHG_G34	exome_capture	-0.7311582997011845
+BS_KP735TJ6	Immune-low	IHG	stranded	-1.498421601861604
+BS_KQ6ZW085	Immune-intermediate	pHGG_WT	stranded	-0.2288318486058342
+BS_KRS4EV4X	Immune-intermediate	pHGG_WT	exome_capture	-0.0692403049375137
+BS_KS8HMGA6	Immune-high	DMG_K27	exome_capture	1.3153961479904834
+BS_KVPWHDR4	Immune-intermediate	DMG_K27	poly-A stranded	0.0301199132790556
+BS_M0FA190Y	Immune-high	DMG_K27	exome_capture	0.282424161277435
+BS_M0XGZ53Z	Immune-low	pHGG_WT	stranded	-1.7517138494420452
+BS_M1PVEHCM	Immune-low	DMG_K27	stranded	-2.0283310823081147
+BS_M54TWTH4	Immune-high	pHGG_WT	exome_capture	0.2863773998850628
+BS_M7XB258E	Immune-high	DMG_K27	poly-A stranded	1.7362395116156346
+BS_M85CXHDV	Immune-high	DHG_G34	stranded	1.141009957542186
+BS_MB7WN0ZB	Immune-intermediate	DMG_K27	stranded	-0.0076602556540016
+BS_MD0937XT	Immune-low	pHGG_WT	stranded	-1.3840833593795732
+BS_MDBT7S5Z	Immune-low	DMG_K27	stranded	-1.7111245995909323
+BS_ME6VQGG4	Immune-intermediate	pHGG_WT	stranded	-0.118190055104361
+BS_MFGZH8FK	Immune-intermediate	DMG_K27	poly-A stranded	-0.2232620690491011
+BS_MG78HQDM	Immune-low	pHGG_WT	stranded	-2.7005387470927387
+BS_MWWZBQ60	Immune-intermediate	DMG_K27	stranded	-0.2959123775852984
+BS_N6TQBQ8M	Immune-intermediate	pHGG_WT	poly-A stranded	-0.5220974086639047
+BS_N7SW36FD	Immune-high	pHGG_WT	poly-A stranded	0.8237486564824592
+BS_N7VQ1GQB	Immune-high	pHGG_WT	poly-A stranded	0.7157127811484452
+BS_NB9XXBW6	Immune-intermediate	DMG_K27	poly-A	-0.1611625297392742
+BS_NEFAASTR	Immune-high	DMG_K27	exome_capture	0.6345790501454683
+BS_NEVYM2FP	Immune-intermediate	DMG_K27	poly-A	-0.1188190863045595
+BS_NFKKDYSV	Immune-high	pHGG_WT	poly-A stranded	0.9795993072598066
+BS_NGSG2KB6	Immune-high	DMG_K27	poly-A	1.0526346333854246
+BS_NNYXMSTX	Immune-high	pHGG_WT	poly-A stranded	0.8543946760954428
+BS_NPA6CZQF	Immune-low	pHGG_WT	poly-A stranded	-0.8678709906503517
+BS_NQ54ST98	Immune-high	DMG_K27	poly-A stranded	0.6100761905838418
+BS_NR3P3GN2	Immune-intermediate	DMG_K27	stranded	0.3158570147273154
+BS_NX1R0BC3	Immune-high	pHGG_WT	exome_capture	0.7989584420664453
+BS_P0QF87WC	Immune-intermediate	pHGG_WT	stranded	0.2787284118348634
+BS_P4PMWFMV	Immune-intermediate	DMG_K27	poly-A stranded	-0.1360473558506372
+BS_P7W3AYKV	Immune-high	pHGG_WT	exome_capture	0.3813890946710183
+BS_PENM28KT	Immune-intermediate	pHGG_WT	stranded	-0.2210237455230644
+BS_PJC6FH4Y	Immune-high	DMG_K27	stranded	1.4283838565325586
+BS_PS0P3QJ3	Immune-intermediate	IHG	poly-A stranded	-0.5062628909339174
+BS_PXCPK5XS	Immune-intermediate	pHGG_WT	poly-A stranded	-0.0381868682921714
+BS_PZVHMSYN	Immune-intermediate	DMG_K27	stranded	-0.597555948228211
+BS_Q06J3RYW	Immune-high	pHGG_WT	exome_capture	1.01784726892458
+BS_Q35GFYDR	Immune-intermediate	DMG_K27	poly-A stranded	-0.7176900038233441
+BS_Q9N5PRD5	Immune-intermediate	DMG_K27	poly-A stranded	-0.2014914158495216
+BS_QB84TBA3	Immune-low	DMG_K27	stranded	-1.699541581368574
+BS_QGKEP3KB	Immune-high	DMG_K27	poly-A stranded	1.3017936354840622
+BS_QH0VYVJK	Immune-intermediate	DHG_G34	poly-A stranded	0.5817315669443974
+BS_QHY302E8	Immune-high	pHGG_WT	poly-A stranded	0.7167192047861548
+BS_QMBS32Y2	Immune-intermediate	pHGG_WT	poly-A stranded	-0.277690468131585
+BS_QNNX91SM	Immune-intermediate	DMG_K27	poly-A	-0.2662547418262802
+BS_QY2G1JZJ	Immune-intermediate	DMG_K27	exome_capture	0.3658560189029771
+BS_QYA4TQXX	Immune-low	DHG_G34	poly-A stranded	-0.8701122964455856
+BS_R5JQE0VJ	Immune-intermediate	pHGG_WT	poly-A stranded	-0.2358277968341459
+BS_R5SNFB5B	Immune-low	pHGG_WT	stranded	-1.7230501989889884
+BS_R9B92M75	Immune-intermediate	DMG_K27	poly-A	-0.0123498718204694
+BS_RHAWQJ48	Immune-high	DMG_K27	exome_capture	1.0986745922125936
+BS_RHM60031	Immune-intermediate	pHGG_WT	poly-A stranded	0.1602520509223392
+BS_RJC3WDD6	Immune-low	DHG_G34	stranded	-2.6537996120493674
+BS_RN0VAY51	Immune-intermediate	DMG_K27	exome_capture	0.2578182210689192
+BS_RX1YTZ7F	Immune-intermediate	DMG_K27	poly-A stranded	-0.1915477927911277
+BS_RZBFH1QF	Immune-low	DMG_K27	stranded	-1.9366190497649207
+BS_S2TA8R29	Immune-high	IHG	stranded	0.3669310757412485
+BS_S3C2PZAH	Immune-intermediate	pHGG_WT	poly-A stranded	0.3881908781160224
+BS_S3MET0JZ	Immune-intermediate	DMG_K27	stranded	0.1128899330917787
+BS_S5P8VTN5	Immune-intermediate	DMG_K27	stranded	0.1708580224364399
+BS_S6B9DVNS	Immune-low	DHG_G34	stranded	-1.9752965317630449
+BS_S6S7SK3P	Immune-low	pHGG_WT	stranded	-1.52433526261672
+BS_S8K878T3	Immune-high	pHGG_WT	exome_capture	1.7847963119608043
+BS_SBMAM00V	Immune-intermediate	pHGG_WT	exome_capture	-0.1543584516583782
+BS_SBMCD7XZ	Immune-high	IHG	poly-A stranded	0.3864821783705072
+BS_SD0EMK7Y	Immune-high	DMG_K27	exome_capture	0.5267187022614814
+BS_SD8YBRBR	Immune-low	pHGG_WT	stranded	-2.188841176268812
+BS_SERDGASJ	Immune-high	DMG_K27	exome_capture	0.6853601281728443
+BS_SJVTZ5TH	Immune-intermediate	DMG_K27	poly-A stranded	-0.305503717460055
+BS_SMWQR2F1	Immune-intermediate	DMG_K27	poly-A stranded	0.0690959994400768
+BS_SNVM7CZT	Immune-high	pHGG_WT	poly-A stranded	0.6105822289345042
+BS_SR2RGDXJ	Immune-intermediate	DMG_K27	poly-A stranded	0.2617050379976087
+BS_SW9Z10F9	Immune-high	DMG_K27	poly-A stranded	0.7108710420497363
+BS_SY3J3XR9	Immune-low	pHGG_WT	stranded	-1.2202613194729028
+BS_T1YHK6B7	Immune-intermediate	DMG_K27	stranded	-0.1902339127984701
+BS_T2F48Z4E	Immune-high	pHGG_WT	stranded	0.9468019807978644
+BS_T9A8JJW5	Immune-intermediate	DHG_G34	stranded	-0.4223831748720872
+BS_TASG32Z2	Immune-intermediate	DMG_K27	poly-A stranded	-0.341321794726702
+BS_TGS109T3	Immune-low	DMG_K27	stranded	-0.8778972039146716
+BS_TM9MH0RP	Immune-intermediate	DMG_K27	stranded	0.2084311622089466
+BS_TR2P8KRF	Immune-intermediate	DMG_K27	stranded	-0.2167998268881111
+BS_TRKH2SPE	Immune-intermediate	DMG_K27	stranded	-0.6942093915562232
+BS_TRPXB3AV	Immune-intermediate	DHG_G34	stranded	-0.4934037672740084
+BS_TTDNZTZ0	Immune-high	pHGG_WT	poly-A stranded	1.2222115041518706
+BS_TTE04ZP8	Immune-high	DMG_K27	exome_capture	0.8700560234563878
+BS_TV5B86ZD	Immune-low	DHG_G34	stranded	-1.4823906155564244
+BS_TVH33J9Q	Immune-intermediate	pHGG_WT	stranded	-0.617543368228475
+BS_TXZ7KHTQ	Immune-intermediate	DMG_K27	stranded	-0.3213479083891492
+BS_V0DQFC75	Immune-intermediate	DMG_K27	poly-A stranded	-0.3054326959585678
+BS_V3Z3DB4N	Immune-low	pHGG_WT	stranded	-1.0507844319386834
+BS_V558NW3Q	Immune-high	DMG_K27	exome_capture	1.522546311374436
+BS_V6RSB5HQ	Immune-intermediate	DMG_K27	poly-A stranded	-0.5764173363871854
+BS_V8QWBVS3	Immune-high	DMG_K27	poly-A stranded	2.3651140441565173
+BS_VBMRQK4F	Immune-intermediate	DMG_K27	exome_capture	0.2486849648674942
+BS_VDFXXMEX	Immune-low	DMG_K27	poly-A stranded	-0.9958511230441588
+BS_VF3NVT4G	Immune-high	DMG_K27	exome_capture	0.7352036025242256
+BS_VKH87DD2	Immune-high	DMG_K27	poly-A stranded	0.8626178510090678
+BS_VKHJG2B8	Immune-intermediate	pHGG_WT	exome_capture	0.2915766245997241
+BS_VKYEM67A	Immune-high	DMG_K27	stranded	0.8320826009460041
+BS_VMQMGSJY	Immune-high	DMG_K27	stranded	0.8481542498656174
+BS_VVTHDRBD	Immune-intermediate	pHGG_WT	stranded	-0.6304666116926712
+BS_W1385R8Y	Immune-low	pHGG_WT	poly-A stranded	-0.738573465274924
+BS_W4DB5RP1	Immune-low	DMG_K27	stranded	-1.7457178854708832
+BS_W7MFJZ5A	Immune-high	pHGG_WT	poly-A	1.138750528875603
+BS_WBVSK3MP	Immune-low	DHG_G34	stranded	-2.2048656064608867
+BS_WEKK6SHP	Immune-intermediate	DMG_K27	poly-A stranded	0.0618831220392036
+BS_WHBEXD5H	Immune-high	pHGG_WT	stranded	1.043974243250872
+BS_WQ1YRTAT	Immune-low	pHGG_WT	stranded	-2.846678165401954
+BS_WTJEDTZC	Immune-intermediate	pHGG_WT	poly-A stranded	0.5073603857776711
+BS_WVRX4C9Z	Immune-high	pHGG_WT	exome_capture	1.4447326166471284
+BS_X0XXN9BK	Immune-high	pHGG_WT	poly-A stranded	0.8507087793369595
+BS_X1G0TKP4	Immune-high	pHGG_WT	poly-A stranded	0.5723950302537939
+BS_X20JCR4H	Immune-high	DMG_K27	exome_capture	0.8609972344097158
+BS_X23724NJ	Immune-intermediate	pHGG_WT	stranded	0.0526474436030407
+BS_X3HR4Z21	Immune-intermediate	DMG_K27	poly-A stranded	0.1187544652297088
+BS_X4DD4KSZ	Immune-high	DMG_K27	poly-A	1.589708422399771
+BS_X4X1SFSE	Immune-low	pHGG_WT	stranded	-0.8030207544239414
+BS_XG0DBWVT	Immune-low	DMG_K27	stranded	-1.0812716881902005
+BS_XGDPK33A	Immune-intermediate	DMG_K27	poly-A	-0.3466618244115603
+BS_XM1AHBDJ	Immune-low	DMG_K27	poly-A	-0.927669018646474
+BS_XQ5SFW35	Immune-intermediate	pHGG_WT	stranded	0.4488837291644375
+BS_XQXXBWPD	Immune-high	DMG_K27	poly-A stranded	0.8974426593219254
+BS_XYVCMF4A	Immune-intermediate	pHGG_WT	poly-A stranded	-0.5773454225914881
+BS_XZM79E42	Immune-high	DMG_K27	poly-A stranded	1.029268451776528
+BS_YA0KMBRT	Immune-intermediate	pHGG_WT	stranded	-0.7334105751669983
+BS_YDEVMD24	Immune-intermediate	DMG_K27	poly-A	-0.3285946433473207
+BS_YMKQT5V0	Immune-high	DMG_K27	exome_capture	1.4677181739998175
+BS_YR12D1ZY	Immune-high	DMG_K27	exome_capture	0.6766479593944343
+BS_YSZRQ95C	Immune-intermediate	IHG	poly-A stranded	-0.003613726577212
+BS_YTWEM5SG	Immune-high	DMG_K27	exome_capture	1.4940519154505945
+BS_YZ2QFDAN	Immune-intermediate	pHGG_WT	poly-A stranded	-0.0682244675786063
+BS_Z0ZPD9S9	Immune-high	DMG_K27	poly-A stranded	0.6965076343483129
+BS_Z3RCA1T9	Immune-high	DMG_K27	poly-A	0.3906060640765327
+BS_Z8F3GM85	Immune-high	DHG_G34	stranded	0.5952295755907795
+BS_ZD5HN296	Immune-high	pHGG_WT	poly-A stranded	1.809967794175704
+BS_ZF6BSFNF	Immune-intermediate	DMG_K27	poly-A	-0.0096648958207223
+BS_ZM97KKXE	Immune-high	DMG_K27	poly-A stranded	0.6846511696932431
+BS_ZV1P6W9C	Immune-low	DMG_K27	stranded	-0.810384791720584
+BS_ZVM8CAB0	Immune-high	IHG	poly-A stranded	1.9831695183109963

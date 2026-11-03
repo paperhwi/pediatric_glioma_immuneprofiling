@@ -34,6 +34,7 @@ T=pd.DataFrame(rows); T.to_csv(ROOT+"out/T_OS_origin_audit_all_n343.tsv",sep="\t
 S=T.groupby(["category","action"]).size().rename("n").reset_index(); S.to_csv(ROOT+"out/T_OS_origin_audit_summary.tsv",sep="\t",index=False)
 print(S.to_string()); print(T[T.action!="accept"][T.action!="not in survival analyses"][["Kids_First_Participant_ID","category","OS_days_released","OS_days_used"]].to_string())
 fix=T[T.action.str.startswith("re-time")].set_index("Kids_First_Participant_ID").OS_days_used.astype(int).to_dict()
+assert len(fix)==4, "The final n343 audit must identify four origin corrections."
 import os
 f=os.path.join(os.path.dirname(os.path.abspath(__file__)),"restricted_os_fix.tsv")
 if not OS_FIX: pd.Series(fix,name="OS_days").to_csv(f,sep="\t"); print("wrote",f,"- rerun the pipeline")

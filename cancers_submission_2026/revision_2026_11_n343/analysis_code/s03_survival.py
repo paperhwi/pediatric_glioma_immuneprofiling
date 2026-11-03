@@ -1,5 +1,7 @@
 """Survival analyses on n = 343 (corrected OS). Primary model fixed in advance = the submitted model:
-immune state + molecular group + age + sex. All sensitivity analyses are reported regardless of significance."""
+immune state + molecular group + age + sex. All sensitivity analyses are reported regardless of significance.
+Continuous-axis RNA-library-controlled follow-up fits are in ../additional_analyses_20261103/code/axis_library_survival.py;
+aggregate results are kept separately so the original primary T_immune_axis_cox.tsv remains identifiable."""
 import sys; sys.path.insert(0,"/home/claude/q343/src"); from common import *
 from lifelines.statistics import multivariate_logrank_test, proportional_hazard_test, logrank_test
 from scipy.stats import chi2

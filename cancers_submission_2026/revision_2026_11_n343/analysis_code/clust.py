@@ -1,11 +1,12 @@
-"""Locked n=344 consensus clustering (cluster344.py settings: B=500, pItem=0.8, KMeans n_init=10,
+"""Locked consensus clustering applied to the n=343 retained-input primary partition (cluster344.py settings: B=500, pItem=0.8, KMeans n_init=10,
 average linkage on 1-consensus, k=3) for a list of seeds; states named by mean T-cell cytotoxicity
 (highest = Immune-high, lowest = Immune-low, remaining = Immune-intermediate)."""
 import pandas as pd, numpy as np, sys, json
 from sklearn.cluster import KMeans
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import squareform
-R='op/Revision/pediatric_glioma_immuneprofiling/Pediatric Glioma Immune Profiling Source Folder/reproducibility_data/'
+from pathlib import Path
+R=str(Path(__file__).resolve().parents[2]/'reproducibility_data')+'/'
 feat=pd.read_csv(R+'feature_matrices/main_cohort_LM22_ssGSEA_z.tsv',sep='\t',index_col=0)
 def consensus3(X,seed,B=500,pItem=0.8,k=3):
     RNG=np.random.default_rng(seed); n=len(X); M=np.zeros((n,n)); C=np.zeros((n,n))

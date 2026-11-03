@@ -44,6 +44,8 @@ def bh(p):
 def load(os_version="corrected",labels="n343"):
     """os_version: 'corrected' (primary) or 'released' (OpenPedCan v15 as distributed).
     labels: 'n343' (primary) or 'n344_carried' (n = 344 labels carried over, sensitivity)."""
+    if os_version=="corrected" and len(OS_FIX)!=4:
+        raise RuntimeError("Corrected OS requires the four locally audited corrections. Run s02_os_audit.py first, then start a fresh process; individual durations are not bundled publicly.")
     a=pd.read_pickle(ROOT+"ann343.pkl").copy()
     if labels!="n343": a["state"]=a["state_"+labels]
     a["OS_days_released"]=a.OS_days

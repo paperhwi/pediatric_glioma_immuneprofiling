@@ -12,3 +12,7 @@ assert len(up("Immune-high vs Immune-low"))==3718 and len(up("Immune-intermediat
 assert len(up("Immune-high vs Immune-low")&up("Immune-intermediate vs Immune-low"))==404
 assert "Kids_First_Participant_ID" not in a.columns
 print("OK: n = 343; Immune-high 122 / Immune-intermediate 144 / Immune-low 77; 6 exclusions; 404 shared genes")
+
+# Validate the public follow-up outputs; this does not fit models or require clinical records.
+import runpy
+runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)),"additional_analyses_20261103","validate_public_outputs.py"),run_name="__main__")
