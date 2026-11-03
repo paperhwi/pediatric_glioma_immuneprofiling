@@ -1,0 +1,7 @@
+{
+  "method": "independently coded NumPy Efron risk-set likelihood, score and observed-information matrix",
+  "log_likelihood_abs_difference": 1.1368683772161603e-13,
+  "max_abs_score": 6.9456390914268695e-06,
+  "covariance_max_abs_difference": 5.551115123125783e-16,
+  "passed": true
+}

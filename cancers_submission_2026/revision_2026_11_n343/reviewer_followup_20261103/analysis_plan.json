@@ -1,0 +1,24 @@
+{
+  "unit": "one RNA specimen per patient; 343 eligible patients",
+  "outcome": "corrected OS days from relevant HGG diagnosis; original death/censoring status",
+  "followup": "full observed follow-up; only KM display limited to 5 years",
+  "references": {
+    "state": "Immune-low",
+    "molecular_group": "pHGG_WT",
+    "sex": "Female",
+    "RNA_library": "poly-A stranded"
+  },
+  "covariates": [
+    "two categorical immune-state indicators",
+    "DMG_K27, DHG_G34, IHG indicators",
+    "age at diagnosis, years",
+    "male indicator"
+  ],
+  "estimation": "unpenalized Cox proportional hazards, Efron ties, Wald 95% CI and two-sided P",
+  "additional_models": [
+    "same primary Cox with restandardized 116/149/78 partition",
+    "original partition, autopsy excluded AND categorical RNA library adjusted",
+    "original partition, autopsy excluded AND library-stratified baseline hazards"
+  ],
+  "interpretation": "reviewer-requested sensitivity analyses; diagnostic P values unadjusted; no selection by significance"
+}

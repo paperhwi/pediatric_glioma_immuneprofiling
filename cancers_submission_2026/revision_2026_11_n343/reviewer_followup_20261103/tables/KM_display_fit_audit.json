@@ -1,0 +1,146 @@
+[
+  {
+    "plot": "All tumors with overall-survival data",
+    "state": "Immune-high",
+    "n": 89,
+    "deaths": 65,
+    "fit_max_years": 11.682409308692677,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 89,
+      "1": 58,
+      "2": 27,
+      "3": 15,
+      "4": 9,
+      "5": 8
+    }
+  },
+  {
+    "plot": "All tumors with overall-survival data",
+    "state": "Immune-intermediate",
+    "n": 105,
+    "deaths": 94,
+    "fit_max_years": 19.468856947296374,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 105,
+      "1": 62,
+      "2": 25,
+      "3": 11,
+      "4": 8,
+      "5": 3
+    }
+  },
+  {
+    "plot": "All tumors with overall-survival data",
+    "state": "Immune-low",
+    "n": 51,
+    "deaths": 47,
+    "fit_max_years": 8.71731690622861,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 51,
+      "1": 30,
+      "2": 13,
+      "3": 11,
+      "4": 7,
+      "5": 7
+    }
+  },
+  {
+    "plot": "DMG, H3 K27-altered",
+    "state": "Immune-high",
+    "n": 52,
+    "deaths": 47,
+    "fit_max_years": 6.729637234770705,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 52,
+      "1": 32,
+      "2": 8,
+      "3": 4,
+      "4": 1,
+      "5": 1
+    }
+  },
+  {
+    "plot": "DMG, H3 K27-altered",
+    "state": "Immune-intermediate",
+    "n": 66,
+    "deaths": 65,
+    "fit_max_years": 4.295687885010267,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 66,
+      "1": 34,
+      "2": 8,
+      "3": 2,
+      "4": 1,
+      "5": 0
+    }
+  },
+  {
+    "plot": "DMG, H3 K27-altered",
+    "state": "Immune-low",
+    "n": 22,
+    "deaths": 22,
+    "fit_max_years": 6.743326488706366,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 22,
+      "1": 9,
+      "2": 2,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    }
+  },
+  {
+    "plot": "pHGG, H3/IDH-wildtype",
+    "state": "Immune-high",
+    "n": 29,
+    "deaths": 14,
+    "fit_max_years": 11.682409308692677,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 29,
+      "1": 19,
+      "2": 14,
+      "3": 8,
+      "4": 5,
+      "5": 4
+    }
+  },
+  {
+    "plot": "pHGG, H3/IDH-wildtype",
+    "state": "Immune-intermediate",
+    "n": 33,
+    "deaths": 24,
+    "fit_max_years": 19.468856947296374,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 33,
+      "1": 23,
+      "2": 15,
+      "3": 9,
+      "4": 7,
+      "5": 3
+    }
+  },
+  {
+    "plot": "pHGG, H3/IDH-wildtype",
+    "state": "Immune-low",
+    "n": 21,
+    "deaths": 19,
+    "fit_max_years": 8.71731690622861,
+    "display_max_years": 5,
+    "at_risk": {
+      "0": 21,
+      "1": 14,
+      "2": 6,
+      "3": 6,
+      "4": 3,
+      "5": 3
+    }
+  }
+]

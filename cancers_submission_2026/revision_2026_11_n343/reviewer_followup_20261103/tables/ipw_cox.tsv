@@ -1,0 +1,11 @@
+scheme	contrast	n	deaths	HR	CI95_lower	CI95_upper	Wald_P	variance
+Unweighted primary	Immune-high vs Immune-low	245	206	0.6161315750293909	0.41595272735846095	0.9126472620073711	0.015694186731346597	model based
+Unweighted primary	Immune-intermediate vs Immune-low	245	206	0.8352907101559337	0.5738286119481852	1.2158866880200196	0.3474590142215702	model based
+Stabilized IPW 1–99% capped	Immune-high vs Immune-low	245	206	0.5995438566014665	0.3873631983082559	0.9279478214719676	0.021704303767526648	sandwich robust; estimated weights treated as fixed
+Stabilized IPW 1–99% capped	Immune-intermediate vs Immune-low	245	206	0.9160008785535955	0.60828380617007	1.379385084725347	0.6744401082623692	sandwich robust; estimated weights treated as fixed
+Stabilized IPW uncapped	Immune-high vs Immune-low	245	206	0.5995462399237451	0.3873652468393975	0.9279502917197218	0.021704929779922066	sandwich robust; estimated weights treated as fixed
+Stabilized IPW uncapped	Immune-intermediate vs Immune-low	245	206	0.9159732951585042	0.6082649482822765	1.3793447737089921	0.6743354586088266	sandwich robust; estimated weights treated as fixed
+Stabilized IPW 2.5–97.5% capped	Immune-high vs Immune-low	245	206	0.5991286453476437	0.38807037565974045	0.9249743247364852	0.02078141127751856	sandwich robust; estimated weights treated as fixed
+Stabilized IPW 2.5–97.5% capped	Immune-intermediate vs Immune-low	245	206	0.8645378669623484	0.571734723527478	1.3072946117394344	0.49024908659973254	sandwich robust; estimated weights treated as fixed
+Molecular-group-only propensity 1–99% capped	Immune-high vs Immune-low	245	206	0.6257775180265499	0.40745488921506834	0.961081858219575	0.032250369684994305	sandwich robust; estimated weights treated as fixed
+Molecular-group-only propensity 1–99% capped	Immune-intermediate vs Immune-low	245	206	0.8612759575786664	0.572201113106398	1.2963908285252066	0.47412461861621114	sandwich robust; estimated weights treated as fixed

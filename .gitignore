@@ -1,6 +1,7 @@
 # Only track scripts/ and output/ from this working directory.
 *
 !.gitignore
+!.gitattributes
 !README.md
 !scripts/
 !scripts/**
@@ -25,3 +26,14 @@ cancers_submission_2026/**/*histologies*
 
 # 172MB raw TPM matrix exceeds GitHub's 100MB limit; the .gz version is tracked instead
 output/tpm_for_cibersortx.tsv
+
+# Individual outcome/covariate inputs and event-time residuals are not public outputs.
+**/restricted_os_fix.tsv
+**/observations_n343.tsv
+**/cox_design_axis_library_adjusted_n245.tsv
+**/axis_scaled_Schoenfeld_library_adjusted.tsv
+**/.n343_private_outputs/
+**/.cache/
+**/.qa/
+
+**/generated_figures/

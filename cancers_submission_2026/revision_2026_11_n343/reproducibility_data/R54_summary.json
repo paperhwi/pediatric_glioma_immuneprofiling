@@ -1,0 +1,84 @@
+{
+ "DMG": {
+  "n": 175,
+  "gap_k": 3,
+  "k3_sizes": {
+   "Immune-high": 68,
+   "Immune-intermediate": 67,
+   "Immune-low": 40
+  },
+  "ARI_k3": 0.6415565176875259,
+  "agreement_k3": 0.8571428571428571,
+  "PAC": {
+   "2": 0.129,
+   "3": 0.564,
+   "4": 0.567,
+   "5": 0.534,
+   "6": 0.5
+  },
+  "silhouette": {
+   "2": 0.961,
+   "3": 0.702,
+   "4": 0.417,
+   "5": 0.417,
+   "6": 0.352
+  },
+  "delta_AUC": {
+   "2": NaN,
+   "3": 0.284,
+   "4": 0.132,
+   "5": 0.072,
+   "6": 0.042
+  },
+  "centroid_r_matched": 0.7671759081551444
+ },
+ "pHGG-WT": {
+  "n": 127,
+  "gap_k": 2,
+  "k3_sizes": {
+   "Immune-intermediate": 48,
+   "Immune-high": 44,
+   "Immune-low": 35
+  },
+  "ARI_k3": 0.8562333378208007,
+  "agreement_k3": 0.952755905511811,
+  "PAC": {
+   "2": 0.321,
+   "3": 0.579,
+   "4": 0.537,
+   "5": 0.52,
+   "6": 0.491
+  },
+  "silhouette": {
+   "2": 0.807,
+   "3": 0.681,
+   "4": 0.475,
+   "5": 0.391,
+   "6": 0.35
+  },
+  "delta_AUC": {
+   "2": NaN,
+   "3": 0.324,
+   "4": 0.127,
+   "5": 0.066,
+   "6": 0.039
+  },
+  "centroid_r_matched": 0.8931601249859352
+ },
+ "group_residualised_global": {
+  "n": 343,
+  "ARI_k3": 0.6323042681839453,
+  "agreement_k3": 0.8658892128279884,
+  "sizes": {
+   "Immune-intermediate": 148,
+   "Immune-high": 115,
+   "Immune-low": 80
+  }
+ },
+ "variance_partition_median": {
+  "R2_group": 0.03,
+  "R2_state": 0.114,
+  "R2_state_given_group": 0.106,
+  "R2_group_given_state": 0.009
+ }
+}

@@ -1,0 +1,4 @@
+# Preserve exact payload bytes so the scientific SHA256 manifest works across platforms.
+cancers_submission_2026/revision_2026_11_n343/additional_analyses_20261103/** -text
+
+cancers_submission_2026/revision_2026_11_n343/reviewer_followup_20261103/** -text

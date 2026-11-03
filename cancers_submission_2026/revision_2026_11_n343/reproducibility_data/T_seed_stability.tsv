@@ -1,0 +1,3 @@
+cohort	seeds	modal_partition	median_pairwise_ARI	min_ARI	max_ARI	tumours_same_label_all_25	min_modal_frequency	modal_partition_seeds_0_24	modal_partition_seeds_0_99
+n = 343 (primary)	42-66 (25)	122/144/77	0.9416019485230714	0.7448922082996621	1.0	311	0.64	122/144/77	122/144/77
+n = 344 (previous)	42-66 (25)	122/145/77	0.9228639540119945	0.7634908916960912	1.0	317	0.6	123/144/77	122/145/77

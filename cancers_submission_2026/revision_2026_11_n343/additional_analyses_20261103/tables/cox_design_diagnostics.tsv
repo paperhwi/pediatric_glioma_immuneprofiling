@@ -1,0 +1,7 @@
+model	design_rank	design_columns_with_intercept	standardized_condition_number	axis_R2_on_covariates	axis_VIF	library_strata_omitted_from_VIF
+All survival-evaluable / Molecular group + age + sex	7	7	1.7777100979849352	0.030735936739463066	1.0317105914729465	False
+All survival-evaluable / Molecular group + age + sex + RNA library	10	10	2.127014908777621	0.3159525908457631	1.4618869783256836	False
+All survival-evaluable / Molecular group + age + sex; RNA-library strata	7	7	1.7777100979849352	0.030735936739463066	1.0317105914729465	True
+Excluding autopsy / Molecular group + age + sex	7	7	1.8245716098711802	0.03954009368161748	1.041167875328791	False
+Excluding autopsy / Molecular group + age + sex + RNA library	10	10	2.451432700101603	0.31116848304501543	1.4517338062877143	False
+Excluding autopsy / Molecular group + age + sex; RNA-library strata	7	7	1.8245716098711802	0.03954009368161748	1.041167875328791	True

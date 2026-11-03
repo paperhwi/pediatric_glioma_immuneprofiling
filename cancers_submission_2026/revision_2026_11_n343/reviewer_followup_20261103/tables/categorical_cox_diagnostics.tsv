@@ -1,0 +1,8 @@
+model	n	deaths	design_rank	design_columns_with_intercept	log_partial_likelihood	warnings
+Primary original partition	245	206	8	8	-929.758160810068	
+Restandardized partition primary model	245	206	8	8	-929.2231039672189	
+Original partition + RNA library	245	206	11	11	-924.4348417414054	
+Original partition library strata	245	206	8	8	-675.0729070168401	
+Autopsy excluded original partition	189	150	8	8	-636.374004013764	
+Autopsy excluded + RNA library	189	150	11	11	-631.8272843396508	
+Autopsy excluded library strata	189	150	8	8	-440.4985270205966	

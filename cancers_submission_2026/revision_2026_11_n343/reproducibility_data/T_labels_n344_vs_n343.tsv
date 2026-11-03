@@ -1,0 +1,4 @@
+n = 344 label	Immune-high	Immune-intermediate	Immune-low
+Immune-high	121	0	0
+Immune-intermediate	1	144	0
+Immune-low	0	0	77

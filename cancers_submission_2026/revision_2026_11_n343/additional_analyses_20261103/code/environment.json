@@ -1,0 +1,42 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lifelines": "0.30.3",
+    "h5py": "3.16.0",
+    "matplotlib": "3.11.2"
+  },
+  "h5_float32_max_abs_diff": 4.649367788545078e-07,
+  "cohort_n": 343,
+  "survival_n": 245,
+  "deaths": 206,
+  "libraries": {
+    "stranded": 126,
+    "poly-A stranded": 116,
+    "exome_capture": 73,
+    "poly-A": 28
+  },
+  "sex": {
+    "Female": 174,
+    "Male": 166,
+    "Unknown": 2,
+    "Not Reported": 1
+  },
+  "groups": {
+    "DMG_K27": 175,
+    "pHGG_WT": 127,
+    "DHG_G34": 31,
+    "IHG": 10
+  },
+  "states": {
+    "Immune-intermediate": 144,
+    "Immune-high": 122,
+    "Immune-low": 77
+  },
+  "zmax_abs_mean": 8.286212661925366e-17,
+  "zmax_abs_sd_deviation": 3.3306690738754696e-16,
+  "row_order_matches_source_restriction": true
+}

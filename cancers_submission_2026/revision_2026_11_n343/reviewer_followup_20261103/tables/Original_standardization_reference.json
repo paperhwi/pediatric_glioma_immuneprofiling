@@ -1,0 +1,12 @@
+{
+  "shape": [
+    702,
+    46
+  ],
+  "max_abs_mean": 2.3077456375114366e-15,
+  "SD_ddof1_min": 0.9999999999999998,
+  "SD_ddof1_max": 1.0000000000000002,
+  "retained343_max_abs_difference": 4.440892098500626e-16,
+  "definition": "Initial 702-specimen full pool, per-feature (x-mean)/sample SD, ddof=1; subset afterward",
+  "source_code": "step4_integrate_LM22_ssGSEA.py lines 208-214"
+}
