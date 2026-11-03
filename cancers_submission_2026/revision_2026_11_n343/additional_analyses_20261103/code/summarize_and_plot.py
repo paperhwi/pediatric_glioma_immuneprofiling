@@ -69,8 +69,9 @@ cmap=LinearSegmentedColormap.from_list('white_teal',['#FFFFFF','#DDE9E5',teal])
 ax.imshow(ct.values,cmap=cmap,vmin=0,vmax=ct.values.max(),aspect='auto')
 for i in range(3):
     for j in range(3):ax.text(j,i,str(ct.iloc[i,j]),ha='center',va='center',fontsize=10,color='white' if ct.iloc[i,j]>100 else '#171717')
-ax.set_xticks(range(3),['High','Intermediate','Low']);ax.set_yticks(range(3),['High','Intermediate','Low']);ax.tick_params(length=0,labelsize=8)
-ax.set_xlabel('Within-343 scaled labels',labelpad=5,fontsize=8);ax.set_ylabel('Retained-input labels',labelpad=5,fontsize=8)
+display_states=['Immune-\nhigh','Immune-\nintermediate','Immune-\nlow']
+ax.set_xticks(range(3),display_states);ax.set_yticks(range(3),display_states);ax.tick_params(length=0,labelsize=8)
+ax.set_xlabel('Within-343 scaled labels',labelpad=13,fontsize=8);ax.set_ylabel('Retained-input labels',labelpad=5,fontsize=8)
 for s in ax.spines.values():s.set_visible(False)
 fig.text(.04,.95,'Within-cohort scaling preserves\nmost assignments',fontsize=10,weight='bold',va='top')
 fig.text(.04,.055,'334/343 unchanged (97.4%); ARI = 0.915\nCounts use modal labels over seeds 42–66.',fontsize=8,linespacing=1.3)
@@ -81,10 +82,10 @@ for file in (out/'figures').glob('*.png'):
 
 def tab(name,frame,note,widths=None):
     return {'name':name,'headers':[str(x) for x in frame.columns],'rows':json.loads(frame.replace([np.inf,-np.inf],np.nan).to_json(orient='values')),'note':note,'widths':widths}
-cl=pd.DataFrame(C['clustering_summary']).rename(columns={'n_Immune-high':'High n','n_Immune-intermediate':'Intermediate n','n_Immune-low':'Low n'})
-cl=cl[['input','n','High n','Intermediate n','Low n','median_pairwise_ARI','min_pairwise_ARI','max_pairwise_ARI','same_label_all25','agreement_vs_delivered','ARI_vs_delivered']]
+cl=pd.DataFrame(C['clustering_summary']).rename(columns={'n_Immune-high':'Immune-high n','n_Immune-intermediate':'Immune-intermediate n','n_Immune-low':'Immune-low n'})
+cl=cl[['input','n','Immune-high n','Immune-intermediate n','Immune-low n','median_pairwise_ARI','min_pairwise_ARI','max_pairwise_ARI','same_label_all25','agreement_vs_delivered','ARI_vs_delivered']]
 cx=pd.DataFrame(S['models'])[['subset','library_handling','n','deaths','HR_per_cohort_SD','CI95_lower','CI95_upper','Wald_P','axis_LRT_P','axis_PH_rank_P']]
-tabs=[tab('Clustering',cl,'Locked k=3 assignment protocol: 25 seeds, 500 subsamples/seed, 80% sampling, KMeans n_init=10. New scaling uses mean=0, sample SD=1 across 343. Old labels reproduce exactly.',[22,12,14,16,14,20,20,20,20,22,20]),
+tabs=[tab('Clustering',cl,'Locked k=3 assignment protocol: 25 seeds, 500 subsamples/seed, 80% sampling, KMeans n_init=10. New scaling uses mean=0, sample SD=1 across 343. Old labels reproduce exactly.',[22,12,25,25,25,20,20,20,20,22,20]),
       tab('Axis survival',cx,'Corrected OS; molecular group + age + sex in every model. Four RNA-library categories; reference poly-A stranded. HR per SD of the fixed n343 axis. Wald 95% CI and two-sided P.',[27,20,10,10,19,18,18,15,16,18]),
       tab('Changed samples',pd.read_csv(out/'tables/changed_assignments.tsv',sep='\t'),'Nine changes after within-n343 scaling. New labels are sensitivity-analysis outputs and have not replaced the submitted main analysis.',[24,25,27,24,20,24]),
       tab('Per sample',pd.read_csv(out/'tables/per_sample_clustering_comparison.tsv',sep='\t'),'One row per participant. Retained-input modal labels exactly match delivered n343 labels; all 343 records retained.',[24,25,25,22,27,24,20,20,24]),

@@ -49,3 +49,7 @@ Full analytic execution requires source OpenPedCan v15 expression and clinical f
 The additional re-standardization and continuous-axis library-control results are supplied with the revised manuscript and available in [`additional_analyses_20261103/`](additional_analyses_20261103/). Re-standardization preserves 334/343 modal labels (97.4%; ARI 0.915), with 116/149/78 sensitivity counts. The library-adjusted axis estimate attenuates to HR 0.861 (95% CI 0.726–1.022), P 0.088. Primary labels remain 122/144/77.
 
 Corrected-OS loading now fails explicitly if the four locally derived corrections are absent. Run the uniform audit and restart the analysis process; released durations must not silently stand in for corrected outcomes.
+
+## Terminology consistency
+
+Use [TERMINOLOGY.md](TERMINOLOGY.md) and the current [figure legends](FIGURE_LEGENDS.md). Canonical state names are Immune-high, Immune-intermediate, and Immune-low throughout current figures and Table S6. Updated primary SVG/PNG sources accompany the PDFs; Figure S4 is [figures/FigureS4_ScPCA_axis_linkage.pdf](figures/FigureS4_ScPCA_axis_linkage.pdf). Historical n349 material retains its original wording.
