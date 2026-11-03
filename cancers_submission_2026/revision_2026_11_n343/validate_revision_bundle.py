@@ -16,3 +16,5 @@ print("OK: n = 343; Immune-high 122 / Immune-intermediate 144 / Immune-low 77; 6
 # Validate the public follow-up outputs; this does not fit models or require clinical records.
 import runpy
 runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)),"additional_analyses_20261103","validate_public_outputs.py"),run_name="__main__")
+
+runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)),"reviewer_followup_20261103","validate_followup.py"),run_name="__main__")

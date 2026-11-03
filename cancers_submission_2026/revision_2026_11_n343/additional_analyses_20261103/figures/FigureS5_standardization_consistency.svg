@@ -104,8 +104,8 @@
    </g>
   </g>
   <g id="text_18">
-   <text style="font-weight: 700; font-size: 10px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 19.084903)">Within-cohort scaling preserves</text>
-   <text style="font-weight: 700; font-size: 10px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 29.968888)">most assignments</text>
+   <text style="font-weight: 700; font-size: 10px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 19.084903)">Within-cohort standardization</text>
+   <text style="font-weight: 700; font-size: 10px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 29.968888)">Immune-state assignment comparison</text>
   </g>
   <g id="text_19">
    <text style="font-size: 8px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 198.388451)">334/343 unchanged (97.4%); ARI = 0.915</text>

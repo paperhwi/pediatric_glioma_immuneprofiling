@@ -41,7 +41,7 @@ def bin_row(section, label, s, note=""):
         v[c] = f"{k}/{n} ({100 * k / n:.1f}%)" if n else "–"
     add(section, label, v, p, "Monte-Carlo χ²", note)
 # ---- header counts (one row only: n per column, replaces the two duplicated rows)
-add("", "Tumours (one independent primary RNA specimen per patient), n", {c: str(int(len(P) if c == "All" else (st == c).sum())) for c in COLS})
+add("", "Tumors (one RNA specimen per patient), n", {c: str(int(len(P) if c == "All" else (st == c).sum())) for c in COLS})
 # ---- clinical
 age = P.age_first_dx_years; p_age = stats.kruskal(*[age[st == e].dropna() for e in ORD]).pvalue
 add("Clinical", "Age at first diagnosis, years, median (IQR)", {c: (lambda a: f"{a.median():.1f} ({a.quantile(.25):.1f}–{a.quantile(.75):.1f})")(age if c == "All" else age[st == c]) for c in COLS}, p_age, "Kruskal–Wallis")

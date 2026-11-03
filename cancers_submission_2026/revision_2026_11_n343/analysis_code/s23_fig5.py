@@ -1,8 +1,8 @@
-"""Figure 5 (n = 343): A external single-cell AUROC (independent of the bulk cohort; unchanged image); B cell class with the highest
+"""Figure 5 (n = 343): A external single-cell AUROC (independent of the bulk cohort; stored AUROC summary, vector rendering); B cell class with the highest
 mean expression of the top 300 Immune-high vs Immune-low genes in ScPCA SCPCP000001; C-E Visium spots by nearest bulk-state centroid."""
 import json, sys
 from pathlib import Path
-sys.path.insert(0,"/home/claude/q343/src"); from common import ROOT as QR, SHORT, COL, HI, MID, LO
+sys.path.insert(0,"/home/claude/q343/src"); from common import ROOT as QR, SHORT, COL, HI, MID, LO, canonicalize_figure
 import matplotlib as mpl
 mpl.use("Agg")
 import matplotlib.pyplot as plt
@@ -22,7 +22,7 @@ assert sum(counts.values()) == 300
 data = pd.read_csv(QR + "out/T_visium_spots_n1650.tsv", sep="\t", index_col=0)
 data["spot_class"] = data.spot_class.map(SHORT)
 sections = ["Sample-1", "Sample-2", "Sample-3"]
-states = ["Low", "Intermediate", "High"]
+states = [LO, MID, HI]
 colors = {SHORT[k]: COL[k] for k in (HI, MID, LO)}
 stats = []
 for sec in sections:
@@ -48,10 +48,20 @@ gs = GridSpec(3, 2, figure=fig, height_ratios=[1.25, 1.4, 1.25], hspace=.55, wsp
 # A: source panel is external-cell signature AUROC, independent of the bulk
 # cohort and already checked in the submitted manuscript.
 ax = fig.add_subplot(gs[0, 0])
-img = Image.open("/mnt/user-data/uploads/Pediatric GBM/Revision_validation_20261102/figure5_reanalysis/Figure5A_external_immune.png")
-ax.imshow(img)
-ax.axis("off")
-ax.text(-.05, 1.05, "A", transform=ax.transAxes, fontsize=15, weight="bold")
+auc = pd.read_csv(Path(__file__).resolve().parents[1] / "reviewer_followup_20261103/tables/Figure5A_source_AUROC.tsv", sep="\t")
+auc = auc.sort_values("AUROC_all_cells")
+yy = np.arange(len(auc))
+bar_colors = ["#B91C1C" if verdict == "DISCORDANT" else "#6D28D9" if "T cell" in target else "#0F766E" for verdict,target in zip(auc.verdict,auc.expected)]
+ax.barh(yy,auc.AUROC_all_cells,color=bar_colors,height=.72)
+for yi,(_,rr) in zip(yy,auc.iterrows()):
+    ax.plot([rr.AUROC_min_sample,rr.AUROC_max_sample],[yi,yi],color="#475569",lw=.7)
+display_names = auc.signature.str.replace("_"," ").tolist()
+display_names[0] = "Cytotoxic Lymphocyte Curated*"
+ax.set_yticks(yy,display_names,fontsize=5.5)
+ax.set_xlim(0,1.04);ax.axvline(.5,ls="--",color="#374151",lw=.7)
+ax.set_xlabel("AUROC against the originally specified target lineage",fontsize=6)
+ax.tick_params(axis="x",labelsize=6);ax.spines[["top","right"]].set_visible(False)
+ax.text(-.05,1.05,"A",transform=ax.transAxes,fontsize=15,weight="bold")
 
 # B: all-ten-type ScPCA comparison for the revised n=343 contrast.
 bgs = gs[0, 1].subgridspec(1, 2, width_ratios=[1.5, .8], wspace=.32)
@@ -60,7 +70,7 @@ names = list(counts)
 vals = [counts[n] for n in names]
 cell_colors = ["#0F766E" if n not in ("Endothelial", "Mural", "Oligodendrocyte", "Malignant") else "#94A3B8" for n in names]
 ax.bar(range(len(names)), vals, color=cell_colors)
-ax.set_xticks(range(len(names)), [n.replace("Macrophage/monocyte", "Macrophage/") for n in names], rotation=53, ha="right", fontsize=6.3)
+ax.set_xticks(range(len(names)), [n for n in names], rotation=53, ha="right", fontsize=6.3)
 ax.set_ylabel("Top-expression genes (n)", fontsize=7)
 ax.set_title("B  Cell class with highest mean expression", fontsize=8, loc="left", weight="bold")
 ax.tick_params(labelsize=6.5)
@@ -81,7 +91,7 @@ space = gs[1, :].subgridspec(1, 3, wspace=.13)
 for j, sec in enumerate(sections):
     ax = fig.add_subplot(space[j])
     sub = data[data.section == sec]
-    for state in ["High", "Intermediate", "Low"]:
+    for state in [HI, MID, LO]:
         spot = sub[sub.spot_class == state]
         ax.scatter(spot.x, spot.y, s=5, color=colors[state], alpha=.82, lw=0, label=state)
     ax.set_aspect("equal", adjustable="datalim")
@@ -120,5 +130,5 @@ ax.legend(frameon=False, fontsize=6.6, loc="upper left")
 ax.tick_params(labelsize=7)
 ax.spines[["top", "right"]].set_visible(False)
 
-for ext in ("pdf","svg","png"): fig.savefig(OUT / f"Figure5.{ext}", dpi=300 if ext=="png" else None, bbox_inches="tight", facecolor="white")
+for ext in ("pdf","svg","png"): canonicalize_figure(fig); fig.savefig(OUT / f"Figure5.{ext}", dpi=300 if ext=="png" else None, bbox_inches="tight", facecolor="white")
 print(json.dumps(summary, indent=2))

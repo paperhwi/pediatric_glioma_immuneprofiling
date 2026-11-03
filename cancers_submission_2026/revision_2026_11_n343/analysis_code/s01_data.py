@@ -12,6 +12,7 @@ M=pd.read_excel("/home/claude/w/pg/Revision_round1_Q1-Q5/Rev344_05_tables_Q1-Q5.
 M.to_pickle(ROOT+"markers343.pkl"); M.to_csv(ROOT+"out/molecular_markers_n343.tsv",sep="\t")
 # immune-presence axis
 F=pd.read_csv(R+"feature_matrices/main_cohort_LM22_ssGSEA_z.tsv",sep="\t",index_col=0).loc[ids]
+F=F.rename(columns={"ssGSEA_Glioma_Inflammatory_Wang2017":"ssGSEA_Cytotoxic_Lymphocyte_Curated"})
 NONIMM=["ssGSEA_Cell_Cycle_Proliferation","ssGSEA_Stemness_Brain_Tumor","ssGSEA_MAPK_Activity"]
 SSI=[c for c in F.columns if c.startswith("ssGSEA") and c not in NONIMM]
 Xi=(F[SSI]-F[SSI].mean())/F[SSI].std()

@@ -3,7 +3,7 @@
 from pathlib import Path
 import json
 
-import sys; sys.path.insert(0,"/home/claude/q343/src"); from common import load, HI, MID, LO, SHORT, COL, ROOT as QR
+import sys; sys.path.insert(0,"/home/claude/q343/src"); from common import load, HI, MID, LO, SHORT, COL, ROOT as QR, canonicalize_figure
 import matplotlib as mpl
 mpl.use("Agg")
 import matplotlib.pyplot as plt
@@ -94,7 +94,7 @@ for i, row in rr.iterrows():
 ax.axhline(0, color="#555", lw=.8)
 ax.set_xticks(x, rr.label, rotation=45, ha="right", fontsize=7)
 ax.set_ylabel("Spearman ρ versus LM22", fontsize=9)
-ax.set_title("Cross-method concordance in the revised cohort (n = 343)", fontsize=10)
+ax.set_title("Cross-method concordance in the cohort (n = 343)", fontsize=10)
 ax.text(-.045, 1.05, "B", transform=ax.transAxes, fontsize=15, weight="bold")
 ax.spines[["top", "right"]].set_visible(False)
 
@@ -123,7 +123,7 @@ fig.subplots_adjust(left=.075, right=.985, top=.925, bottom=.075)
 from matplotlib.patches import Patch
 fig.legend(handles=[Patch(color=palette[k], label=k) for k in ("High","Intermediate","Low")], title="Immune state", loc="lower center", ncol=3, frameon=False, bbox_to_anchor=(.5, -.02))
 mpl.rcParams["svg.fonttype"] = "none"
-for ext in ("pdf","svg","png"): fig.savefig(OUT / f"Figure2.{ext}", dpi=300 if ext=="png" else None, bbox_inches="tight", facecolor="white")
+for ext in ("pdf","svg","png"): canonicalize_figure(fig); fig.savefig(OUT / f"Figure2.{ext}", dpi=300 if ext=="png" else None, bbox_inches="tight", facecolor="white")
 res.to_csv(Path(QR)/"out/T_fig2B_cross_method_n343.tsv", sep="\t", index=False)
 summary = {"n": 343, "qc_p_below_005": int((qc["P-value"] < .05).sum()),
            "qc_pct_below_005": float(100 * (qc["P-value"] < .05).mean()),

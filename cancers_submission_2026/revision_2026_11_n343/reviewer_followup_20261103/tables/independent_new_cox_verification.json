@@ -1,0 +1,27 @@
+{
+  "method": "Independent NumPy Efron risk-set likelihood, score and inverse-information standard errors; library strata accumulated separately",
+  "models": [
+    {
+      "model": "Restandardized partition primary model",
+      "loglik_abs_difference": 3.410605131648481e-13,
+      "max_abs_independent_score": 6.392156454815279e-06,
+      "max_abs_SE_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "Autopsy excluded + RNA library",
+      "loglik_abs_difference": 5.684341886080801e-13,
+      "max_abs_independent_score": 0.0005303778885386023,
+      "max_abs_SE_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "Autopsy excluded library strata",
+      "loglik_abs_difference": 1.1368683772161603e-13,
+      "max_abs_independent_score": 0.0003369433816038381,
+      "max_abs_SE_difference": 4.440892098500626e-16,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

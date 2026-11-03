@@ -17,7 +17,7 @@ SI=pd.DataFrame([dict(item="Immune-presence axis",definition="PC1 of the 21 immu
                  dict(item="Visium spot classes",definition="Pearson correlation of each spot (z of log1p CP10k within section) with the bulk immune-state centroids on the shared Figure 6D genes; nearest centroid",source="GSE268577"),
                  dict(item="Pan-cancer frameworks",definition="Thorsson immune subtypes (ImmuneSubtypeClassifier); Bagaev MFP (29 signatures)",source="Thorsson et al. 2018 Immunity; Bagaev et al. 2021 Cancer Cell")])
 flags=pd.DataFrame([dict(item="ssGSEA_T_Cell_Exhaustion",flag="gene list contains TCF7 and CD274 (not exhaustion-specific); interpret as an inhibitory-receptor/checkpoint score"),
-                    dict(item="ssGSEA_Glioma_Inflammatory_Wang2017",flag="citation (Wang 2017) to be confirmed by the authors; the signature is discordant in external cells (AUROC 0.075, identifies T cells)"),
+                    dict(item="ssGSEA_Cytotoxic_Lymphocyte_Curated",flag="citation (Wang 2017) to be confirmed by the authors; the signature is discordant in external cells (AUROC 0.075, identifies T cells)"),
                     dict(item="Nabbi 2023",flag="HGG/DIPG representation in the 925 pedNST to be confirmed from the full text before citing specifics")])
 with pd.ExcelWriter(D+"Gene_sets_and_sources_n343.xlsx") as w:
     pd.DataFrame({"sheet":["Brain_tuned_ssGSEA_24","Curated_programmes_17","Published_programmes","LM22_22","ESTIMATE_immune","SingleCell_programmes","Other_definitions","Citations_to_confirm"],

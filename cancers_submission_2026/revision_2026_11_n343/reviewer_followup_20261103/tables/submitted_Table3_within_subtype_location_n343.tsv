@@ -1,0 +1,9 @@
+molecular_group	location	n	Immune-high	Immune-intermediate	Immune-low	chi_square	Monte_Carlo_P	test_note
+DMG_K27	Midline	118	52	50	16			Not tested: fewer than 5 specimens in one anatomical group
+DMG_K27	Hemispheric	3	1	2	0			Not tested: fewer than 5 specimens in one anatomical group
+DHG_G34	Midline	0	0	0	0			Not tested: fewer than 5 specimens in one anatomical group
+DHG_G34	Hemispheric	24	3	7	14			Not tested: fewer than 5 specimens in one anatomical group
+pHGG_WT	Midline	22	10	7	5	1.5774184149184152	0.5061	Monte Carlo chi-square, 9,999 permutations, seed 20260722; finalized Figure 4C result
+pHGG_WT	Hemispheric	64	20	23	21	1.5774184149184152	0.5061	Monte Carlo chi-square, 9,999 permutations, seed 20260722; finalized Figure 4C result
+IHG	Midline	0	0	0	0			Not tested: fewer than 5 specimens in one anatomical group
+IHG	Hemispheric	8	4	4	0			Not tested: fewer than 5 specimens in one anatomical group

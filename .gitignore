@@ -35,3 +35,5 @@ output/tpm_for_cibersortx.tsv
 **/.n343_private_outputs/
 **/.cache/
 **/.qa/
+
+**/generated_figures/

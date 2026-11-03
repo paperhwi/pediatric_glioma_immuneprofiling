@@ -861,7 +861,7 @@
      </g>
      <g id="text_53">
       <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(202.51127 467.849012) rotate(-45)">CD8 T cell</text>
-      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(222.844098 459.397511) rotate(-45)">MCP</text>
+      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(222.844098 459.397511) rotate(-45)">MCP-counter</text>
      </g>
     </g>
     <g id="xtick_21">
@@ -905,7 +905,7 @@
      </g>
      <g id="text_57">
       <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(464.823027 459.784791) rotate(-45)">NK cell</text>
-      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(477.091634 459.397511) rotate(-45)">MCP</text>
+      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(477.091634 459.397511) rotate(-45)">MCP-counter</text>
      </g>
     </g>
     <g id="xtick_25">
@@ -927,7 +927,7 @@
      </g>
      <g id="text_59">
       <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(578.505911 473.225675) rotate(-45)">Macrophage</text>
-      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(604.215402 459.397511) rotate(-45)">MCP</text>
+      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(604.215402 459.397511) rotate(-45)">MCP-counter</text>
      </g>
     </g>
     <g id="xtick_27">
@@ -960,7 +960,7 @@
      </g>
      <g id="text_62">
       <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(766.634708 475.782142) rotate(-45)">Monocyte/DC</text>
-      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(785.158558 469.13962) rotate(-45)">MCP_DC</text>
+      <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(785.158558 469.13962) rotate(-45)"><tspan x="0" y="0.0">MCP-counter</tspan><tspan x="0" y="7.840000000000001">myeloid DC</tspan></text>
      </g>
     </g>
    </g>
@@ -1078,7 +1078,7 @@
     <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start" x="14.922653" y="248.304177" transform="rotate(-0 14.922653 248.304177)">B</text>
    </g>
    <g id="text_83">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="457.706813" y="251.027254" transform="rotate(-0 457.706813 251.027254)">Cross-method concordance in the revised cohort (n = 343)</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="457.706813" y="251.027254" transform="rotate(-0 457.706813 251.027254)">Cross-method concordance in the cohort (n = 343)</text>
    </g>
   </g>
   <g id="axes_5">
@@ -1123,7 +1123,7 @@
       </g>
      </g>
      <g id="text_87">
-      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(159.303832 700.534966) rotate(-45)">MCP</text>
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(159.303832 700.534966) rotate(-45)">MCP-counter</text>
      </g>
     </g>
     <g id="xtick_34">
@@ -1510,7 +1510,7 @@
       </g>
      </g>
      <g id="text_99">
-      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(398.42073 700.534966) rotate(-45)">MCP</text>
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(398.42073 700.534966) rotate(-45)">MCP-counter</text>
      </g>
     </g>
    </g>
@@ -1827,7 +1827,7 @@
       </g>
      </g>
      <g id="text_108">
-      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(572.378361 700.534966) rotate(-45)">MCP</text>
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(572.378361 700.534966) rotate(-45)">MCP-counter</text>
      </g>
     </g>
     <g id="xtick_42">
@@ -2174,7 +2174,7 @@
       </g>
      </g>
      <g id="text_120">
-      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(806.473938 709.581569) rotate(-45)">MCP_DC</text>
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'" transform="translate(806.473938 709.581569) rotate(-45)"><tspan x="0" y="0.0">MCP-counter</tspan><tspan x="0" y="7.280000000000001">myeloid DC</tspan></text>
      </g>
     </g>
    </g>

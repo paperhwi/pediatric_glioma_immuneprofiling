@@ -1,0 +1,30 @@
+{
+  "source": "Submitted revD_IPW_sensitivity.ipynb, code cells 5, 9 and 11",
+  "eligible": 343,
+  "observed": 245,
+  "missing": 98,
+  "propensity_covariates": [
+    "immune_state_Immune-high",
+    "immune_state_Immune-intermediate",
+    "molecular_group_DMG_K27",
+    "molecular_group_IHG",
+    "molecular_group_pHGG_WT",
+    "location_Hemispheric",
+    "location_Midline",
+    "location_Other/NA",
+    "location_Posterior_fossa",
+    "age",
+    "male"
+  ],
+  "age_missing_imputation": "median across 343, only propensity model; all 245 Cox ages observed",
+  "logistic": "L2 C=1.0 lbfgs max_iter=5000; all dummy/continuous columns standardized ddof=0",
+  "stabilized_weight": "(245/343)/P(OS observed|X)",
+  "cap_1_99": [
+    0.7536054700749806,
+    5.859611348046327
+  ],
+  "cap_scope": "1st/99th percentiles over all 343, as submitted protocol; 2.5/97.5 and sparse-model cutoffs over observed patients, as legacy code",
+  "Cox": "unpenalized, corrected full follow-up; state + molecular group + age + sex; robust sandwich SE for weighted models",
+  "limitation": "Conditional MAR sensitivity only. Weights estimated in the same sample; sandwich SE treats weights as fixed. Residual covariate imbalance and informative missingness may remain; tied event times also limit sandwich approximation. No claim of robustness to MNAR.",
+  "propensity_state_reference": "Immune-low, preserving the historical Immune-desert reference; dummy order High then Intermediate."
+}

@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-import sys; sys.path.insert(0,"/home/claude/q343/src"); from common import load, ROOT as QR, SHORT, COL, HI, MID, LO
+import sys; sys.path.insert(0,"/home/claude/q343/src"); from common import load, ROOT as QR, SHORT, COL, HI, MID, LO, canonicalize_figure
 import matplotlib as mpl
 mpl.use("Agg")
 import matplotlib.pyplot as plt
@@ -87,4 +87,4 @@ ax.set_yticks(np.arange(len(selected)) + .5)
 ax.set_yticklabels([name.replace("ssGSEA_", "").replace("LM22_", "") for name in selected], fontsize=6.6)
 fig.subplots_adjust(left=.18, right=.965, top=.97, bottom=.06)
 mpl.rcParams["svg.fonttype"]="none"
-for ext in ("pdf","svg","png"): fig.savefig(FIG / f"Figure3.{ext}", dpi=300 if ext=="png" else None, bbox_inches="tight", facecolor="white")
+for ext in ("pdf","svg","png"): canonicalize_figure(fig); fig.savefig(FIG / f"Figure3.{ext}", dpi=300 if ext=="png" else None, bbox_inches="tight", facecolor="white")

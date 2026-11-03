@@ -1,4 +1,4 @@
-"""Figure 7 (main): A Kaplan-Meier by immune state with a 10-year axis and numbers at risk; B forest plot of the
+"""Figure 7 (main): A Kaplan-Meier by immune state with a 5-year display axis; full follow-up fits and numbers at risk; B forest plot of the
 pre-specified multivariable Cox model. Corrected OS, n = 245 (206 deaths)."""
 import sys, os; sys.path.insert(0,"/home/claude/q343/src"); from common import *
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
@@ -34,13 +34,13 @@ def forest(ax,rows,r,xlim=(0.05,90),bound=8,txt=9,ticks=(0.1,0.25,0.5,1,2,4)):
     ax.tick_params(axis="y",length=0)
 if __name__=="__main__":
     fig=plt.figure(figsize=(7.4,3.7)); gs=GridSpec(1,2,width_ratios=[1,1.15],wspace=0.75,left=0.09,right=0.97,top=0.86,bottom=0.30)
-    ax=fig.add_subplot(gs[0,0]); km(ax,s,10,[0,2,4,6,8,10],"All tumours with overall survival data"); lab(ax,"A")
+    ax=fig.add_subplot(gs[0,0]); km(ax,s,5,[0,1,2,3,4,5],"All tumours with overall survival data"); lab(ax,"A")
     ax=fig.add_subplot(gs[0,1]); d=design(s); c=cox(d); r=c.summary
     rows=[(HI,"Immune-high vs Immune-low"),(MID,"Immune-intermediate vs Immune-low"),("DMG_K27","DMG vs pHGG-WT"),("DHG_G34","DHG vs pHGG-WT"),("IHG","IHG vs pHGG-WT"),("age_years","Age at diagnosis (per year)"),("male","Male vs female")]
     forest(ax,rows,r)
     ax.set_xlabel("Adjusted hazard ratio (95% CI)"); ax.set_title(f"Multivariable Cox model (pre-specified)\nn = {len(d)}, {int(d.event.sum())} deaths",fontsize=7.6); lab(ax,"B",-0.6)
     os.makedirs(ROOT+"fig/Figure7",exist_ok=True)
-    for ext in ("svg","pdf","png"): fig.savefig(ROOT+f"fig/Figure7/Figure7.{ext}",dpi=600 if ext=="png" else None,bbox_inches="tight",facecolor="white")
+    for ext in ("svg","pdf","png"): canonicalize_figure(fig); fig.savefig(ROOT+f"fig/Figure7/Figure7.{ext}",dpi=600 if ext=="png" else None,bbox_inches="tight",facecolor="white")
     # source data
     with pd.ExcelWriter(ROOT+"fig/Figure7/Figure7_source_data.xlsx") as w:
         s[["Kids_First_Participant_ID","state","cohort_group","age_first_dx_years","reported_gender","time","event","os_corrected","autopsy"]].rename(columns={"time":"OS_days_corrected","event":"death"}).to_excel(w,sheet_name="A_per_tumour")

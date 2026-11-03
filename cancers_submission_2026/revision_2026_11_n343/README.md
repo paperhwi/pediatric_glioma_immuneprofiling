@@ -53,3 +53,12 @@ Corrected-OS loading now fails explicitly if the four locally derived correction
 ## Terminology consistency
 
 Use [TERMINOLOGY.md](TERMINOLOGY.md) and the current [figure legends](FIGURE_LEGENDS.md). Canonical state names are Immune-high, Immune-intermediate, and Immune-low throughout current figures and Table S6. Updated primary SVG/PNG sources accompany the PDFs; Figure S4 is [figures/FigureS4_ScPCA_axis_linkage.pdf](figures/FigureS4_ScPCA_axis_linkage.pdf). Historical n349 material retains its original wording.
+
+
+## Final reviewer follow-up and version 2.0
+
+See [reviewer_followup_20261103](reviewer_followup_20261103/) for the re-standardized-partition primary Cox model, simultaneous autopsy/library categorical models, restored IPW analysis, and updated submitted Tables 2–5. The original feature-scaling reference is the initial 702-specimen pool (mean and sample SD, ddof=1). Current gene definitions and the exact-match limitations are documented in the [signature provenance audit](reviewer_followup_20261103/SIGNATURE_PROVENANCE.md).
+
+All seven main and seven supplementary figures are provided in SVG, PDF and PNG; the existing analysis filenames for S1–S3 are retained. Figure 7 and the subtype KM panels display five years while using full follow-up. Figure S7 restores the outcome-availability/IPW sensitivity. Additional supplements S7 and S8 are in `reviewer_followup_20261103/supplementary/`. Gene-source S3 and standardization S6 are also updated in the prior addition.
+
+Versioned final link: https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0 . Historical submission: https://github.com/paperhwi/pediatric_glioma_immuneprofiling/tree/v1.0 . These versions distinguish the original submission and final revision without rewriting historical materials.

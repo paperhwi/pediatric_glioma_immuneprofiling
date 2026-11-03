@@ -40,7 +40,7 @@ for i,(e,c) in enumerate([(LO,"median_pct_low"),(MID,"median_pct_intermediate"),
 ax.set_xticks(x); ax.set_xticklabels(O.method.str.replace(" (LM22)","",regex=False),rotation=30,ha="right",fontsize=6.3); ax.set_ylabel("Median within-method percentile"); ax.set_ylim(0,115); ax.legend(frameon=False,fontsize=6,ncol=3,loc="upper center",title="Immune state",title_fontsize=6)
 ax.set_title("Total immune estimate, five methods\n(all JT P < 1e-15)",fontsize=7); lab(ax,"F")
 os.makedirs(ROOT+"fig/FigureS_state_structure",exist_ok=True)
-for ext in ("svg","pdf","png"): fig.savefig(ROOT+f"fig/FigureS_state_structure/FigureS_state_structure.{ext}",dpi=300 if ext=="png" else None,bbox_inches="tight",facecolor="white")
+for ext in ("svg","pdf","png"): canonicalize_figure(fig); fig.savefig(ROOT+f"fig/FigureS_state_structure/FigureS_state_structure.{ext}",dpi=300 if ext=="png" else None,bbox_inches="tight",facecolor="white")
 # ---------------- immune features
 Q=pd.read_csv(ROOT+"out/q1/Q1_cox_markers_and_immune_features.tsv",sep="\t"); Q=Q[(Q.dataset=="primary")&(Q.family!="Molecular marker")]
 keep=Q.groupby("feature").q_BH_within_family.min(); keep=keep[keep<0.05].index
@@ -65,7 +65,7 @@ gc={"DMG_K27":"#7C3AED","DHG_G34":"#059669","IHG":"#D97706"}
 for k,(g,c) in enumerate(gc.items()):
     d=E[E.group==g].set_index("programme").loc[pr]; ax.errorbar(d.effect,y+(k-1)*0.22,xerr=[d.effect-d.lo,d.hi-d.effect],fmt="o",color=c,ms=3,lw=0.9,label=g.split("_")[0]+" vs pHGG-WT")
 ax.axvline(0,ls="--",lw=0.6,color="k"); ax.set_yticks(y); ax.set_yticklabels(pr,fontsize=6); ax.set_xlabel("Difference (SD), adjusted for state, age, sex"); ax.legend(frameon=False,fontsize=5.5,loc="upper left",bbox_to_anchor=(0,-0.16),ncol=3)
-ax.set_title("EXPLORATORY: deconvolution-estimated\ntumour-cell programmes by molecular group",fontsize=7); lab(ax,"C",-1.2)
+ax.set_title("deconvolution-estimated\ntumour-cell programmes by molecular group",fontsize=7); lab(ax,"C",-1.2)
 os.makedirs(ROOT+"fig/FigureS_immune_features",exist_ok=True)
-for ext in ("svg","pdf","png"): fig.savefig(ROOT+f"fig/FigureS_immune_features/FigureS_immune_features.{ext}",dpi=300 if ext=="png" else None,bbox_inches="tight",facecolor="white")
+for ext in ("svg","pdf","png"): canonicalize_figure(fig); fig.savefig(ROOT+f"fig/FigureS_immune_features/FigureS_immune_features.{ext}",dpi=300 if ext=="png" else None,bbox_inches="tight",facecolor="white")
 print("ok")

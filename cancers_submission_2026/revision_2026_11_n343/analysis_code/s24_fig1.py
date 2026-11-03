@@ -196,5 +196,5 @@ B.text(50, 4.0,
        ha="center", va="center", fontsize=7.8, color=GREY, style="italic")
 
 os.makedirs(OUT, exist_ok=True)
-for ext in ("pdf","svg","png"): fig.savefig(f"{OUT}/Figure1.{ext}", dpi=600 if ext=="png" else None, bbox_inches="tight", facecolor="white")
+for ext in ("pdf","svg","png"): canonicalize_figure(fig); fig.savefig(f"{OUT}/Figure1.{ext}", dpi=600 if ext=="png" else None, bbox_inches="tight", facecolor="white")
 print("Figure 1 drawn")

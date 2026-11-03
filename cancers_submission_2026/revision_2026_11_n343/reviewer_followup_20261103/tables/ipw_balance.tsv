@@ -1,0 +1,23 @@
+comparison	covariate	SMD_unweighted	SMD_IPW_1_99
+Full eligible cohort target	immune_state_Immune-high	0.015797571468029434	0.015821604575410507
+Full eligible cohort target	immune_state_Immune-intermediate	0.01769796007370661	0.009814897157884013
+Full eligible cohort target	molecular_group_DMG_K27	0.12309149097933265	0.013164088618435535
+Full eligible cohort target	molecular_group_IHG	-0.003482777583450618	0.001801504312640304
+Full eligible cohort target	molecular_group_pHGG_WT	-0.06585723357268229	-0.02216018913454778
+Full eligible cohort target	location_Hemispheric	-0.08952500220098852	0.0006461226889223606
+Full eligible cohort target	location_Midline	0.03312466115327056	0.00047946692924710554
+Full eligible cohort target	location_Other/NA	-0.21690304763049628	-0.026881317807459202
+Full eligible cohort target	location_Posterior_fossa	0.0	0.0030353496240563592
+Full eligible cohort target	age	-0.02613973016712601	0.025367307806863137
+Full eligible cohort target	male	0.011666022622778775	0.024126803280400528
+Legacy observed-versus-missing comparison	immune_state_Immune-high	0.05564480148546496	0.05566884930657387
+Legacy observed-versus-missing comparison	immune_state_Immune-intermediate	0.06219704135711224	0.05430793387248944
+Legacy observed-versus-missing comparison	molecular_group_DMG_K27	0.43994134506406	0.3260996914064243
+Legacy observed-versus-missing comparison	molecular_group_IHG	-0.01204338616574365	-0.006760331530417006
+Legacy observed-versus-missing comparison	molecular_group_pHGG_WT	-0.22699497253739317	-0.18289762936619786
+Legacy observed-versus-missing comparison	location_Hemispheric	-0.3012626851510078	-0.2100331919251003
+Legacy observed-versus-missing comparison	location_Midline	0.11704523747019542	0.08432461712897815
+Legacy observed-versus-missing comparison	location_Other/NA	-0.5035780838931663	-0.34517498197619084
+Legacy observed-versus-missing comparison	location_Posterior_fossa	0.0	0.003035349624056359
+Legacy observed-versus-missing comparison	age	-0.09611466329902585	-0.040941740366214056
+Legacy observed-versus-missing comparison	male	0.040858892322271745	0.05332557529938871

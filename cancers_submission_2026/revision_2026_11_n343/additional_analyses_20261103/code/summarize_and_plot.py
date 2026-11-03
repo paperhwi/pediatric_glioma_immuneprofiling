@@ -51,7 +51,7 @@ ax.set_ylim(-.7,6.9);ax.set_xlim(.65,1.20);ax.set_xticks([.7,.8,.9,1.,1.1,1.2]);
 ax.tick_params(axis='y',length=0,pad=8)
 ax.set_xlabel('Hazard ratio per 1 cohort SD (95% CI)',labelpad=7)
 for side in ['top','right','left']:ax.spines[side].set_visible(False)
-fig.text(.04,.945,'Library adjustment attenuates the axis survival association',fontsize=10.5,weight='bold',va='top')
+fig.text(.04,.945,'Continuous immune-axis survival models by RNA-library handling',fontsize=10.5,weight='bold',va='top')
 for y,label in [(6.8,'All evaluable patients  n = 245, 206 deaths'),(2.8,'Autopsy specimens excluded  n = 189, 150 deaths')]:
     yy=fig.transFigure.inverted().transform(ax.transData.transform((.65,y)))[1]
     fig.text(.04,yy,label,fontsize=8.5,weight='bold')
@@ -73,7 +73,7 @@ display_states=['Immune-\nhigh','Immune-\nintermediate','Immune-\nlow']
 ax.set_xticks(range(3),display_states);ax.set_yticks(range(3),display_states);ax.tick_params(length=0,labelsize=8)
 ax.set_xlabel('Within-343 scaled labels',labelpad=13,fontsize=8);ax.set_ylabel('Retained-input labels',labelpad=5,fontsize=8)
 for s in ax.spines.values():s.set_visible(False)
-fig.text(.04,.95,'Within-cohort scaling preserves\nmost assignments',fontsize=10,weight='bold',va='top')
+fig.text(.04,.95,'Within-cohort standardization\nImmune-state assignment comparison',fontsize=10,weight='bold',va='top')
 fig.text(.04,.055,'334/343 unchanged (97.4%); ARI = 0.915\nCounts use modal labels over seeds 42–66.',fontsize=8,linespacing=1.3)
 for ext in ['svg','pdf','png']:fig.savefig(out/'figures'/('FigureS5_standardization_consistency.'+ext),dpi=300)
 plt.close(fig)

@@ -54,4 +54,4 @@ for i,(v,p) in enumerate(zip(vals,pv)): ax.text(i,v+.0015,f"{100*v:.1f}%\nP={p:.
 for x in axes: x.spines[["top","right"]].set_visible(False)
 h,lab=axes[0].get_legend_handles_labels(); fig.legend(h,lab,loc="upper center",bbox_to_anchor=(.5,1.02),ncol=3,frameon=False,title="Immune state")
 fig.tight_layout(rect=[0,.08,1,.95]); os.makedirs(ROOT+"fig/Figure4",exist_ok=True)
-for ext in ("svg","pdf","png"): fig.savefig(ROOT+f"fig/Figure4/Figure4.{ext}",dpi=300 if ext=="png" else None,bbox_inches="tight",facecolor="white")
+for ext in ("svg","pdf","png"): canonicalize_figure(fig); fig.savefig(ROOT+f"fig/Figure4/Figure4.{ext}",dpi=300 if ext=="png" else None,bbox_inches="tight",facecolor="white")

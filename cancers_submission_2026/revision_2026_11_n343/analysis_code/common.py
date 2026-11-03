@@ -9,7 +9,7 @@ from statsmodels.stats.multitest import multipletests
 HI,MID,LO="Immune-high","Immune-intermediate","Immune-low"
 ECO=[LO,MID,HI]                      # reference first
 ORD=[HI,MID,LO]                      # plotting order
-SHORT={HI:"High",MID:"Intermediate",LO:"Low"}   # figure legends only
+SHORT={HI:HI,MID:MID,LO:LO}   # figure legends only
 COL={HI:"#3B82F6",MID:"#EF4444",LO:"#9CA3AF"}
 GRP=["pHGG_WT","DMG_K27","DHG_G34","IHG"]
 GRPNAME={"pHGG_WT":"pHGG, H3/IDH-wildtype","DMG_K27":"DMG, H3 K27-altered","DHG_G34":"DHG, H3 G34-mutant","IHG":"Infant-type hemispheric glioma"}
@@ -60,3 +60,18 @@ def load(os_version="corrected",labels="n343"):
     a["autopsy"]=(a.tumor_descriptor=="Deceased")
     return a
 def state_ct(s): return s.state.value_counts().reindex(ORD).fillna(0).astype(int)
+
+
+def canonicalize_figure(fig):
+    """Display labels only; source-data field names remain compatible with archived inputs."""
+    import re
+    from matplotlib.text import Text
+    for artist in fig.findobj(match=Text):
+        value=artist.get_text()
+        value=value.replace("Glioma_Inflammatory_Wang2017", "Cytotoxic_Lymphocyte_Curated")
+        value=value.replace("Glioma Inflammatory Wang2017", "Cytotoxic Lymphocyte Curated")
+        value=value.replace("MCP_DC", "MCP-counter myeloid DC")
+        value=re.sub(r"\bMCP\b(?!-counter)", "MCP-counter", value)
+        for old,new in [("tumours","tumors"),("tumour","tumor"),("programmes","programs"),("programme","program"),("harmonised","harmonized")]: value=value.replace(old,new)
+        value=re.sub(r"(?<![-\w])\b(High|Intermediate|Low)\b(?![-\w]| Grade)",lambda m: "Immune-"+m[1].lower(),value)
+        artist.set_text(value)
