@@ -178,7 +178,7 @@
      </g>
     </g>
     <g id="text_11">
-     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="14.797656" y="170.545168" transform="rotate(-90 14.797656 170.545168)">Tumours (%)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="14.797656" y="170.545168" transform="rotate(-90 14.797656 170.545168)">Tumors (%)</text>
     </g>
    </g>
    <g id="patch_15">
@@ -224,11 +224,11 @@
     <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="309.335352" y="91.00968" transform="rotate(-0 309.335352 91.00968)">15</text>
    </g>
    <g id="text_24">
-    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(138.193356 331.505572)">χ²=17.59, df=6, P_MC=0.0063</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(138.193356 331.505572)">χ²=17.59, df=6, P_MC=0.006</text>
     <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(149.364606 341.42776)">Cramér's V=0.16; n=326</text>
    </g>
    <g id="text_25">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="199.844606" y="61.824586" transform="rotate(-0 199.844606 61.824586)">A  Immune state by anatomical location</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="199.844606" y="61.824586" transform="rotate(-0 199.844606 61.824586)">Immune state by anatomical location</text>
    </g>
   </g>
   <g id="axes_2">
@@ -382,7 +382,7 @@
      </g>
     </g>
     <g id="text_36">
-     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="375.377788" y="170.545168" transform="rotate(-90 375.377788 170.545168)">Tumours (%)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="375.377788" y="170.545168" transform="rotate(-90 375.377788 170.545168)">Tumors (%)</text>
     </g>
    </g>
    <g id="patch_30">
@@ -428,11 +428,11 @@
     <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="648.078162" y="80.174769" transform="rotate(-0 648.078162 80.174769)">1</text>
    </g>
    <g id="text_49">
-    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(486.060395 331.505572)">χ²=30.61, df=6, P_MC=0.0001</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(486.060395 331.505572)">χ²=30.61, df=6, P_MC=1.0 × 10⁻⁴</text>
     <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(497.231645 341.42776)">Cramér's V=0.21; n=343</text>
    </g>
    <g id="text_50">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="547.711645" y="61.824586" transform="rotate(-0 547.711645 61.824586)">B  Immune state by molecular group</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="547.711645" y="61.824586" transform="rotate(-0 547.711645 61.824586)">Immune state by molecular group</text>
    </g>
   </g>
   <g id="axes_3">
@@ -543,7 +543,7 @@
      </g>
     </g>
     <g id="text_59">
-     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="710.531735" y="170.545168" transform="rotate(-90 710.531735 170.545168)">Tumours (%)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="710.531735" y="170.545168" transform="rotate(-90 710.531735 170.545168)">Tumors (%)</text>
     </g>
    </g>
    <g id="patch_39">
@@ -571,11 +571,11 @@
     <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="905.659268" y="103.607902" transform="rotate(-0 905.659268 103.607902)">21</text>
    </g>
    <g id="text_66">
-    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(791.976612 331.505572)">χ²=1.58, df=2, P_MC=0.5061</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(791.976612 331.505572)">χ²=1.58, df=2, P_MC=0.506</text>
     <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(803.147862 341.42776)">Cramér's V=0.14; n=86</text>
    </g>
    <g id="text_67">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="851.082862" y="61.824586" transform="rotate(-0 851.082862 61.824586)">C  Within H3/IDH-wt pHGG</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="851.082862" y="61.824586" transform="rotate(-0 851.082862 61.824586)">Within H3/IDH-wt pHGG</text>
    </g>
   </g>
   <g id="axes_4">
@@ -743,22 +743,22 @@
    </g>
    <g id="text_82">
     <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1042.766372 116.004743)">6.1%</text>
-    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1033.76813 125.006208)">P=0.0002</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1033.76813 125.006208)">P=2.0 × 10⁻⁴</text>
    </g>
    <g id="text_83">
     <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1106.635974 235.894651)">1.0%</text>
-    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1097.637731 244.896116)">P=0.1724</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1097.637731 244.896116)">P=0.172</text>
    </g>
    <g id="text_84">
     <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1170.505575 179.265404)">3.4%</text>
-    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1161.507333 188.266869)">P=0.0004</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1161.507333 188.266869)">P=4.0 × 10⁻⁴</text>
    </g>
    <g id="text_85">
     <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1234.375177 172.63399)">3.7%</text>
-    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1225.376935 181.635455)">P=0.0004</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(1225.376935 181.635455)">P=4.0 × 10⁻⁴</text>
    </g>
    <g id="text_86">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(1072.974876 49.821852)">D  Sequential PERMANOVA</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(1072.974876 49.821852)">Sequential PERMANOVA</text>
     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(1058.010032 61.824586)">(34-feature TPM matrix, n=253)</text>
    </g>
   </g>
@@ -800,4 +800,4 @@
    <rect x="1014.610064" y="67.824586" width="266.974936" height="205.441164"/>
   </clipPath>
  </defs>
-</svg>
+<text x="4.327999999999996" y="62.4546485" id="panel_letter_A" style="font-family:'DejaVu Sans'; font-size:35.79958333333334px; font-weight:700; text-anchor:start">A</text><text x="364.908131" y="62.4546485" id="panel_letter_B" style="font-family:'DejaVu Sans'; font-size:35.79958333333334px; font-weight:700; text-anchor:start">B</text><text x="700.0620779999999" y="62.4546485" id="panel_letter_C" style="font-family:'DejaVu Sans'; font-size:35.79958333333334px; font-weight:700; text-anchor:start">C</text><text x="971.6505639999999" y="62.4546485" id="panel_letter_D" style="font-family:'DejaVu Sans'; font-size:35.79958333333334px; font-weight:700; text-anchor:start">D</text></svg>

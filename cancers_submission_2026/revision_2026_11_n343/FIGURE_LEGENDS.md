@@ -14,11 +14,11 @@ A–E, PAC, silhouette, consensus CDF, gap statistic and minimum cluster size ac
 
 Figure 4 Immune states by location and molecular group
 
-A, immune-state fractions by anatomical class (n = 326; Monte Carlo chi-square P = 0.0063). B, immune states by integrated molecular group (n = 343; P = 0.0001). C, midline versus hemispheric location within H3/IDH-wildtype pHGG (n = 86; P = 0.5061). D, sequential PERMANOVA on the immune-feature matrix (n = 253); partial R-squared values depend on term order.
+A, immune-state fractions by anatomical class (n = 326; Monte Carlo chi-square P = 0.006). B, immune states by integrated molecular group (n = 343; P = 1.0 × 10⁻⁴). C, midline versus hemispheric location within H3/IDH-wildtype pHGG (n = 86; P = 0.506). D, sequential PERMANOVA on the immune-feature matrix (n = 253); partial R-squared values depend on term order.
 
 Figure 5 Single-cell and spatial support
 
-A, directional immune-signature discrimination in annotated single cells. B, immune-cell expression assignment for the top 300 Immune-high versus Immune-low genes (294/300, 98.0%; matched-random mean 69.7%; permutation P = 0.005). C–E, Visium spots from three diffuse midline glioma sections (577, 856 and 217 spots) mapped to bulk immune-state centroids and evaluated for spatial and cell-mixture patterns. Spot assignments are mixed-cell estimates. Panel A was redrawn from the stored AUROC table at its recorded three-decimal precision; whiskers show the minimum and maximum AUROC across the four specimens, rather than confidence intervals. The asterisk on Cytotoxic Lymphocyte Curated identifies its historical myeloid target: AUROC 0.075 pertains to that original target, whereas the renamed list is interpreted as lymphocyte-associated expression; neither scores nor target-specific audit estimates were recalculated.
+A, directional immune-signature discrimination in 18,619 annotated immune cells from four pediatric high-grade glioma specimens in GSE227983. Bars show pooled AUROC; whiskers show the minimum and maximum AUROC across the four specimens, rather than confidence intervals, and may lie on one side of the pooled estimate. Cytotoxic Lymphocyte Curated is evaluated against 4,699 annotated CD4/CD8 T cells versus 13,920 myeloid cells (AUROC 0.925; specimen range 0.927–0.976); NK cells were not separately annotated. The revised AUROC follows the complementary-label identity for unchanged scores at the stored three-decimal precision. This signature was originally classified as myeloid. B, immune-cell expression assignment for the top 300 Immune-high versus Immune-low genes (294/300, 98.0%; matched-random mean 69.7%; permutation P = 0.005). C–E, Visium spots from three diffuse midline glioma sections (577, 856 and 217 spots) mapped to bulk immune-state centroids and evaluated for spatial and cell-mixture patterns. Spot assignments are mixed-cell estimates.
 
 Figure 6 Adjusted differential expression
 
@@ -26,11 +26,11 @@ A–C, molecular-group-adjusted gene-wise comparisons of log2(TPM + 1) across im
 
 Figure 7 Overall survival
 
-A, Kaplan–Meier overall survival by immune state for 245 tumors (206 deaths), with numbers at risk; log-rank P = 0.058. B, Cox model adjusted for molecular group, age at diagnosis and sex. Immune-high versus Immune-low HR 0.62 (95% CI 0.42–0.91; P = 0.016); Immune-intermediate versus Immune-low HR 0.84 (0.57–1.22; P = 0.35). Sensitivity analyses are in the supplementary tables and figure. The x-axis displays 0–5 years. Kaplan–Meier estimation, log-rank testing, and Cox modeling use all available corrected follow-up.
+A, Kaplan–Meier overall survival by immune state for 245 tumors (206 deaths), with numbers at risk; log-rank P = 0.058. B, Cox model adjusted for molecular group, age at diagnosis and sex. Immune-high versus Immune-low HR 0.62 (95% CI 0.42–0.91; P = 0.016); Immune-intermediate versus Immune-low HR 0.84 (0.57–1.22; P = 0.347). Sensitivity analyses are in the supplementary tables and figure. The x-axis displays 0–5 years. Kaplan–Meier estimation, log-rank testing, and Cox modeling use all available corrected follow-up.
 
 Figure S1 survival analyses
 
-Sensitivity analyses of the prespecified survival model, within-subtype associations and incremental value. The primary set includes 245 tumors and 206 deaths. Excluding autopsy specimens gives n = 189, 150 deaths and Immune-high versus Immune-low HR 0.71 (95% CI 0.44–1.14; P = 0.16). Interpret these as observational associations. A, primary and sensitivity Immune-high versus Immune-low HRs, including the 116/149/78 re-standardized partition and joint autopsy-exclusion/library-control models. B and C, molecular-subtype Kaplan–Meier curves displayed through five years, fitted using full follow-up. D, age- and sex-adjusted state associations within subtype. E, incremental prognostic information. Re-standardized primary HR is 0.596 (0.400–0.888); combined autopsy exclusion/library adjustment HR is 0.759 (0.446–1.290). Both state contrasts and diagnostics are retained in Supplementary Table S7.
+Sensitivity analyses of the prespecified survival model, within-subtype associations and incremental value. The primary set includes 245 tumors and 206 deaths. Excluding autopsy specimens gives n = 189, 150 deaths and Immune-high versus Immune-low HR 0.71 (95% CI 0.44–1.14; P = 0.157). Interpret these as observational associations. A, primary and sensitivity Immune-high versus Immune-low HRs, including the 116/149/78 re-standardized partition and joint autopsy-exclusion/library-control models. B and C, molecular-subtype Kaplan–Meier curves displayed through five years, fitted using full follow-up. D, age- and sex-adjusted state associations within subtype. E, incremental prognostic information. Re-standardized primary HR is 0.596 (0.400–0.888); combined autopsy exclusion/library adjustment HR is 0.759 (0.446–1.290). Both state contrasts and diagnostics are retained in Supplementary Table S7.
 
 Figure S2 immune-state structure
 
@@ -42,7 +42,7 @@ Immune-feature and program associations with survival and immune state. Analyses
 
 Figure S4 ScPCA axis linkage
 
-Single-cell donor-level comparison with the n = 343 bulk immune axis. The harmonized classifier has cross-validated accuracy 299/343 (87.2%); projected donor states are four Immune-low, seven Immune-intermediate and six Immune-high. The bulk axis correlates with single-cell immune-cell fraction (Spearman rho = 0.78; permutation P = 0.0003). Cell-specific secondary tests remain exploratory. Ordered donor-state tests use Immune-low < Immune-intermediate < Immune-high.
+Single-cell donor-level comparison with the n = 343 bulk immune axis. The harmonized classifier has cross-validated accuracy 299/343 (87.2%); projected donor states are four Immune-low, seven Immune-intermediate and six Immune-high. The bulk axis correlates with single-cell immune-cell fraction (Spearman rho = 0.78; permutation P = 3.0 × 10⁻⁴). Cell-specific secondary tests remain exploratory. Ordered donor-state tests use Immune-low < Immune-intermediate < Immune-high.
 
 Figure S5 Within cohort standardization and assignment consistency
 

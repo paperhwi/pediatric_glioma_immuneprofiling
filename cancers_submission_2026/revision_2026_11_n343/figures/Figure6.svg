@@ -260,7 +260,7 @@
     <path d="M 87.149844 225.068489  L 300.475677 225.068489  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_17">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="53.01771" y="17.076953" transform="rotate(-0 53.01771 17.076953)">A</text>
+    <text style="font-weight:700; font-size:23.243870361111107px; font-family: 'DejaVu Sans'; text-anchor:start" x="53.01771" y="17.076953" transform="rotate(-0 53.01771 17.076953)">A</text>
    </g>
    <g id="text_18">
     <text style="font-size: 7.8px; font-family: 'DejaVu Sans'" transform="translate(136.835589 17.087476)">Immune-high vs Immune-low</text>
@@ -459,7 +459,7 @@
     <path d="M 349.480677 225.068489  L 562.80651 225.068489  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_31">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="315.348544" y="17.076953" transform="rotate(-0 315.348544 17.076953)">B</text>
+    <text style="font-weight:700; font-size:23.243870361111107px; font-family: 'DejaVu Sans'; text-anchor:start" x="315.348544" y="17.076953" transform="rotate(-0 315.348544 17.076953)">B</text>
    </g>
    <g id="text_32">
     <text style="font-size: 7.8px; font-family: 'DejaVu Sans'" transform="translate(382.57375 17.087476)">Immune-intermediate vs Immune-low</text>
@@ -738,7 +738,7 @@
     <path d="M 611.81151 225.068489  L 825.137344 225.068489  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_53">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="577.679377" y="17.076953" transform="rotate(-0 577.679377 17.076953)">C</text>
+    <text style="font-weight:700; font-size:23.243870361111107px; font-family: 'DejaVu Sans'; text-anchor:start" x="577.679377" y="17.076953" transform="rotate(-0 577.679377 17.076953)">C</text>
    </g>
    <g id="text_54">
     <text style="font-size: 7.8px; font-family: 'DejaVu Sans'" transform="translate(643.061224 17.087476)">Immune-high vs Immune-intermediate</text>
@@ -911,7 +911,7 @@
     <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f1d1d" x="109.454297" y="445.134265" transform="rotate(-0 109.454297 445.134265)">total 431</text>
    </g>
    <g id="text_69">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="53.01771" y="288.576845" transform="rotate(-0 53.01771 288.576845)">D</text>
+    <text style="font-weight:700; font-size:23.243870361111107px; font-family: 'DejaVu Sans'; text-anchor:start" x="53.01771" y="288.576845" transform="rotate(-0 53.01771 288.576845)">D</text>
    </g>
    <g id="text_70">
     <text style="font-size: 7.8px; font-family: 'DejaVu Sans'" transform="translate(97.267651 288.621493)">404/431 (93.7%) of the Immune-intermediate set</text>
@@ -1220,7 +1220,7 @@
     <path d="M 349.480677 496.56838  L 562.80651 496.56838  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_91">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="315.348544" y="288.576845" transform="rotate(-0 315.348544 288.576845)">E</text>
+    <text style="font-weight:700; font-size:23.243870361111107px; font-family: 'DejaVu Sans'; text-anchor:start" x="315.348544" y="288.576845" transform="rotate(-0 315.348544 288.576845)">E</text>
    </g>
    <g id="text_92">
     <!-- All 18,564 genes; Pearson $r$ = 0.78 -->
@@ -1472,7 +1472,7 @@
     <path d="M 611.81151 496.56838  L 825.137344 496.56838  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_105">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="577.679377" y="288.576845" transform="rotate(-0 577.679377 288.576845)">F</text>
+    <text style="font-weight:700; font-size:23.243870361111107px; font-family: 'DejaVu Sans'; text-anchor:start" x="577.679377" y="288.576845" transform="rotate(-0 577.679377 288.576845)">F</text>
    </g>
    <g id="text_106">
     <!-- Median 1.51$\times$ larger in Immune-high -->

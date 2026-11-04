@@ -18,3 +18,5 @@ import runpy
 runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)),"additional_analyses_20261103","validate_public_outputs.py"),run_name="__main__")
 
 runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)),"reviewer_followup_20261103","validate_followup.py"),run_name="__main__")
+
+runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)),"figure_revision_20261104","validate_figure_update.py"),run_name="__main__")
