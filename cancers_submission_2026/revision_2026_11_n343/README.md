@@ -62,3 +62,8 @@ See [reviewer_followup_20261103](reviewer_followup_20261103/) for the re-standar
 All seven main and seven supplementary figures are provided in SVG, PDF and PNG; the existing analysis filenames for S1–S3 are retained. Figure 7 and the subtype KM panels display five years while using full follow-up. Figure S7 restores the outcome-availability/IPW sensitivity. Additional supplements S7 and S8 are in `reviewer_followup_20261103/supplementary/`. Gene-source S3 and standardization S6 are also updated in the prior addition.
 
 Versioned final link: https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0 . Historical submission: https://github.com/paperhwi/pediatric_glioma_immuneprofiling/tree/v1.0 . These versions distinguish the original submission and final revision without rewriting historical materials.
+
+
+## November 4 publication correction
+
+See [the v2.0.1 figure update](figure_revision_20261104/) for corrected T-cell-target Figure 5A and publication layouts. Figures and FIGURE_LEGENDS.md here are current. Earlier November 3 original-target AUROC tables remain historical audit records; use the November 4 current-target table for Figure 5A.

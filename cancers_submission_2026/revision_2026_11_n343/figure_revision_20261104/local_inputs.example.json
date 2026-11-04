@@ -1,0 +1,5 @@
+{
+  "cibersort_qc": "/authorized-inputs/CIBERSORTx_Job15_Results.csv",
+  "cross_method_long": "/authorized-inputs/SupplTableS22_4method_axis_consensus_long.tsv",
+  "visium_h5ad": "/authorized-inputs/Rev343_visium_spots_n1650.h5ad"
+}

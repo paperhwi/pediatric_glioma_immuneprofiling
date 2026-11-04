@@ -32,6 +32,9 @@ Raw expression, restricted clinical data, individual survival times, and histolo
 [Within-cohort scaling and RNA-library survival sensitivity analyses](cancers_submission_2026/revision_2026_11_n343/additional_analyses_20261103/) include public inputs for clustering, aggregate Cox/PH outputs, Figures S5/S6 and Supplementary Table S6. Primary labels remain 122/144/77; re-standardized 116/149/78 labels are a sensitivity partition. Library adjustment attenuates the axis association to HR 0.861 (95% CI 0.726–1.022), P = 0.088.
 
 
-## Final version v2.0
+## Current corrected version v2.0.1
 
-The [v2.0 release](https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0) is the version-fixed final n343 analysis. The [v1.0 tag](https://github.com/paperhwi/pediatric_glioma_immuneprofiling/tree/v1.0) preserves the original September submission snapshot. [Reviewer follow-up](cancers_submission_2026/revision_2026_11_n343/reviewer_followup_20261103/) includes additional categorical Cox and IPW models, the 702-specimen scaling reference, signature provenance, five-year KM displays, and submitted Tables 2–5 retained as Supplementary Table S8. Raw and restricted patient-level clinical or survival records are not newly redistributed.
+The [v2.0.1 release](https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.1) includes the November 4 figure and target corrections. The preceding [v2.0 release](https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0) remains preserved. The [v1.0 tag](https://github.com/paperhwi/pediatric_glioma_immuneprofiling/tree/v1.0) preserves the original September submission snapshot. [Reviewer follow-up](cancers_submission_2026/revision_2026_11_n343/reviewer_followup_20261103/) includes additional categorical Cox and IPW models, the 702-specimen scaling reference, signature provenance, five-year KM displays, and submitted Tables 2–5 retained as Supplementary Table S8. Raw and restricted patient-level clinical or survival records are not newly redistributed.
+
+
+[November 4 correction details and reproducible figure code](cancers_submission_2026/revision_2026_11_n343/figure_revision_20261104/) document the curated T-cell-target AUROC of 0.925, current median 0.879, figure layout, P notation, and unchanged primary analyses.

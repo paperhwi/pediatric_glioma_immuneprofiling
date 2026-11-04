@@ -351,7 +351,7 @@
     <text style="font-size: 5.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f59e0b" x="539.454453" y="301.67447" transform="rotate(-0 539.454453 301.67447)">q = 0.031</text>
    </g>
    <g id="text_36">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="7.2" y="14.797656" transform="rotate(-0 7.2 14.797656)">A</text>
+    <text style="font-weight:700; font-size:19.454849333333335px; font-family: 'DejaVu Sans'; text-anchor:start" x="7.2" y="14.797656" transform="rotate(-0 7.2 14.797656)">A</text>
    </g>
    <g id="text_37">
     <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: start" x="204.984" y="27.939265" transform="rotate(-0 204.984 27.939265)">Immune features and curated programs with BH q &lt; 0.05 in either model (n = 245, 206 deaths)</text>
@@ -516,7 +516,7 @@
     <path d="M 204.984 649.107265  L 332.586581 649.107265  " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_49">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="51.860903" y="410.123305" transform="rotate(-0 51.860903 410.123305)">B</text>
+    <text style="font-weight:700; font-size:19.454849333333335px; font-family: 'DejaVu Sans'; text-anchor:start" x="51.860903" y="410.123305" transform="rotate(-0 51.860903 410.123305)">B</text>
    </g>
    <g id="text_50">
     <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="268.78529" y="419.917061" transform="rotate(-0 268.78529 419.917061)">Published programs</text>
@@ -712,10 +712,10 @@
     <path d="M 472.949419 649.107265  L 600.552 649.107265  " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_62">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="319.826323" y="410.123305" transform="rotate(-0 319.826323 410.123305)">C</text>
+    <text style="font-weight:700; font-size:19.454849333333335px; font-family: 'DejaVu Sans'; text-anchor:start" x="319.826323" y="410.123305" transform="rotate(-0 319.826323 410.123305)">C</text>
    </g>
    <g id="text_63">
-    <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(466.319225 411.515147)">deconvolution-estimated</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(466.319225 411.515147)">Deconvolution-estimated</text>
     <text style="font-size: 7px; font-family: 'DejaVu Sans'" transform="translate(458.281257 419.917061)">tumor-cell programs by molecular group</text>
    </g>
    <g id="legend_2">

@@ -1,0 +1,23 @@
+{
+  "positive_cells": 4699,
+  "negative_cells": 13920,
+  "excluded_unclear": 93,
+  "specimens": 4,
+  "annotation_counts": {
+    "CD4": 2385,
+    "CD8": 2314,
+    "Myeloid": 13920,
+    "unclear": 93
+  },
+  "original_target": "Myeloid",
+  "current_positive": "CD4 + CD8 T cells (available T/NK-associated lineage proxy; NK not separately annotated)",
+  "AUROC": 0.925,
+  "specimen_range": [
+    0.927,
+    0.976
+  ],
+  "method": "AUROC(complement labels, unchanged score) = 1 - AUROC(original labels, unchanged score); extrema reverse. Original source retained three-decimal precision; no unavailable per-cell scores or higher precision inferred.",
+  "directional_n": 16,
+  "concordant_n": 16,
+  "median_directional_AUROC": 0.879
+}

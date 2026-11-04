@@ -1,3 +1,4 @@
+# Current publication layout: ../figure_revision_20261104/code/render_updated_figures.py
 """Figure 5 (n = 343): A external single-cell AUROC (independent of the bulk cohort; stored AUROC summary, vector rendering); B cell class with the highest
 mean expression of the top 300 Immune-high vs Immune-low genes in ScPCA SCPCP000001; C-E Visium spots by nearest bulk-state centroid."""
 import json, sys
@@ -48,18 +49,18 @@ gs = GridSpec(3, 2, figure=fig, height_ratios=[1.25, 1.4, 1.25], hspace=.55, wsp
 # A: source panel is external-cell signature AUROC, independent of the bulk
 # cohort and already checked in the submitted manuscript.
 ax = fig.add_subplot(gs[0, 0])
-auc = pd.read_csv(Path(__file__).resolve().parents[1] / "reviewer_followup_20261103/tables/Figure5A_source_AUROC.tsv", sep="\t")
+auc = pd.read_csv(Path(__file__).resolve().parents[1] / "figure_revision_20261104/tables/Figure5A_AUROC_current_targets.tsv", sep="\t")
 auc = auc.sort_values("AUROC_all_cells")
 yy = np.arange(len(auc))
-bar_colors = ["#B91C1C" if verdict == "DISCORDANT" else "#6D28D9" if "T cell" in target else "#0F766E" for verdict,target in zip(auc.verdict,auc.expected)]
+bar_colors = ["#6D28D9" if ("T cell" in target or "T/NK" in target) else "#0F766E" for verdict,target in zip(auc.verdict,auc.expected)]
 ax.barh(yy,auc.AUROC_all_cells,color=bar_colors,height=.72)
 for yi,(_,rr) in zip(yy,auc.iterrows()):
     ax.plot([rr.AUROC_min_sample,rr.AUROC_max_sample],[yi,yi],color="#475569",lw=.7)
 display_names = auc.signature.str.replace("_"," ").tolist()
-display_names[0] = "Cytotoxic Lymphocyte Curated*"
+
 ax.set_yticks(yy,display_names,fontsize=5.5)
 ax.set_xlim(0,1.04);ax.axvline(.5,ls="--",color="#374151",lw=.7)
-ax.set_xlabel("AUROC against the originally specified target lineage",fontsize=6)
+ax.set_xlabel("AUROC for annotated target lineage",fontsize=6)
 ax.tick_params(axis="x",labelsize=6);ax.spines[["top","right"]].set_visible(False)
 ax.text(-.05,1.05,"A",transform=ax.transAxes,fontsize=15,weight="bold")
 

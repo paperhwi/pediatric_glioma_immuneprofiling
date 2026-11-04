@@ -112,7 +112,7 @@
     <path d="M 55.44 371.403734  L 923.76 371.403734  Q 933.408 371.403734 933.408 367.74707  L 933.408 332.643096  Q 933.408 328.986432 923.76 328.986432  L 55.44 328.986432  Q 45.792 328.986432 45.792 332.643096  L 45.792 367.74707  Q 45.792 371.403734 55.44 371.403734  z " clip-path="url(#p7800adaea3)" style="fill: #e4ecf7; stroke: #1f3864; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="14.9184" y="22.253148" transform="rotate(-0 14.9184 22.253148)">A</text>
+    <text style="font-weight:700; font-size:27.200000000000003px; font-family: 'DejaVu Sans'; text-anchor:start; fill: #0f172a" x="14.9184" y="22.253148" transform="rotate(-0 14.9184 22.253148)">A</text>
    </g>
    <g id="text_2">
     <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="19.594867" transform="rotate(-0 489.6 19.594867)">Study workflow</text>
@@ -270,7 +270,7 @@
     <path d="M 21.672 672.5988  L 147.096 672.5988  Q 156.744 672.5988 156.744 669.213  L 156.744 648.8982  Q 156.744 645.5124 147.096 645.5124  L 21.672 645.5124  Q 12.024 645.5124 12.024 648.8982  L 12.024 669.213  Q 12.024 672.5988 21.672 672.5988  z " clip-path="url(#pa4bb2c6a1d)" style="fill: #fae4e4; stroke-dasharray: 3.85,2.75; stroke-dashoffset: 0; stroke: #a33a3a; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="text_29">
-    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="14.9184" y="396.202284" transform="rotate(-0 14.9184 396.202284)">B</text>
+    <text style="font-weight:700; font-size:27.200000000000003px; font-family: 'DejaVu Sans'; text-anchor:start; fill: #0f172a" x="14.9184" y="396.202284" transform="rotate(-0 14.9184 396.202284)">B</text>
    </g>
    <g id="text_30">
     <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="393.544003" transform="rotate(-0 489.6 393.544003)">Analysis-set derivation</text>
