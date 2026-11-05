@@ -1,28 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="240.944882pt" height="221.102362pt" viewBox="0 0 240.944882 221.102362" version="1.1">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-03T14:01:38.998350</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 221.102362  L 240.944882 221.102362  L 240.944882 0  L 0 0  z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="252.28346456692913pt" height="189.480666pt" viewBox="0 0 252.283464567 189.480665950"><rect x="0" y="0" width="252.28346456692913" height="189.4806659499378" fill="#ffffff"/><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <clipPath id="p2d5a8067c7">
+   <rect x="74.692913" y="53.064567" width="154.204724" height="99.496063"/>
+  </clipPath>
+ </defs><g transform="translate(-2.737116 -49.265948) scale(1.079174879 1.079174879)" data-role="plot-geometry" data-panel=""><g id="axes_1">
    <g id="patch_2">
     <path d="M 74.692913 152.56063  L 228.897638 152.56063  L 228.897638 53.064567  L 74.692913 53.064567  z " style="fill: #ffffff"/>
    </g>
@@ -33,88 +14,59 @@
     <g id="xtick_1">
      <g id="line2d_1"/>
      <g id="text_1">
-      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="100.393701" y="161.884849" transform="rotate(-0 100.393701 161.884849)"><tspan x="100.393701" y="158.524849">Immune-</tspan><tspan x="100.393701" y="167.484849">high</tspan></text>
-     </g>
+      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2"/>
      <g id="text_2">
-      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="151.795276" y="161.884849" transform="rotate(-0 151.795276 161.884849)"><tspan x="151.795276" y="158.524849">Immune-</tspan><tspan x="151.795276" y="167.484849">intermediate</tspan></text>
-     </g>
+      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3"/>
      <g id="text_3">
-      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="203.19685" y="161.884849" transform="rotate(-0 203.19685 161.884849)"><tspan x="203.19685" y="158.524849">Immune-</tspan><tspan x="203.19685" y="167.484849">low</tspan></text>
-     </g>
+      </g>
     </g>
     <g id="text_4" transform="translate(0 8.5)">
-     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="151.795276" y="174.392817" transform="rotate(-0 151.795276 174.392817)">Within-343 scaled labels</text>
-    </g>
+     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_4"/>
      <g id="text_5">
-      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="71.192913" y="72.559353" transform="rotate(-0 71.192913 72.559353)"><tspan x="71.192913" y="69.199353">Immune-</tspan><tspan x="71.192913" y="78.15935300000001">high</tspan></text>
-     </g>
+      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_5"/>
      <g id="text_6">
-      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="71.192913" y="105.724708" transform="rotate(-0 71.192913 105.724708)"><tspan x="71.192913" y="102.36470800000001">Immune-</tspan><tspan x="71.192913" y="111.32470800000002">intermediate</tspan></text>
-     </g>
+      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_6"/>
      <g id="text_7">
-      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="71.192913" y="138.890062" transform="rotate(-0 71.192913 138.890062)"><tspan x="71.192913" y="135.530062">Immune-</tspan><tspan x="71.192913" y="144.490062">low</tspan></text>
-     </g>
+      </g>
     </g>
     <g id="text_8">
-     <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="20.04432" y="102.812598" transform="rotate(-90 20.04432 102.812598)">Retained-input labels</text>
-    </g>
+     </g>
    </g>
    <g id="text_9">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #ffffff" x="100.393701" y="72.235135" transform="rotate(-0 100.393701 72.235135)">115</text>
-   </g>
+    </g>
    <g id="text_10">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="151.795276" y="72.235135" transform="rotate(-0 151.795276 72.235135)">7</text>
-   </g>
+    </g>
    <g id="text_11">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="203.19685" y="72.235135" transform="rotate(-0 203.19685 72.235135)">0</text>
-   </g>
+    </g>
    <g id="text_12">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="100.393701" y="105.400489" transform="rotate(-0 100.393701 105.400489)">1</text>
-   </g>
+    </g>
    <g id="text_13">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #ffffff" x="151.795276" y="105.400489" transform="rotate(-0 151.795276 105.400489)">142</text>
-   </g>
+    </g>
    <g id="text_14">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="203.19685" y="105.400489" transform="rotate(-0 203.19685 105.400489)">1</text>
-   </g>
+    </g>
    <g id="text_15">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="100.393701" y="138.565843" transform="rotate(-0 100.393701 138.565843)">0</text>
-   </g>
+    </g>
    <g id="text_16">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="151.795276" y="138.565843" transform="rotate(-0 151.795276 138.565843)">0</text>
-   </g>
+    </g>
    <g id="text_17">
-    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #171717" x="203.19685" y="138.565843" transform="rotate(-0 203.19685 138.565843)">77</text>
-   </g>
-  </g>
-  <g id="text_18">
-   <text style="font-weight: 700; font-size: 10px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 19.084903)">Within-cohort standardization</text>
-   <text style="font-weight: 700; font-size: 10px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 29.968888)">Immune-state assignment comparison</text>
+    </g>
   </g>
   <g id="text_19">
-   <text style="font-size: 8px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 198.388451)">334/343 unchanged (97.4%); ARI = 0.915</text>
-   <text style="font-size: 8px; font-family: 'Arial'; fill: #171717" transform="translate(9.637795 208.941732)">Counts use modal labels over seeds 42–66.</text>
-  </g>
- </g>
- <defs>
-  <clipPath id="p2d5a8067c7">
-   <rect x="74.692913" y="53.064567" width="154.204724" height="99.496063"/>
-  </clipPath>
- </defs>
-</svg>
+   </g>
+ </g><g transform="translate(105.605244 129.459902) rotate(0.000000)" data-role="body"><text x="-15.780000000000001" y="-3.3600000000000136" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Immune-</text><text x="-7.561875000000001" y="5.599999999999994" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">high</text></g><g transform="translate(161.076532 129.459902) rotate(0.000000)" data-role="body"><text x="-15.780000000000001" y="-3.3600000000000136" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Immune-</text><text x="-22.01" y="5.599999999999994" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">intermediate</text></g><g transform="translate(216.547820 129.459902) rotate(0.000000)" data-role="body"><text x="-15.780000000000001" y="-3.3600000000000136" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Immune-</text><text x="-6.001875" y="5.599999999999994" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">low</text></g><g transform="translate(161.076532 147.493652) rotate(0.000000)" data-role="body"><text x="-43.353125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">Within-343 scaled labels</text></g><g transform="translate(73.119599 29.038283) rotate(0.000000)" data-role="body"><text x="-31.560000000000002" y="-3.3599999999999994" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Immune-</text><text x="-15.123750000000001" y="5.6000000000000085" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">high</text></g><g transform="translate(73.119599 64.829501) rotate(0.000000)" data-role="body"><text x="-31.560000000000002" y="-3.3599999999999994" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Immune-</text><text x="-44.02" y="5.6000000000000085" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">intermediate</text></g><g transform="translate(72.932099 100.620718) rotate(0.000000)" data-role="body"><text x="-31.560000000000002" y="-3.3600000000000136" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Immune-</text><text x="-12.00375" y="5.599999999999994" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">low</text></g><g transform="translate(23.040849 61.686825) rotate(-90.000000)" data-role="body"><text x="-37.5775" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">Retained-input labels</text></g><g transform="translate(105.605244 28.688395) rotate(0.000000)" data-role="body"><text x="-7.9703125" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#ffffff">115</text></g><g transform="translate(161.076532 28.688395) rotate(0.000000)" data-role="body"><text x="-2.7804687500000003" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">7</text></g><g transform="translate(216.547820 28.688395) rotate(0.000000)" data-role="body"><text x="-2.7804687500000003" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">0</text></g><g transform="translate(105.605244 64.479612) rotate(0.000000)" data-role="body"><text x="-2.7804687500000003" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">1</text></g><g transform="translate(161.076532 64.479612) rotate(0.000000)" data-role="body"><text x="-8.34140625" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#ffffff">142</text></g><g transform="translate(216.547820 64.479612) rotate(0.000000)" data-role="body"><text x="-2.7804687500000003" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">1</text></g><g transform="translate(105.605244 100.270829) rotate(0.000000)" data-role="body"><text x="-2.7804687500000003" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">0</text></g><g transform="translate(161.076532 100.270829) rotate(0.000000)" data-role="body"><text x="-2.7804687500000003" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">0</text></g><g transform="translate(216.547820 100.270829) rotate(0.000000)" data-role="body"><text x="-5.5609375000000005" y="0" style="font-family:Arial; font-size:10px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">77</text></g><g transform="translate(7.663750 164.829885) rotate(0.000000)" data-role="body"><text x="0" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">334/343 unchanged (97.4%); ARI = 0.915</text></g><g transform="translate(7.663750 175.383166) rotate(0.000000)" data-role="body"><text x="0" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#171717">Counts use modal labels over seeds 42–66.</text></g></svg>
