@@ -1,28 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:c2pa="http://c2pa.org/manifest" width="979.2pt" height="727.2pt" viewBox="0 0 979.2 727.2" version="1.1">
- <metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjOWIwMDcwNC1mNjA0LTQ1NGUtODc1Mi05YjZhMmJjNjIzNDEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOYPHbYnfO/m+fZYArGfWNMAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1ODVjNzQwYi1lZDM2LTQxZGUtYWQwNS02ZGRlN2Q2Y2I2MGNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoYI7M6gL8B5708EqqCwpu9QAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggbLGEcAUc8Ja/T2jT8S7hVLb7gRg8H3r0TO5Wo/KCg9mkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCFoYJhRNHk5OyMix2bPRQgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYICnFUdARIjAcHDoBt4tEM3U/NQ0rUMlxo+IVa8RT86FoZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQF5Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmM5YjAwNzA0LWY2MDQtNDU0ZS04NzUyLTliNmEyYmM2MjM0MS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjcwNWQxMDhiLTgzN2QtNGYzMi05MDAzLWZiZjAwMzAzMzQ0YnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBssYRwBRzwlr9PaNPxLuFUtvuBGDwfevRM7laj8oKD2aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggNOwqFblg/xyRZ0S5HPwNYC7Wk4gaA0IqZCLE/7f4z1OiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggG/DbQidrxAXn0MVDMMQn24aQAms1vNFMNbwab8uRncR0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQPgM0w9wZWv0MuU1ro22XbTQPUgHtRXCWqLhKs09pWe20+GB9edHqaP6VYa3c3CvJUAz8EeyTvyUoozwL+xpS7M=</c2pa:manifest>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-03T00:51:47.924367</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 727.2  L 979.2 727.2  L 979.2 -0  L 0 -0  z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="504.56692913385825pt" height="671.177607pt" viewBox="0 0 504.566929134 671.177606900"><rect x="0" y="0" width="504.56692913385825" height="671.1776069" fill="#ffffff"/><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <clipPath id="p7800adaea3">
+   <rect x="7.2" y="7.2" width="964.8" height="365.6664"/>
+  </clipPath>
+  <clipPath id="pa4bb2c6a1d">
+   <rect x="7.2" y="381.42" width="964.8" height="338.58"/>
+  </clipPath>
+ </defs><g transform="translate(8.000000 20.000000) rotate(0.000000)" data-role="panel-letter"><text x="0" y="0" style="font-family:Arial; font-size:12.0px; font-weight:bold; font-style:normal; text-anchor:start; fill:#000000">A</text></g><g transform="translate(26.000000 19.000000) rotate(0.000000)" data-role="panel-title"><text x="0" y="0" style="font-family:Arial; font-size:10.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Study workflow</text></g><g transform="translate(1.723510 6.270477) scale(0.530146966 0.900000000)" data-role="plot-geometry" data-panel="A"><g id="axes_1">
    <g id="line2d_1">
     <path d="M 180.864 77.773615  L 180.864 86.915275  " clip-path="url(#p7800adaea3)" style="fill: none; stroke: #1f3864; stroke-width: 1.3; stroke-linecap: square"/>
    </g>
@@ -112,91 +96,63 @@
     <path d="M 55.44 371.403734  L 923.76 371.403734  Q 933.408 371.403734 933.408 367.74707  L 933.408 332.643096  Q 933.408 328.986432 923.76 328.986432  L 55.44 328.986432  Q 45.792 328.986432 45.792 332.643096  L 45.792 367.74707  Q 45.792 371.403734 55.44 371.403734  z " clip-path="url(#p7800adaea3)" style="fill: #e4ecf7; stroke: #1f3864; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
-    <text style="font-weight:700; font-size:27.200000000000003px; font-family: 'DejaVu Sans'; text-anchor:start; fill: #0f172a" x="14.9184" y="22.253148" transform="rotate(-0 14.9184 22.253148)">A</text>
-   </g>
+    </g>
    <g id="text_2">
-    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="19.594867" transform="rotate(-0 489.6 19.594867)">Study workflow</text>
-   </g>
+    </g>
    <g id="text_3">
-    <text style="font-style: italic; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #56657f" x="489.6" y="32.83697" transform="rotate(-0 489.6 32.83697)">OpenPedCan v15  ·  pediatric CNS tumor biospecimens</text>
-   </g>
+    </g>
    <g id="text_4">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="180.864" y="58.264241" transform="rotate(-0 180.864 58.264241)">Clinical and histologic</text>
-   </g>
+    </g>
    <g id="text_5">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="180.864" y="70.408241" transform="rotate(-0 180.864 70.408241)">annotation</text>
-   </g>
+    </g>
    <g id="text_6">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="58.264241" transform="rotate(-0 489.6 58.264241)">Fusion</text>
-   </g>
+    </g>
    <g id="text_7">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="70.408241" transform="rotate(-0 489.6 70.408241)">annotation</text>
-   </g>
+    </g>
    <g id="text_8">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="798.336" y="58.264241" transform="rotate(-0 798.336 58.264241)">TPM-normalized</text>
-   </g>
+    </g>
    <g id="text_9">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="798.336" y="70.408241" transform="rotate(-0 798.336 70.408241)">gene-expression matrix</text>
-   </g>
+    </g>
    <g id="text_10">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="105.437908" transform="rotate(-0 489.6 105.437908)">Cohort assembly   n = 343 pediatric-type diffuse HGG</text>
-   </g>
+    </g>
    <g id="text_11">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="117.305908" transform="rotate(-0 489.6 117.305908)">one RNA-sequenced specimen per participant (245 initial · 40 recurrent/progressive · 58 autopsy)</text>
-   </g>
+    </g>
    <g id="text_12">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="129.173908" transform="rotate(-0 489.6 129.173908)">DMG, H3 K27-altered 175 · pHGG, H3/IDH-wildtype 127 · DHG, H3 G34-mutant 31 · infant-type hemispheric 10</text>
-   </g>
+    </g>
    <g id="text_13">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="162.1162" transform="rotate(-0 489.6 162.1162)">Immune-feature generation</text>
-   </g>
+    </g>
    <g id="text_14">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="173.9842" transform="rotate(-0 489.6 173.9842)">CIBERSORTx LM22 (22 immune cell types)  ·  orthogonal deconvolution (xCell, quanTIseq, MCP-counter, EPIC)</text>
-   </g>
+    </g>
    <g id="text_15">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="185.8522" transform="rotate(-0 489.6 185.8522)">24 brain-tuned ssGSEA signatures  →  z-scored 46-feature immune matrix</text>
-   </g>
+    </g>
    <g id="text_16">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="223.830484" transform="rotate(-0 489.6 223.830484)">Locked k = 3 assignment</text>
-   </g>
+    </g>
    <g id="text_17">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="235.698484" transform="rotate(-0 489.6 235.698484)">500-replicate bootstrap consensus clustering (80% item resampling, average linkage); modal label over seeds 42–66</text>
-   </g>
+    </g>
    <g id="text_18">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="247.566484" transform="rotate(-0 489.6 247.566484)">Cluster-number evaluation and resampling-stability analysis: 1,000 replicates, k = 2–10</text>
-   </g>
+    </g>
    <g id="text_19">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="259.434484" transform="rotate(-0 489.6 259.434484)">k = 2 most stable;  k = 3 retained as an exploratory three-state representation</text>
-   </g>
+    </g>
    <g id="text_20">
-    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="190.512" y="294.119069" transform="rotate(-0 190.512 294.119069)">Immune-high</text>
-   </g>
+    </g>
    <g id="text_21">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="190.512" y="306.262725" transform="rotate(-0 190.512 306.262725)">n = 122</text>
-   </g>
+    </g>
    <g id="text_22">
-    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="489.6" y="294.119069" transform="rotate(-0 489.6 294.119069)">Immune-intermediate</text>
-   </g>
+    </g>
    <g id="text_23">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="489.6" y="306.262725" transform="rotate(-0 489.6 306.262725)">n = 144</text>
-   </g>
+    </g>
    <g id="text_24">
-    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="788.688" y="294.119069" transform="rotate(-0 788.688 294.119069)">Immune-low</text>
-   </g>
+    </g>
    <g id="text_25">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="788.688" y="306.262725" transform="rotate(-0 788.688 306.262725)">n = 77</text>
-   </g>
+    </g>
    <g id="text_26">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="340.561404" transform="rotate(-0 489.6 340.561404)">Downstream analyses</text>
-   </g>
+    </g>
    <g id="text_27">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="352.429404" transform="rotate(-0 489.6 352.429404)">integrated molecular group and anatomical location  ·  sequential PERMANOVA  ·  molecular-group-adjusted differential expression</text>
-   </g>
+    </g>
    <g id="text_28">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="364.297404" transform="rotate(-0 489.6 364.297404)">Kaplan–Meier and multivariable Cox  ·  single-cell and spatial support  ·  sensitivity analyses</text>
-   </g>
+    </g>
   </g>
-  <g id="axes_2">
+  </g><g transform="translate(261.283465 35.823750) rotate(0.000000)" data-role="body"><text x="-99.1525" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:italic; text-anchor:start; fill:#56657f">OpenPedCan v15  ·  pediatric CNS tumor biospecimens</text></g><g transform="translate(97.608011 58.708294) rotate(0.000000)" data-role="body"><text x="-38.463125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">Clinical and histologic</text></g><g transform="translate(97.608011 69.637894) rotate(0.000000)" data-role="body"><text x="-18.681875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">annotation</text></g><g transform="translate(261.283465 58.708294) rotate(0.000000)" data-role="body"><text x="-12.005" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">Fusion</text></g><g transform="translate(261.283465 69.637894) rotate(0.000000)" data-role="body"><text x="-18.681875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">annotation</text></g><g transform="translate(424.958918 58.708294) rotate(0.000000)" data-role="body"><text x="-29.338125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">TPM-normalized</text></g><g transform="translate(424.958918 69.637894) rotate(0.000000)" data-role="body"><text x="-41.57125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">gene-expression matrix</text></g><g transform="translate(261.283465 101.164594) rotate(0.000000)" data-role="body"><text x="-101.24125000000001" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Cohort assembly   n = 343 pediatric-type diffuse HGG</text></g><g transform="translate(261.283465 111.845794) rotate(0.000000)" data-role="body"><text x="-172.520625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">one RNA-sequenced specimen per participant (245 initial · 40 recurrent/progressive · 58 autopsy)</text></g><g transform="translate(261.283465 122.526994) rotate(0.000000)" data-role="body"><text x="-198.068125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">DMG, H3 K27-altered 175 · pHGG, H3/IDH-wildtype 127 · DHG, H3 G34-mutant 31 · infant-type hemispheric 10</text></g><g transform="translate(261.283465 152.175057) rotate(0.000000)" data-role="body"><text x="-51.56125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Immune-feature generation</text></g><g transform="translate(261.283465 162.856257) rotate(0.000000)" data-role="body"><text x="-199.11" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">CIBERSORTx LM22 (22 immune cell types)  ·  orthogonal deconvolution (xCell, quanTIseq, MCP-counter, EPIC)</text></g><g transform="translate(261.283465 173.537457) rotate(0.000000)" data-role="body"><text x="-131.82750000000001" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">24 brain-tuned ssGSEA signatures  →  z-scored 46-feature immune matrix</text></g><g transform="translate(261.283465 207.717913) rotate(0.000000)" data-role="body"><text x="-47.459375" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Locked k = 3 assignment</text></g><g transform="translate(261.283465 218.399113) rotate(0.000000)" data-role="body"><text x="-206.545625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">500-replicate bootstrap consensus clustering (80% item resampling, average linkage); modal label over seeds 42–66</text></g><g transform="translate(261.283465 229.080313) rotate(0.000000)" data-role="body"><text x="-153.738125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">Cluster-number evaluation and resampling-stability analysis: 1,000 replicates, k = 2–10</text></g><g transform="translate(261.283465 239.761513) rotate(0.000000)" data-role="body"><text x="-146.266875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">k = 2 most stable;  k = 3 retained as an exploratory three-state representation</text></g><g transform="translate(102.722869 270.977639) rotate(0.000000)" data-role="body"><text x="-25.108125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#ffffff">Immune-high</text></g><g transform="translate(102.722869 281.906930) rotate(0.000000)" data-role="body"><text x="-13.45625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#ffffff">n = 122</text></g><g transform="translate(261.283465 270.977639) rotate(0.000000)" data-role="body"><text x="-40.45125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#ffffff">Immune-intermediate</text></g><g transform="translate(261.283465 281.906930) rotate(0.000000)" data-role="body"><text x="-13.45625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#ffffff">n = 144</text></g><g transform="translate(419.844060 270.977639) rotate(0.000000)" data-role="body"><text x="-23.333125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#ffffff">Immune-low</text></g><g transform="translate(419.844060 281.906930) rotate(0.000000)" data-role="body"><text x="-11.231875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#ffffff">n = 77</text></g><g transform="translate(261.283465 312.775741) rotate(0.000000)" data-role="body"><text x="-42.016875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Downstream analyses</text></g><g transform="translate(261.283465 323.456941) rotate(0.000000)" data-role="body"><text x="-231.959375" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">integrated molecular group and anatomical location  ·  sequential PERMANOVA  ·  molecular-group-adjusted differential expression</text></g><g transform="translate(261.283465 334.138141) rotate(0.000000)" data-role="body"><text x="-162.734375" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">Kaplan–Meier and multivariable Cox  ·  single-cell and spatial support  ·  sensitivity analyses</text></g><g transform="translate(8.000000 372.533838) rotate(0.000000)" data-role="panel-letter"><text x="0" y="0" style="font-family:Arial; font-size:12.0px; font-weight:bold; font-style:normal; text-anchor:start; fill:#000000">B</text></g><g transform="translate(26.000000 371.533838) rotate(0.000000)" data-role="panel-title"><text x="0" y="0" style="font-family:Arial; font-size:10.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#000000">Analysis-set derivation</text></g><g transform="translate(20.076234 19.448908) scale(0.492661827 0.900000000)" data-role="plot-geometry" data-panel="B"><g id="axes_2">
    <g id="patch_19">
     <path d="M 588.0096 418.6638  Q 604.8936 418.6638 620.324156 418.6638  " clip-path="url(#pa4bb2c6a1d)" style="fill: none; stroke: #a33a3a; stroke-width: 1.3; stroke-linecap: round"/>
     <path d="M 615.924156 416.4638  L 620.324156 418.6638  L 615.924156 420.8638  z " clip-path="url(#pa4bb2c6a1d)" style="fill: #a33a3a; stroke: #a33a3a; stroke-width: 1.3; stroke-linecap: round"/>
@@ -270,100 +226,62 @@
     <path d="M 21.672 672.5988  L 147.096 672.5988  Q 156.744 672.5988 156.744 669.213  L 156.744 648.8982  Q 156.744 645.5124 147.096 645.5124  L 21.672 645.5124  Q 12.024 645.5124 12.024 648.8982  L 12.024 669.213  Q 12.024 672.5988 21.672 672.5988  z " clip-path="url(#pa4bb2c6a1d)" style="fill: #fae4e4; stroke-dasharray: 3.85,2.75; stroke-dashoffset: 0; stroke: #a33a3a; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="text_29">
-    <text style="font-weight:700; font-size:27.200000000000003px; font-family: 'DejaVu Sans'; text-anchor:start; fill: #0f172a" x="14.9184" y="396.202284" transform="rotate(-0 14.9184 396.202284)">B</text>
-   </g>
+    </g>
    <g id="text_30">
-    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="489.6" y="393.544003" transform="rotate(-0 489.6 393.544003)">Analysis-set derivation</text>
-   </g>
+    </g>
    <g id="text_31">
-    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="393.12" y="414.878081" transform="rotate(-0 393.12 414.878081)">OpenPedCan v15</text>
-   </g>
+    </g>
    <g id="text_32">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="393.12" y="427.022081" transform="rotate(-0 393.12 427.022081)">pediatric CNS tumor biospecimens</text>
-   </g>
+    </g>
    <g id="text_33">
-    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="788.688" y="415.437335" transform="rotate(-0 788.688 415.437335)">Excluded: repeat biospecimens, diagnoses outside the cohort,</text>
-   </g>
+    </g>
    <g id="text_34">
-    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="788.688" y="425.787335" transform="rotate(-0 788.688 425.787335)">and 6 non-diffuse-HGG specimens (5 non-HGG; 1 methylation-class PXA)</text>
-   </g>
+    </g>
    <g id="text_35">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="393.12" y="461.51002" transform="rotate(-0 393.12 461.51002)">Main cohort   n = 343</text>
-   </g>
+    </g>
    <g id="text_36">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="393.12" y="473.37802" transform="rotate(-0 393.12 473.37802)">one RNA-sequenced specimen per participant</text>
-   </g>
+    </g>
    <g id="text_37">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="393.12" y="485.245684" transform="rotate(-0 393.12 485.245684)">DMG 175 · pHGG-WT 127 · DHG 31 · IHG 10</text>
-   </g>
+    </g>
    <g id="text_38">
-    <text style="font-style: italic; font-size: 8.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #56657f" x="489.6" y="506.793518" transform="rotate(-0 489.6 506.793518)">immune deconvolution, signature scoring, consensus clustering and molecular-group analyses used all 343 specimens</text>
-   </g>
+    </g>
    <g id="text_39">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="325.584" y="556.31242" transform="rotate(-0 325.584 556.31242)">Anatomical-location analyses</text>
-   </g>
+    </g>
    <g id="text_40">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="325.584" y="568.180084" transform="rotate(-0 325.584 568.180084)">n = 326</text>
-   </g>
+    </g>
    <g id="text_41">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="325.584" y="580.22042" transform="rotate(-0 325.584 580.22042)">contingency tests and Cramér's V</text>
-   </g>
+    </g>
    <g id="text_42">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="701.856" y="556.31242" transform="rotate(-0 701.856 556.31242)">Survival analyses</text>
-   </g>
+    </g>
    <g id="text_43">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="701.856" y="568.18042" transform="rotate(-0 701.856 568.18042)">n = 245  (206 deaths)</text>
-   </g>
+    </g>
    <g id="text_44">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="701.856" y="580.04842" transform="rotate(-0 701.856 580.04842)">Kaplan–Meier and multivariable Cox</text>
-   </g>
+    </g>
    <g id="text_45">
-    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="84.384" y="562.848694" transform="rotate(-0 84.384 562.848694)">− 17 other or</text>
-   </g>
+    </g>
    <g id="text_46">
-    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="84.384" y="572.784694" transform="rotate(-0 84.384 572.784694)">unannotated sites</text>
-   </g>
+    </g>
    <g id="text_47">
-    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="904.464" y="562.848694" transform="rotate(-0 904.464 562.848694)">− 98 no usable</text>
-   </g>
+    </g>
    <g id="text_48">
-    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="904.464" y="572.784694" transform="rotate(-0 904.464 572.784694)">OS record</text>
-   </g>
+    </g>
    <g id="text_49">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="325.584" y="649.42192" transform="rotate(-0 325.584 649.42192)">Sequential PERMANOVA</text>
-   </g>
+    </g>
    <g id="text_50">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="325.584" y="661.289584" transform="rotate(-0 325.584 661.289584)">n = 253</text>
-   </g>
+    </g>
    <g id="text_51">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="325.584" y="673.15792" transform="rotate(-0 325.584 673.15792)">midline, hemispheric, posterior fossa</text>
-   </g>
+    </g>
    <g id="text_52">
-    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="701.856" y="649.42192" transform="rotate(-0 701.856 649.42192)">Survival sensitivity</text>
-   </g>
+    </g>
    <g id="text_53">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="701.856" y="661.28992" transform="rotate(-0 701.856 661.28992)">n = 187 delayed entry; n = 189 non-autopsy</text>
-   </g>
+    </g>
    <g id="text_54">
-    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="701.856" y="673.15792" transform="rotate(-0 701.856 673.15792)">alternative risk sets for the Immune-high association</text>
-   </g>
+    </g>
    <g id="text_55">
-    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="84.384" y="656.044233" transform="rotate(-0 84.384 656.044233)">− 73 multi-</text>
-   </g>
+    </g>
    <g id="text_56">
-    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0f172a" x="84.384" y="665.703959" transform="rotate(-0 84.384 665.703959)">compartment</text>
-   </g>
+    </g>
    <g id="text_57">
-    <text style="font-style: italic; font-size: 7.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #56657f" x="489.6" y="708.483277" transform="rotate(-0 489.6 708.483277)">Location and survival branches are not nested.</text>
-   </g>
+    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p7800adaea3">
-   <rect x="7.2" y="7.2" width="964.8" height="365.6664"/>
-  </clipPath>
-  <clipPath id="pa4bb2c6a1d">
-   <rect x="7.2" y="381.42" width="964.8" height="338.58"/>
-  </clipPath>
- </defs>
-</svg>
+ </g><g transform="translate(213.751452 392.839180) rotate(0.000000)" data-role="body"><text x="-32.898125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">OpenPedCan v15</text></g><g transform="translate(213.751452 403.768780) rotate(0.000000)" data-role="body"><text x="-61.576875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">pediatric CNS tumor biospecimens</text></g><g transform="translate(408.632705 393.342509) rotate(0.000000)" data-role="body"><text x="-54.47125" y="0.0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">Repeat or ineligible specimens</text></g><g transform="translate(408.632705 402.657509) rotate(0.000000)" data-role="body"><text x="-58.2475" y="0.0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">6 exclusions: 5 non-HGG; 1 PXA</text></g><g transform="translate(213.751452 434.807926) rotate(0.000000)" data-role="body"><text x="-39.673125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Main cohort   n = 343</text></g><g transform="translate(213.751452 445.489126) rotate(0.000000)" data-role="body"><text x="-81.81875000000001" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">one RNA-sequenced specimen per participant</text></g><g transform="translate(213.751452 456.170023) rotate(0.000000)" data-role="body"><text x="-81.4975" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">DMG 175 · pHGG-WT 127 · DHG 31 · IHG 10</text></g><g transform="translate(261.283465 475.563074) rotate(0.000000)" data-role="body"><text x="-209.8075" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:italic; text-anchor:start; fill:#56657f">immune deconvolution, signature scoring, consensus clustering and molecular-group analyses used all 343 specimens</text></g><g transform="translate(180.479042 520.130086) rotate(0.000000)" data-role="body"><text x="-56.235625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Anatomical-location analyses</text></g><g transform="translate(180.479042 530.810983) rotate(0.000000)" data-role="body"><text x="-13.45625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">n = 326</text></g><g transform="translate(180.479042 541.647286) rotate(0.000000)" data-role="body"><text x="-59.67625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">contingency tests and Cramér's V</text></g><g transform="translate(365.853893 520.130086) rotate(0.000000)" data-role="body"><text x="-33.575625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Survival analyses</text></g><g transform="translate(365.853893 530.811286) rotate(0.000000)" data-role="body"><text x="-38.135625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">n = 245  (206 deaths)</text></g><g transform="translate(365.853893 541.492486) rotate(0.000000)" data-role="body"><text x="-64.251875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">Kaplan–Meier and multivariable Cox</text></g><g transform="translate(61.649010 526.012732) rotate(0.000000)" data-role="body"><text x="-22.79125" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">− 17 other or</text></g><g transform="translate(61.649010 534.955132) rotate(0.000000)" data-role="body"><text x="-31.5775" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">unannotated sites</text></g><g transform="translate(465.671121 526.012732) rotate(0.000000)" data-role="body"><text x="-26.35375" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">− 98 no usable</text></g><g transform="translate(465.671121 534.955132) rotate(0.000000)" data-role="body"><text x="-18.2275" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">OS record</text></g><g transform="translate(180.479042 603.928636) rotate(0.000000)" data-role="body"><text x="-47.041875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Sequential PERMANOVA</text></g><g transform="translate(180.479042 614.609533) rotate(0.000000)" data-role="body"><text x="-13.45625" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">n = 253</text></g><g transform="translate(180.479042 625.291036) rotate(0.000000)" data-role="body"><text x="-64.911875" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">midline, hemispheric, posterior fossa</text></g><g transform="translate(365.853893 603.928636) rotate(0.000000)" data-role="body"><text x="-36.237500000000004" y="0" style="font-family:Arial; font-size:8.0px; font-weight:700; font-style:normal; text-anchor:start; fill:#0f172a">Survival sensitivity</text></g><g transform="translate(365.853893 614.609836) rotate(0.000000)" data-role="body"><text x="-77.385" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">n = 187 delayed entry; n = 189 non-autopsy</text></g><g transform="translate(365.853893 625.291036) rotate(0.000000)" data-role="body"><text x="-34.67625" y="0.0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">Alternative risk sets</text></g><g transform="translate(61.649010 609.888717) rotate(0.000000)" data-role="body"><text x="-18.784375" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">− 73 multi-</text></g><g transform="translate(61.649010 618.582471) rotate(0.000000)" data-role="body"><text x="-23.34" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:normal; text-anchor:start; fill:#0f172a">compartment</text></g><g transform="translate(261.283465 657.083857) rotate(0.000000)" data-role="body"><text x="-82.935" y="0" style="font-family:Arial; font-size:8.0px; font-weight:normal; font-style:italic; text-anchor:start; fill:#56657f">Location and survival branches are not nested.</text></g></svg>

@@ -26,13 +26,13 @@ The cleaned manuscript package uses these delivery labels; repository analysis f
 | Figure S1 | `FigureS_survival.pdf` |
 | Figure S2 | `FigureS_state_structure.pdf` |
 | Figure S3 | `FigureS_immune_features.pdf` |
-| Figure S4 | ScPCA axis-linkage figure supplied in the manuscript package; no direct n343 rendering source is claimed here |
+| Figure S4 | `figures/FigureS4_ScPCA_axis_linkage.pdf`; final public SVG rendering source in `final_figures_20261105/` |
 | Supplementary Table S1 | Detailed n343 analysis workbook supplied with the manuscript |
 | Supplementary Table S2 | Software/parameter workbook retained here under its original `Supplementary_Table_S25_software_parameters_seeds_n343.xlsx` filename |
 | Supplementary Table S3 | [`additional_analyses_20261103/supplementary/Supplementary_Table_S3_gene_sets_and_sources.xlsx`](additional_analyses_20261103/supplementary/Supplementary_Table_S3_gene_sets_and_sources.xlsx) |
 | Supplementary Table S4 | Single-cell per-patient summaries supplied with the manuscript |
-| Figure S5 | [`additional_analyses_20261103/figures/FigureS5_standardization_consistency.pdf`](additional_analyses_20261103/figures/FigureS5_standardization_consistency.pdf) |
-| Figure S6 | [`additional_analyses_20261103/figures/FigureS6_axis_library_survival.pdf`](additional_analyses_20261103/figures/FigureS6_axis_library_survival.pdf) |
+| Figure S5 | [`figures/FigureS5_standardization_consistency.pdf`](figures/FigureS5_standardization_consistency.pdf) |
+| Figure S6 | [`figures/FigureS6_axis_library_survival.pdf`](figures/FigureS6_axis_library_survival.pdf) |
 | Supplementary Table S6 | [`additional_analyses_20261103/supplementary/Supplementary_Table_S6_standardization_library_survival.xlsx`](additional_analyses_20261103/supplementary/Supplementary_Table_S6_standardization_library_survival.xlsx) |
 | Supplementary Table S5 | Long-observation and survival-origin-correction records supplied with the manuscript; individual survival records are not redistributed here |
 
@@ -61,9 +61,10 @@ See [reviewer_followup_20261103](reviewer_followup_20261103/) for the re-standar
 
 All seven main and seven supplementary figures are provided in SVG, PDF and PNG; the existing analysis filenames for S1–S3 are retained. Figure 7 and the subtype KM panels display five years while using full follow-up. Figure S7 restores the outcome-availability/IPW sensitivity. Additional supplements S7 and S8 are in `reviewer_followup_20261103/supplementary/`. Gene-source S3 and standardization S6 are also updated in the prior addition.
 
-Versioned final link: https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0 . Historical submission: https://github.com/paperhwi/pediatric_glioma_immuneprofiling/tree/v1.0 . These versions distinguish the original submission and final revision without rewriting historical materials.
+## Final November 5 version v2.0.2
 
+The final Data Availability link is https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.2 . Use [final_figures_20261105](final_figures_20261105/) for the current SVG/PDF/PNG figures, Arial 12-pt panel-letter specifications, revised legends, reproducible rendering code and unchanged-geometry checks. The active figures retain the stable analysis filenames listed above.
 
-## November 4 publication correction
+Figure 5A marks Cytotoxic Lymphocyte Curated with an asterisk: originally myeloid, displayed after reinterpretation against annotated CD4/CD8 T cells (pooled AUROC 0.925; specimen range 0.927–0.976). **Original-lineage concordance remains 15/16**, with original-target median AUROC 0.868. The November 4 retargeted summaries are historical provenance; their 16/16 count is not the prespecified-lineage result. Pooling adds between-specimen cell comparisons and can yield an AUROC below each within-specimen estimate.
 
-See [the v2.0.1 figure update](figure_revision_20261104/) for corrected T-cell-target Figure 5A and publication layouts. Figures and FIGURE_LEGENDS.md here are current. Earlier November 3 original-target AUROC tables remain historical audit records; use the November 4 current-target table for Figure 5A.
+S5/S6 overall titles and S6 footer explanations are now in [FIGURE_LEGENDS.md](FIGURE_LEGENDS.md). All 14 figure sets use Arial and consistent panel letters. Primary model results, clustering assignments, full-follow-up inference and source geometry are unchanged. Earlier tags and archived analysis outputs are preserved.

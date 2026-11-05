@@ -1,0 +1,25 @@
+{
+  "original_target_concordance": {
+    "matched": 15,
+    "total": 16,
+    "median_original_target_AUROC": 0.868
+  },
+  "current_curated_T_cell_AUROC": 0.925,
+  "within_specimen_range": [
+    0.927,
+    0.976
+  ],
+  "positive_cells": 4699,
+  "negative_cells": 13920,
+  "total_positive_negative_pairs": 65410080,
+  "within_specimen_pairs": 16047522,
+  "cross_specimen_pairs": 49362558,
+  "cross_specimen_pair_fraction": 0.7546628593024195,
+  "compatible_cross_specimen_AUROC_bounds": [
+    0.908420153752972,
+    0.924349809951097
+  ],
+  "exact_per_cell_scores_reconstructed": false,
+  "method": "Pooled AUROC ranks all positive-negative pairs, including between-specimen pairs; it is not a weighted mean restricted to within-specimen AUROCs. The retained three-decimal summary is mathematically compatible with the specimen-specific range.",
+  "primary_source": "https://pubmed.ncbi.nlm.nih.gov/7063747/"
+}
