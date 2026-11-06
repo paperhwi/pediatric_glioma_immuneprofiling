@@ -32,15 +32,17 @@ Raw expression, restricted clinical data, individual survival times, and histolo
 [Within-cohort scaling and RNA-library survival sensitivity analyses](cancers_submission_2026/revision_2026_11_n343/additional_analyses_20261103/) include public inputs for clustering, aggregate Cox/PH outputs, Figures S5/S6 and Supplementary Table S6. Primary labels remain 122/144/77; re-standardized 116/149/78 labels are a sensitivity partition. Library adjustment attenuates the axis association to HR 0.861 (95% CI 0.726–1.022), P = 0.088.
 
 
-## Final version v2.0.3
+## Final version v2.0.4
 
-The [v2.0.3 release](https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.3) is the final revision link for Data Availability. [Final figure code and checks](cancers_submission_2026/revision_2026_11_n343/final_figures_20261105/) provide Arial 12-pt panel letters, aligned layouts, updated legends and the asterisked T-cell reinterpretation of Cytotoxic Lymphocyte Curated (AUROC 0.925). Concordance with the originally specified lineages remains **15/16** (original-target median 0.868). The pooled AUROC and specimen range are mathematically compatible because pooling adds between-specimen comparisons.
+The [v2.0.4 release](https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.4) is the final revision link for Data Availability. [Final figure code and checks](cancers_submission_2026/revision_2026_11_n343/final_figures_20261105/) provide Arial 12-pt panel letters, aligned layouts, updated legends and the asterisked T-cell reinterpretation of Cytotoxic Lymphocyte Curated (AUROC 0.925). Concordance with the originally specified lineages remains **15/16** (original-target median 0.868). The pooled AUROC and specimen range are mathematically compatible because pooling adds between-specimen comparisons.
 
 [Reviewer follow-up](cancers_submission_2026/revision_2026_11_n343/reviewer_followup_20261103/) includes additional categorical Cox and IPW models, the 702-specimen scaling reference, signature provenance, five-year KM displays, and submitted Tables 2–5 retained as Supplementary Table S8. Final n = 343 primary and sensitivity results are unchanged by this presentation update. Earlier v1.0, v2.0, v2.0.1 and v2.0.2 tags/releases are preserved as historical records. Raw and restricted patient-level clinical or survival records are not newly redistributed.
 
 
 ## November 6 layout corrections
 
-The final release is v2.0.3. S2C now has a full-width panel, separated percentage/ARI annotations and readable 0/25/50/75/100 ticks. The adjacent reference-deconvolution panel has its own row. Figure 1B centers the sensitivity heading and places delayed-entry n = 187 and non-autopsy n = 189 on separate lines inside the box. Figure 4 uses “Monte Carlo P” and consistent “n = value” spacing.
+The final release is v2.0.4. S2C now has a full-width panel, separated percentage/ARI annotations and readable 0/25/50/75/100 ticks. The adjacent reference-deconvolution panel has its own row. Figure 1B centers the sensitivity heading and places delayed-entry n = 187 and non-autopsy n = 189 on separate lines inside the box. Figure 4 uses “Monte Carlo P” and consistent “n = value” spacing.
 
 This release also incorporates the subsequent November 5 fixes: violin distributions follow the data-axis transform without marker-size compensation, and the at-risk labels and year-zero counts are independently aligned in Figure 7A and S1B/C. The shared rendering rule applies consistently to filled distributions. All source data paths, estimates, assignments and underlying analyses are preserved. Regression checks now verify the actual violin centers, table columns, S2C tick/annotation gaps and Figure 1B text containment.
+
+Figure 1B spacing correction in v2.0.4: the red missing-OS box is separated from the blue survival-analysis box by about 10 pt at the supplied figure width. Its original count of 98 and wording are retained across three lines, and the connector is repositioned between the boxes.
