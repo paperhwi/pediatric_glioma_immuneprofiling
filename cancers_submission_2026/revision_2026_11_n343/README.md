@@ -61,10 +61,17 @@ See [reviewer_followup_20261103](reviewer_followup_20261103/) for the re-standar
 
 All seven main and seven supplementary figures are provided in SVG, PDF and PNG; the existing analysis filenames for S1–S3 are retained. Figure 7 and the subtype KM panels display five years while using full follow-up. Figure S7 restores the outcome-availability/IPW sensitivity. Additional supplements S7 and S8 are in `reviewer_followup_20261103/supplementary/`. Gene-source S3 and standardization S6 are also updated in the prior addition.
 
-## Final November 5 version v2.0.2
+## Final November 6 version v2.0.3
 
-The final Data Availability link is https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.2 . Use [final_figures_20261105](final_figures_20261105/) for the current SVG/PDF/PNG figures, Arial 12-pt panel-letter specifications, revised legends, reproducible rendering code and unchanged-geometry checks. The active figures retain the stable analysis filenames listed above.
+The final Data Availability link is https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.3 . Use [final_figures_20261105](final_figures_20261105/) for the current SVG/PDF/PNG figures, Arial 12-pt panel-letter specifications, revised legends, reproducible rendering code and unchanged-geometry checks. The active figures retain the stable analysis filenames listed above.
 
 Figure 5A marks Cytotoxic Lymphocyte Curated with an asterisk: originally myeloid, displayed after reinterpretation against annotated CD4/CD8 T cells (pooled AUROC 0.925; specimen range 0.927–0.976). **Original-lineage concordance remains 15/16**, with original-target median AUROC 0.868. The November 4 retargeted summaries are historical provenance; their 16/16 count is not the prespecified-lineage result. Pooling adds between-specimen cell comparisons and can yield an AUROC below each within-specimen estimate.
 
 S5/S6 overall titles and S6 footer explanations are now in [FIGURE_LEGENDS.md](FIGURE_LEGENDS.md). All 14 figure sets use Arial and consistent panel letters. Primary model results, clustering assignments, full-follow-up inference and source geometry are unchanged. Earlier tags and archived analysis outputs are preserved.
+
+
+## November 6 layout corrections
+
+The final release is v2.0.3. S2C now has a full-width panel, separated percentage/ARI annotations and readable 0/25/50/75/100 ticks. The adjacent reference-deconvolution panel has its own row. Figure 1B centers the sensitivity heading and places delayed-entry n = 187 and non-autopsy n = 189 on separate lines inside the box. Figure 4 uses “Monte Carlo P” and consistent “n = value” spacing.
+
+This release also incorporates the subsequent November 5 fixes: violin distributions follow the data-axis transform without marker-size compensation, and the at-risk labels and year-zero counts are independently aligned in Figure 7A and S1B/C. The shared rendering rule applies consistently to filled distributions. All source data paths, estimates, assignments and underlying analyses are preserved. Regression checks now verify the actual violin centers, table columns, S2C tick/annotation gaps and Figure 1B text containment.

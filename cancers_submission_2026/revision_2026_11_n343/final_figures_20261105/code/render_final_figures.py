@@ -4,7 +4,7 @@ Geometry and text positions are transformed separately, so Arial glyphs remain
 undistorted when a dense panel needs more vertical space. No model is refitted.
 """
 from pathlib import Path
-import argparse,copy,json,re,math,functools,hashlib
+import argparse,copy,json,re,math,functools,hashlib,os
 import numpy as np
 from lxml import etree as E
 from matplotlib.font_manager import FontProperties,findfont
@@ -14,7 +14,7 @@ from matplotlib.transforms import Affine2D
 import cairo,cairosvg
 
 W=Path(__file__).parent
-parser=argparse.ArgumentParser();parser.add_argument('--baseline',type=Path);parser.add_argument('--output',type=Path);parser.add_argument('--only',nargs='*');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--baseline',type=Path);parser.add_argument('--output',type=Path);parser.add_argument('--only',nargs='*');parser.add_argument('--no-audit',action='store_true');args=parser.parse_args()
 if args.baseline is None:
  P=json.loads((W/'paths.json').read_text());BASE=Path(P['previous'])/'03_figures';OUT=Path(P['delivery'])/'01_figures'
 else:BASE=args.baseline;OUT=args.output
@@ -26,6 +26,8 @@ TTP=TextToPath();PAGE=178/25.4*72;MARGIN=8;GUTTER=18;BODY=8.;TITLE=10.;LETTER=12
 SUP='⁰¹²³⁴⁵⁶⁷⁸⁹⁻';PLAIN='0123456789−';UNSUP=str.maketrans(SUP,PLAIN)
 SUB='₀₁₂₃₄₅₆₇₈₉₋';UNSUB=str.maketrans(SUB,PLAIN)
 audit=[]
+def write_output(path,payload):
+ temp=path.with_name(path.name+'.codex.tmp');temp.write_bytes(payload);os.replace(temp,path)
 
 def style(s):return {k.strip():v.strip() for k,v in (x.split(':',1) for x in s.split(';') if ':' in x)}
 def fsize(s,default=8):return float(re.sub('[^0-9.]','',s.get('font-size',str(default))))
@@ -216,6 +218,9 @@ CAPS={
  'FigureS7_IPW_sensitivity':{'A':150,'B':150,'C':130}}
 # Long two-line subtype contrasts and their estimates need a full-width row.
 LAYOUTS['FigureS1_survival'][2:]=[[LAYOUTS['FigureS1_survival'][2][0]],[LAYOUTS['FigureS1_survival'][2][1]]]
+# Give the long subset names, percentage/ARI annotations and five ticks a
+# full-width row instead of squeezing the actual bars into the left column.
+LAYOUTS['FigureS2_state_structure'][1:2]=[[LAYOUTS['FigureS2_state_structure'][1][0]],[LAYOUTS['FigureS2_state_structure'][1][1]]]
 for name,rows in LAYOUTS.items():
  for row in rows:
   for sp in row:
@@ -246,6 +251,12 @@ def prepare_component(tree,sp,name):
   for old,new in sp['keep'].items():
    if txt==old:target=9;rep=new
   if name=='Figure5' and txt=='Cytotoxic Lymphocyte Curated':rep=txt+'*'
+  if name=='Figure4':rep=re.sub(r'\bn\s*=\s*(\d+)',r'n = \1',txt.replace('P_MC','Monte Carlo P'))
+  if name=='Figure4' and sp['letter']=='B' and any(a.get('id','').startswith('xtick_') for a in t.iterancestors()):
+   if t is not grouptexts[groupid(t)][0]:continue
+   first=''.join(grouptexts[groupid(t)][0].itertext()).strip()
+   rep={'DMG':'DMG\nH3 K27-alt\n(n = 175)','DHG':'DHG\nH3 G34-mut\n(n = 31)','pHGG':'pHGG\nH3/IDH-wt\n(n = 127)','IHG':'IHG\n(n = 10)'}[first]
+   models.append(textmodel(t,target,rep));continue
   if name=='Figure4' and sp['letter']=='A' and ''.join(''.join(q.itertext()).strip() for q in grouptexts[groupid(t)]).startswith('Multi-compartment/'):
    if t is not grouptexts[groupid(t)][0]:continue
    rep='Multiple or\nambiguous\n(n = 73)'
@@ -256,7 +267,7 @@ def prepare_component(tree,sp,name):
    for piece in m['parts']:piece['fill']='#000000'
    models.append(m);continue
   if name=='Figure1':
-   rep={'text_33':'Repeat or ineligible specimens','text_34':'6 exclusions: 5 non-HGG; 1 PXA','text_54':'Alternative risk sets'}.get(groupid(t),rep)
+   rep={'text_33':'Repeat or ineligible specimens','text_34':'6 exclusions: 5 non-HGG; 1 PXA','text_53':'Delayed entry: n = 187','text_54':'Non-autopsy: n = 189'}.get(groupid(t),rep)
   if name=='FigureS5_standardization_consistency' and re.fullmatch(r'\d+',txt):target=10
   if name=='FigureS6_axis_library_survival' and groupid(t) in ['text_15','text_16','text_17']:target=9
   if name=='FigureS7_IPW_sensitivity' and sp['letter']=='A' and any(a.get('id','').startswith('xtick_') for a in t.iterancestors()):
@@ -295,7 +306,9 @@ def prepare_component(tree,sp,name):
     rep=''.join(txt.split());m=textmodel(t,target,rep);m['angle']=-45;tick=next(a for a in t.iterancestors() if a.get('id','').startswith('xtick_'));u=next(q for q in tick.iter(tag('use')) if q.get('x'));axg=next(a for a in t.iterancestors() if a.get('id')=='axes_5');m['anchor']=np.array([float(u.get('x')),axisbox(axg)[3]]);m['extra_y']=12;m['parts']=richpieces(rep,BODY,'normal','normal','end')
     for piece in m['parts']:piece['fill']='#000000'
     models.append(m);continue
-  models.append(textmodel(t,target,rep))
+  m=textmodel(t,target,rep)
+  if name=='FigureS2_state_structure' and sp['letter']=='C' and re.fullmatch(r'\d+% \(ARI [\d.]+\)',txt):m['extra_x']=5
+  models.append(m)
  # Tick labels are anchored to tick positions, not to text widths calculated
  # with a previous font. This also handles multi-line forest labels.
  for t in models:
@@ -330,6 +343,22 @@ def prepare_component(tree,sp,name):
   if not all(abs(t['angle']-ref['angle'])<.01 for t in ts):continue
   for t in ts:
    t['flow_origin']=ref['anchor'].copy();t['flow_offset']=(t['anchor']-ref['anchor'])*(BODY/ref['native_size'])
+ if name=='Figure1' and sp['letter']=='B':
+  header=next(t for t in models if t['group']=='text_52');point=header['anchor'];candidates=[]
+  for ch in groups[0]:
+   if not ch.get('id','').startswith('patch_'):continue
+   path=ch.find('.//'+tag('path'))
+   if path is None:continue
+   b=pathbbox(path.get('d'))
+   if b[0]<=point[0]<=b[2] and b[1]<=point[1]<=b[3]:candidates.append(b)
+  b=min(candidates,key=lambda b:(b[2]-b[0])*(b[3]-b[1]));cx=(b[0]+b[2])/2
+  for t in models:
+   if t['group'] not in ['text_52','text_53','text_54']:continue
+   text={'text_52':'Survival sensitivity','text_53':'Delayed entry: n = 187','text_54':'Non-autopsy: n = 189'}[t['group']]
+   weight=t['parts'][0]['weight'];t['anchor'][0]=cx
+   if 'flow_origin' in t:t['flow_origin'][0]=cx;t['flow_offset'][0]=0
+   t['parts']=richpieces(text,BODY,weight,'normal','middle')
+   for piece in t['parts']:piece['fill']='#000000'
  # At-risk tables are label-only axes. The first column has a heading;
  # subsequent columns start with an empty heading line. Preserve one shared
  # row origin even though empty SVG text nodes are intentionally omitted.
@@ -339,6 +368,29 @@ def prepare_component(tree,sp,name):
    top=min(t['anchor'][1] for t in ms)
    for t in ms:
     t.setdefault('flow_origin',t['anchor'].copy());t.setdefault('flow_offset',np.zeros(2));t['flow_origin'][1]=top;t['flow_offset'][1]=(t['anchor'][1]-top)*BODY/t['native_size']
+   # Align the label and count columns independently. The source first column
+   # combines them with spaces sized for a different font; such strings cannot
+   # maintain both a right-aligned label edge and a centered year-zero count.
+   km=allids.get('axes_'+str(aid-1));positions=[]
+   if km is not None:
+    for tick in km.xpath('.//s:g[starts-with(@id,"xtick_")]',namespaces={'s':NS}):
+     us=[u for u in tick.iter(tag('use')) if u.get('x') is not None and u.get('y') is not None]
+     if us:positions.append(float((fullmatrix(us[0])@np.array([float(us[0].get('x')),float(us[0].get('y')),1]))[0]))
+   columns=list(dict.fromkeys(t['group'] for t in ms))
+   if len(positions)==len(columns):
+    zero_counts=[re.fullmatch(r'(Immune-(?:high|intermediate|low))\s+(\d+)',t['source'].strip()) for t in ms]
+    gap=max(metrics(m[2],BODY)[1]/2 for m in zero_counts if m)+8
+    for t in ms:
+     column=columns.index(t['group']);t['flow_origin'][0]=positions[column];t['flow_offset'][0]=0
+     match=re.fullmatch(r'(Immune-(?:high|intermediate|low))\s+(\d+)',t['source'].strip())
+     if match:
+      number=copy.deepcopy(t);number['source']=match[2];number['parts']=richpieces(match[2],BODY,'normal','normal','middle');number['risk_count_column']=0
+      t['source']=match[1];t['parts']=richpieces(match[1],BODY,'normal','normal','end');t['flow_offset'][0]=-gap;t['risk_label']=True
+      for q in number['parts']+t['parts']:q['fill']='#000000'
+      models.append(number)
+     else:
+      t['parts']=richpieces(t['source'],BODY,'normal','normal','middle')
+      for q in t['parts']:q['fill']='#000000'
  if name=='Figure4' and sp['letter']=='D':
   percentages=[t for t in models if re.fullmatch(r'\d+\.\d+%',t['source'].strip())]
   for p in [t for t in models if t['source'].strip().startswith('P=')]:
@@ -347,7 +399,12 @@ def prepare_component(tree,sp,name):
     p['extra_y']=-20;q['extra_y']=-20
  if name=='Figure4' and sp['letter'] in ['A','B','C']:
   for t in models:
-   if t['source'].strip().startswith(('χ²','Cramér')):t['is_footer']=True
+   if t['source'].strip().startswith(('χ²','Cramér')):
+    t['is_footer']=True;cx=(t['axis_box'][0]+t['axis_box'][2])/2 if 'axis_box' in t else (axisbox(groups[0])[0]+axisbox(groups[0])[2])/2
+    t['anchor'][0]=cx
+    if 'flow_origin' in t:t['flow_origin'][0]=cx;t['flow_offset'][0]=0
+    txt=re.sub(r'\bn\s*=\s*(\d+)',r'n = \1',t['source'].replace('P_MC','Monte Carlo P'));t['parts']=richpieces(txt,BODY,'normal','normal','middle')
+    for piece in t['parts']:piece['fill']='#000000'
  geom=[];boxes=[]
  for source in groups:
   if source.get('id','').startswith('legend_'):continue
@@ -476,6 +533,11 @@ for name,rows in LAYOUTS.items():
     # undistorted under a change in panel aspect ratio.
     for u in n.iter(tag('use')):
      if u.get('x') is None or u.get('y') is None:continue
+     ref=next((q for q in defs if q.get('id')==u.get('{http://www.w3.org/1999/xlink}href','').lstrip('#')),None)
+     # Only marker symbols have local coordinates around the origin.
+     # Filled distribution polygons use absolute data coordinates and must
+     # follow the axes transform exactly, including their widths and heights.
+     if ref is None or ref.tag!=tag('path') or max(abs(v) for v in pathbbox(ref.get('d','')))>20:continue
      ux,uy=float(u.get('x')),float(u.get('y'));z=max(.8,min(f['sx'],f['sy']));u.set('transform',f'translate({ux} {uy}) scale({z/f["sx"]} {z/f["sy"]}) translate({-ux} {-uy}) '+u.get('transform',''))
     g.append(n)
    for t in c['models']:addmodel(root,t,offsetx,offsety,f['sx'],f['sy'])
@@ -507,8 +569,14 @@ for name,rows in LAYOUTS.items():
   seen.add(key);drawlegend(root,items,MARGIN+18,y,width-2*MARGIN-18,title);y+=legendheight(items,width-2*MARGIN-18,title)+5
  height=y+MARGIN-14;root.set('height',f'{height:.6f}pt');root.set('viewBox',f'0 0 {width:.9f} {height:.9f}')
  bg=E.Element(tag('rect'),x='0',y='0',width=str(width),height=str(height),fill='#ffffff');root.insert(0,bg)
- folder='main' if name in ['Figure'+str(i) for i in range(1,8)] else 'supplementary';dest=OUT/folder/(name+'.svg');dest.parent.mkdir(parents=True,exist_ok=True);E.ElementTree(root).write(str(dest),encoding='utf-8',xml_declaration=True)
- data=E.tostring(outline(root));cairosvg.svg2pdf(bytestring=data,write_to=str(dest.with_suffix('.pdf')));cairosvg.svg2png(bytestring=data,write_to=str(dest.with_suffix('.png')),output_width=round(width/72*400))
+ folder='main' if name in ['Figure'+str(i) for i in range(1,8)] else 'supplementary';dest=OUT/folder/(name+'.svg');dest.parent.mkdir(parents=True,exist_ok=True);write_output(dest,E.tostring(root,encoding='utf-8',xml_declaration=True))
+ # Write through Python so native Cairo filename handling cannot break on
+ # Unicode delivery-folder names on Windows.
+ data=E.tostring(outline(root));write_output(dest.with_suffix('.pdf'),cairosvg.svg2pdf(bytestring=data));write_output(dest.with_suffix('.png'),cairosvg.svg2png(bytestring=data,output_width=round(width/72*400)))
  audit.append({'figure':name,'width_mm':width/72*25.4,'height_mm':height/72*25.4,'panels':panelchecks,'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest()});print(name,f'{width/72*25.4:.1f} × {height/72*25.4:.1f} mm',flush=True)
-(OUT.parent/'03_source_and_checks').mkdir(exist_ok=True)
-(OUT.parent/'03_source_and_checks/Final_figure_layout_audit.json').write_text(json.dumps(audit,indent=2),encoding='utf-8')
+if not args.no_audit:
+ (OUT.parent/'03_source_and_checks').mkdir(exist_ok=True)
+ auditfile=OUT.parent/'03_source_and_checks/Final_figure_layout_audit.json'
+ if args.only and auditfile.exists():
+  merged={r['figure']:r for r in json.loads(auditfile.read_text(encoding='utf-8'))};merged.update({r['figure']:r for r in audit});audit=[merged[n] for n in LAYOUTS if n in merged]
+ auditfile.write_text(json.dumps(audit,indent=2),encoding='utf-8')
