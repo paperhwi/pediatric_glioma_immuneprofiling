@@ -268,6 +268,12 @@ def prepare_component(tree,sp,name):
    models.append(m);continue
   if name=='Figure1':
    rep={'text_33':'Repeat or ineligible specimens','text_34':'6 exclusions: 5 non-HGG; 1 PXA','text_53':'Delayed entry: n = 187','text_54':'Non-autopsy: n = 189'}.get(groupid(t),rep)
+   if sp['letter']=='B' and groupid(t) in ['text_47','text_48']:
+    if groupid(t)=='text_48':continue
+    m=textmodel(t,target,'− 98\nno usable\nOS record');m['anchor']=np.array([922.2,565.9461]);m['parts']=richpieces('− 98\nno usable\nOS record',BODY,'normal','normal','middle')
+    mid=(min(q['y']+metrics(q['text'],q['size'])[0][1] for q in m['parts'])+max(q['y']+metrics(q['text'],q['size'])[0][3] for q in m['parts']))/2
+    for q in m['parts']:q['y']-=mid;q['fill']='#000000'
+    models.append(m);continue
   if name=='FigureS5_standardization_consistency' and re.fullmatch(r'\d+',txt):target=10
   if name=='FigureS6_axis_library_survival' and groupid(t) in ['text_15','text_16','text_17']:target=9
   if name=='FigureS7_IPW_sensitivity' and sp['letter']=='A' and any(a.get('id','').startswith('xtick_') for a in t.iterancestors()):
@@ -413,6 +419,12 @@ def prepare_component(tree,sp,name):
   for n in list(g.iter(tag('g'))):
    if n.get('id','').startswith('legend_') and n.getparent() is not None:n.getparent().remove(n)
   for n in list(g.iter(tag('defs'))):n.getparent().remove(n)
+  if name=='Figure1' and sp['letter']=='B':
+   red=next(n for n in g.iter(tag('g')) if n.get('id')=='patch_34')
+   red.set('transform',f'translate(877.224 546.1461) scale({(967.176-877.224)/(967.176-841.752)} {39.6/(579.4893-552.4029)}) translate(-841.752 -552.4029)')
+   arrow=next(n for n in g.iter(tag('g')) if n.get('id')=='patch_24');paths=list(arrow.iter(tag('path')));start=856.224;oldtip=846.099844;tip=872.8762
+   paths[0].set('transform',f'translate({start} 0) scale({(tip-start)/(oldtip-start)} 1) translate({-start} 0)')
+   paths[1].set('transform',f'translate({tip} 0) scale(-1 1) translate({-oldtip} 0)')
   geom.append(g)
   b=axisbox(source)
   if b is not None:boxes.append(b)

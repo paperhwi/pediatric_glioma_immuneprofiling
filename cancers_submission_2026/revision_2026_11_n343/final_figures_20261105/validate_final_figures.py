@@ -97,6 +97,14 @@ for row in audit:
         b=min(boxes,key=lambda b:(b[2]-b[0])*(b[3]-b[1]))
         for t in lines:
             x,y=baseline(t,parents);assert b[0]+2<x and x+advance(t)<b[2]-2 and b[1]+5<y<b[3]-2,(name,t.text,b,[x,y])
+        blue=pathbox(root.find('.//s:g[@id="axes_2"]/s:g[@id="patch_32"]/s:path',NS),parents)
+        red=pathbox(root.find('.//s:g[@id="axes_2"]/s:g[@id="patch_34"]/s:path',NS),parents)
+        assert red[0]-blue[2]>=8,(name,'survival and missing-outcome boxes overlap',blue,red)
+        for label in ['− 98','no usable','OS record']:
+            t=next(t for t in texts if t.text==label);x,y=baseline(t,parents)
+            assert red[0]+2<x and x+advance(t)<red[2]-2 and red[1]+5<y<red[3]-2,(label,red,[x,y])
+        arrow=pathbox(root.find('.//s:g[@id="axes_2"]/s:g[@id="patch_24"]/s:path',NS),parents)
+        assert abs(arrow[0]-blue[2])<.01 and arrow[2]<red[0]
     if name=='Figure4':assert alltext.count('Monte Carlo P')==3 and 'P_MC' not in alltext and not re.search(r'\bn\s*=\d',alltext)
     if name=='FigureS2_state_structure':
         axis=root.find('.//s:g[@id="axes_3"]',NS);ticks=axis.findall('.//s:g',NS);positions=[]
@@ -157,7 +165,7 @@ lo=(.925*check['total_positive_negative_pairs']-.976*check['within_specimen_pair
 hi=(.925*check['total_positive_negative_pairs']-.927*check['within_specimen_pairs'])/check['cross_specimen_pairs']
 assert 0<=lo<=hi<=1 and np.allclose([lo,hi],check['compatible_cross_specimen_AUROC_bounds'])
 legend=(R/'FIGURE_LEGENDS.md').read_text(encoding='utf-8');assert '15/16' in legend and 'between-specimen' in legend and '*Cytotoxic' in legend
-da=(R/'DATA_AVAILABILITY.md').read_text(encoding='utf-8');assert [u.rstrip('.') for u in re.findall(r'https://github\.com/\S+',da)]==['https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.3']
+da=(R/'DATA_AVAILABILITY.md').read_text(encoding='utf-8');assert [u.rstrip('.') for u in re.findall(r'https://github\.com/\S+',da)]==['https://github.com/paperhwi/pediatric_glioma_immuneprofiling/releases/tag/v2.0.4']
 if (Q/'MANIFEST_SHA256.tsv').exists():
     with (Q/'MANIFEST_SHA256.tsv').open(encoding='utf-8',newline='') as f:
         for v in csv.DictReader(f,delimiter='\t'):
