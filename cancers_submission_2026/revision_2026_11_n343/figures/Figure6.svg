@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="504.56692913385825pt" height="570.332311pt" viewBox="0 0 504.566929134 570.332311006"><rect x="0" y="0" width="504.56692913385825" height="570.3323110060722" fill="#ffffff"/><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m59242b016e" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="me3a3f72f16" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
@@ -829,12 +829,12 @@
    </g>
    <g id="FillBetweenPolyCollection_1">
     <g clip-path="url(#p9942a9491b)">
-     <use xlink:href="#mf007320d8e" x="0" y="529.570209" style="fill: #ef4444; fill-opacity: 0.45; stroke: #ef4444; stroke-opacity: 0.45" transform="translate(0.0 529.570209) scale(0.9038106974227063 1.0625365793103447) translate(-0.0 -529.570209) "/>
+     <use xlink:href="#mf007320d8e" x="0" y="529.570209" style="fill: #ef4444; fill-opacity: 0.45; stroke: #ef4444; stroke-opacity: 0.45"/>
     </g>
    </g>
    <g id="FillBetweenPolyCollection_2">
     <g clip-path="url(#p9942a9491b)">
-     <use xlink:href="#m3bebf5c366" x="0" y="529.570209" style="fill: #3b82f6; fill-opacity: 0.45; stroke: #3b82f6; stroke-opacity: 0.45" transform="translate(0.0 529.570209) scale(0.9038106974227063 1.0625365793103447) translate(-0.0 -529.570209) "/>
+     <use xlink:href="#m3bebf5c366" x="0" y="529.570209" style="fill: #3b82f6; fill-opacity: 0.45; stroke: #3b82f6; stroke-opacity: 0.45"/>
     </g>
    </g>
    <g id="matplotlib.axis_11">

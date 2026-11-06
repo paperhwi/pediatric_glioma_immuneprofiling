@@ -1,6 +1,6 @@
 # Final figure typography and interpretation, November 5, 2026
 
-This is the current figure supplement for **v2.0.2**. It supersedes the November 4 display interpretation and typography. Primary n = 343 labels (122/144/77), the 116/149/78 sensitivity partition, all fitted models, effect estimates, Kaplan–Meier curves and full-follow-up inference are unchanged.
+This is the current figure supplement for **v2.0.3**. It supersedes the November 4 display interpretation and typography. Primary n = 343 labels (122/144/77), the 116/149/78 sensitivity partition, all fitted models, effect estimates, Kaplan–Meier curves and full-follow-up inference are unchanged.
 
 ## Figure presentation
 
@@ -31,4 +31,11 @@ The renderer emits publication-numbered files in main/supplementary subfolders. 
 
 ## Public contents
 
-This addition contains figure geometry, presentation code, aggregate AUROC checks and documentation only. No raw matrix, restricted clinical record, individual survival duration or individual correction value is added. Existing v1.0, v2.0 and v2.0.1 records remain preserved. The repository-wide README lists all earlier n = 343 code, public assignments, exclusion lists, aggregate correction records and reviewer-requested sensitivities.
+This addition contains figure geometry, presentation code, aggregate AUROC checks and documentation only. No raw matrix, restricted clinical record, individual survival duration or individual correction value is added. Existing v1.0, v2.0, v2.0.1 and v2.0.2 records remain preserved. The repository-wide README lists all earlier n = 343 code, public assignments, exclusion lists, aggregate correction records and reviewer-requested sensitivities.
+
+
+## November 6 layout corrections
+
+The final release is v2.0.3. S2C now has a full-width panel, separated percentage/ARI annotations and readable 0/25/50/75/100 ticks. The adjacent reference-deconvolution panel has its own row. Figure 1B centers the sensitivity heading and places delayed-entry n = 187 and non-autopsy n = 189 on separate lines inside the box. Figure 4 uses “Monte Carlo P” and consistent “n = value” spacing.
+
+This release also incorporates the subsequent November 5 fixes: violin distributions follow the data-axis transform without marker-size compensation, and the at-risk labels and year-zero counts are independently aligned in Figure 7A and S1B/C. The shared rendering rule applies consistently to filled distributions. All source data paths, estimates, assignments and underlying analyses are preserved. Regression checks now verify the actual violin centers, table columns, S2C tick/annotation gaps and Figure 1B text containment.
